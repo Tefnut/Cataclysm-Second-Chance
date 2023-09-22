@@ -1,0 +1,90 @@
+[
+{
+    "type": "furniture",
+    "abstract": "f_floodlight_grid_base",
+    "symbol": "T",
+    "color": "light_gray",
+    "name": "abstract floodlight",
+	"looks_like": "t_utility_light",
+    "description": "Abstract furniture.  If you see this, something went wrong.",
+    "move_cost_mod": 2,
+    "required_str": 1,
+    "flags": [ "TRANSPARENT", "PLACE_ITEM", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [
+        { "item": "cable", "charges": 2 },
+        { "item": "power_supply", "count": 1 },
+        { "item": "light_bulb", "count": 1 },
+        { "item": "steel_lump", "count": 1 },
+        { "item": "pipe", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 12,
+      "str_max": 40,
+      "sound": "metal screeching!",
+      "sound_fail": "bonk!",
+      "items": [
+        { "item": "scrap", "count": [ 1, 2 ] },
+        { "item": "cable", "charges": [ 0, 1 ] },
+        { "item": "e_scrap", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 0, 2 ] },
+        { "item": "pipe", "count": [ 0, 1 ] }
+      ]
+    }
+  },
+  
+  {
+    "type": "furniture",
+    "id": "f_floodlight_grid_off",
+    "symbol": "T",
+    "color": "light_gray",
+    "copy-from": "f_floodlight_grid_base",
+    "looks_like": "t_utility_light",
+    "name": "grid floodlight (off)",
+    "description": "A high powered floodlight, meant to plug into a wall and light up a room.",
+    "examine_action": "transform",
+    "transforms_into": "f_floodlight_grid",
+    "prompt": "Switch on the floodlight.",
+    "message": "You switch on the floodlight."
+  },
+  
+  {
+    "type": "furniture",
+    "id": "f_floodlight_grid",
+    "symbol": "T",
+    "color": "light_gray",
+    "copy-from": "f_floodlight_grid_base",
+    "name": "grid floodlight (no power)",
+    "description": "A high powered floodlight, plugged into a wall.  This one has no power.",
+    "examine_action": "transform",
+    "transforms_into": "f_floodlight_grid_off",
+    "prompt": "Switch off the floodlight.",
+    "message": "You switch off the floodlight.",
+    "active": [ "charge_watcher", { "min_power": 5, "transform": { "id": "f_floodlight_grid_on", "msg": "The lamp lights up." } } ]
+  },
+  
+  {
+    "type": "furniture",
+    "id": "f_floodlight_grid_on",
+    "symbol": "T",
+    "color": "yellow",
+    "copy-from": "f_floodlight_grid_base",
+    "looks_like": "t_utility_light",
+    "name": "grid floodlight (on)",
+    "description": "A high powered floodlight, plugged into a wall.",
+    "examine_action": "transform",
+    "transforms_into": "f_floodlight_grid_off",
+    "prompt": "Switch off the floodlight.",
+    "message": "You switch off the floodlight.",
+    "light_emitted": 720,
+    "active": [
+      "steady_consumer",
+      {
+        "power": 3,
+        "consume_every": "100 s",
+        "transform": { "id": "f_floodlight_grid", "msg": "The lamp flickers and dies." }
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+   {
+    "id": "tailor_maid",
+    "type": "BOOK",
+    "name": { "str": "Maid to Fit: A Guide to Domestic Servitude", "str_pl": "copies of Maid to Fit: A Guide to Domestic Servitude" },
+    "description": "An illustrated textbook on proper maid and butler ettiquite, as well as diagrams of various popular types of maid outfit. While advertised as a guide to domestic servitude, the book is much more popular in cosplay circles.",
+    "weight": "2400 g",
+    "volume": "1500 ml",
+    "price": 8000,
+    "price_postapoc": 500,
+    "bashing": 8,
+    "material": [ "paper", "leather" ],
+    "symbol": "?",
+    "color": "red",
+    "skill": "tailor",
+    "required_level": 8,
+    "max_level": 10,
+    "intelligence": 8,
+    "time": "40 m",
+	"fun": 1
+   }
+]

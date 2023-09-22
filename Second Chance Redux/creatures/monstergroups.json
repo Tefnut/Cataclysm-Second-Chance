@@ -1,0 +1,13 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_PUG_UPGRADE",
+    "default": "mon_dog_pug",
+    "//": "Pug upgrades",
+    "monsters": [
+      { "monster": "mon_dog_pug", "freq": 100, "cost_multiplier": 10 },
+	  { "monster": "mon_dog_pug_black", "freq": 100, "cost_multiplier": 10 },
+      { "monster": "mon_dog_pug_shigguroth", "freq": 1, "cost_multiplier": 10 }
+    ]
+  }
+]

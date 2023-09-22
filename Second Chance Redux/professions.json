@@ -1,0 +1,37 @@
+[
+   {
+    "type": "profession",
+    "id": "pug_dealer",
+    "name": { "male": "Pug Dealer", "female": "Pug Dealer" },
+    "description": "The last thing you remember, you were getting high in the back of your RV with your pugs. All of the sudden, you saw a vision of a black pug entity, and all but four of your pugs vanishing, then you blacked out. Now you've woken up ",
+    "points": 5,
+    "skills": [ { "level": 1, "name": "crackhead_engineering" }, { "level": 3, "name": "cooking" }, { "level": 8, "name": "barter" } ],
+    "pets": [ { "name": "mon_dog_pug", "amount": 2 }, { "name": "mon_dog_pug_pup", "amount": 2 } ],
+    "items": {
+      "both": {
+        "items": [
+          "tank_top",
+          "shorts_cargo",
+          "socks",
+          "trenchcoat",
+          "roller_shoes_off",
+          "knit_scarf",
+          "pockknife",
+          "dog_whistle",
+          "pet_carrier",
+		  "pet_carrier",
+		  "pet_carrier",
+		  "pet_carrier",
+		  "dogfood",
+		  "dogfood",
+		  "dogfood",
+		  "dogfood",
+		  "duffelbag",
+          "wristwatch"
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "panties" ]
+    }
+  }
+]

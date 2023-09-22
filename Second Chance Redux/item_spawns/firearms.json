@@ -1,0 +1,189 @@
+[
+{
+    "type": "item_group",
+    "id": "guns_pistol_rare",
+    "//": "Less common pistols including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "dardick_1500", "prob": 25, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_1100", "prob": 25, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_2000", "prob": 5, "charges-min": 0, "charges-max": 22 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_rare_display",
+    "//": "Empty uncommon pistols found exclusively at gun stores.",
+    "items": [
+      { "item": "dardick_1500", "prob": 25, "charges-min": 0, "charges-max": 0 },
+      { "item": "dardick_1100", "prob": 25, "charges-min": 0, "charges-max": 0 },
+      { "item": "dardick_2000", "prob": 5, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_pistol_obscure",
+    "//": "Imported or otherwise very obscure pistols.",
+    "items": [
+      { "item": "dardick_1500", "prob": 150, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_1100", "prob": 150, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_2000", "prob": 75, "charges-min": 0, "charges-max": 22 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "mags_pistol_rare",
+    "//": "Aftermarket or otherwise uncommon pistol magazines excluding milspec.",
+    "items": [
+      [ "38_tround_clip", 5 ]
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "ammo_pistol_rare",
+    "//": "Less common pistol ammo including that only used by police/paramilitary forces.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "38_tround_modern", "prob": 20 },
+      { "item": "38_tround_triplex", "prob": 20 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "carried_guns_pistol_obscure",
+    "//": "Imported or otherwise very obscure pistols being carried, with either mags or loose ammo.",
+    "items": [
+      { "item": "dardick_1500", "prob": 25, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_1100", "prob": 25, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_2000", "prob": 5, "charges-min": 0, "charges-max": 22 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_smg_rare",
+    "//": "Less common SMGs including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "dardick_smg", "prob": 5, "charges-min": 0, "charges-max": 42 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "carried_guns_smg_rare",
+    "//": "Less common SMGs including those only carried by police/paramilitary forces. Either mags or loose ammo are included.",
+    "items": [
+      { "item": "dardick_smg", "prob": 5, "charges-min": 0, "charges-max": 42 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_smg_rare_display",
+    "//": "Less common SMGs found exclusively in gun stores.",
+    "items": [
+      { "item": "dardick_smg", "prob": 5, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_smg_obscure",
+    "//": "Imported or otherwise very obscure SMGs.",
+    "items": [
+      { "item": "dardick_smg", "prob": 5, "charges-min": 0, "charges-max": 42 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "carried_guns_smg_obscure",
+    "//": "Imported or otherwise very obscure SMGs. Just mags, no loose ammo.",
+    "items": [
+      { "item": "dardick_smg", "prob": 5, "charges-min": 0, "charges-max": 42 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare",
+    "//": "Less common rifles including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "dardick_carbine_1500", "prob": 25, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_carbine_1100", "prob": 25, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_carbine_2000", "prob": 5, "charges-min": 0, "charges-max": 22 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "carried_guns_rifle_rare",
+    "//": "Less common rifles including those only carried by police/paramilitary forces. Served with mags or a side of loose ammo.",
+    "items": [
+      { "item": "dardick_carbine_1500", "prob": 25, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_carbine_1100", "prob": 25, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_carbine_2000", "prob": 5, "charges-min": 0, "charges-max": 22 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare_display",
+    "//": "Less common rifles found exclusively in gun stores.",
+    "items": [
+      { "item": "dardick_carbine_1500", "prob": 25, "charges-min": 0, "charges-max": 0 },
+      { "item": "dardick_carbine_1100", "prob": 25, "charges-min": 0, "charges-max": 0 },
+      { "item": "dardick_carbine_2000", "prob": 5, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_bank_vault",
+    "//": "Rare guns for bank vaults. No heavy weapons and LMGs.",
+    "items": [
+      { "item": "dardick_carbine_1500", "prob": 25, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_carbine_1100", "prob": 25, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_carbine_2000", "prob": 5, "charges-min": 0, "charges-max": 22 },
+	  { "item": "dardick_1500", "prob": 25, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_1100", "prob": 25, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_2000", "prob": 5, "charges-min": 0, "charges-max": 22 },
+	  { "item": "dardick_smg", "prob": 5, "charges-min": 0, "charges-max": 42 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifles.",
+    "items": [
+      { "item": "dardick_carbine_1500", "prob": 150, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_carbine_1100", "prob": 150, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_carbine_2000", "prob": 75, "charges-min": 0, "charges-max": 22 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "carried_guns_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifles. Comes with mags or loose ammo.",
+    "items": [
+      { "item": "dardick_carbine_1500", "prob": 150, "charges-min": 0, "charges-max": 15 },
+      { "item": "dardick_carbine_1100", "prob": 150, "charges-min": 0, "charges-max": 13 },
+      { "item": "dardick_carbine_2000", "prob": 75, "charges-min": 0, "charges-max": 22 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_survival",
+    "//": "Guns typically carried by survivors, either improvised or thematically appropriate.",
+    "items": [
+      { "item": "dardick_smg", "prob": 50, "charges-min": 0, "charges-max": 42 }
+    ]
+  }
+  
+]

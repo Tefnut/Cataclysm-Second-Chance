@@ -1,0 +1,18 @@
+[
+  {
+    "id": "38_tround_clip",
+    "type": "MAGAZINE",
+    "name": { "str": ".38 tround clip" },
+    "description": "This stripper clip can hold 10 .38 trounds for a Dardick revolver.",
+    "weight": "80 g",
+    "volume": "250 ml",
+    "price": 1000,
+    "price_postapoc": 100,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "38_tround" ],
+    "capacity": 10,
+    "flags": [ "SPEEDLOADER" ]
+  }
+]

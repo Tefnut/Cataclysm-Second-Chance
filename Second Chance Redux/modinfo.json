@@ -1,0 +1,13 @@
+[
+{
+    "type": "MOD_INFO",
+    "ident": "secondchance",
+    "name": "Cataclysm: Second Chance",
+    "authors": [ "Tefnut" ],
+    "maintainers": [ "Tefnut" ],
+    "description": "The successor to Tefnut's Expansion, remade from the ground up. A mod that aims to bring more hope and humor to whats normally a fairly grimdark setting.",
+    "version": "BN version, update 8/28/2023",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

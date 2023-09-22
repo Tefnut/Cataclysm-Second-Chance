@@ -1,0 +1,19 @@
+[
+   {
+    "id": "mag_crackhead_engineering",
+    "type": "BOOK",
+    "name": { "str": "Freedom Monthly", "str_pl": "issues of Freedom Monthly" },
+    "description": "An old magazine about all things redneck; moonshine, trucks, and guns. The article on the cover looks to be about a guy who slapped a V12 sports car engine on a Wal-Mart Mobility scooter.",
+    "weight": "80 g",
+    "volume": "250 ml",
+    "price": 450,
+    "price_postapoc": 50,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "pink",
+    "skill": "crackhead_engineering",
+    "max_level": 1,
+    "intelligence": 5,
+    "time": "16 m"
+  }
+]

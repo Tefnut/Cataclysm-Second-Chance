@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "38_tround",
+    "name": ".38 tround",
+    "default": "38_tround_modern"
+  }
+]

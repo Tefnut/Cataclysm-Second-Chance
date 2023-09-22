@@ -1,0 +1,19 @@
+[
+   {
+    "id": "mag_science_weird",
+    "type": "BOOK",
+    "name": { "str": "Weekly World News", "str_pl": "issues of Weekly World News" },
+    "description": "A long out of print tabloid magazine, about the at-the-time latest cryptids. This issue seems to feature a half-man half-bat child found in a cave in West Virginia, and a half-frog baby born in Kansas.",
+    "weight": "80 g",
+    "volume": "250 ml",
+    "price": 450,
+    "price_postapoc": 50,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "pink",
+    "skill": "science_weird",
+    "max_level": 1,
+    "intelligence": 5,
+    "time": "16 m"
+  }
+]

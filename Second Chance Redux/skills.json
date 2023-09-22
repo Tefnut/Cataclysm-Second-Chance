@@ -1,0 +1,25 @@
+[
+  {
+    "type": "skill",
+    "id": "crackhead_engineering",
+    "name": { "str": "crackhead engineering" },
+    "description": "Your skills in creation and use of various things, though mostly guns, that saner individuals find unnatural. Despite seeming to defy all laws of reality, things made with this skill, just, work.",
+    "tags": [ "combat_skill" ],
+    "time_to_attack": { "min_time": 30, "base_time": 100, "time_reduction_per_level": 7 },
+    "companion_survival_rank_factor": 1,
+    "display_category": "display_crafting",
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 1 }, { "skill": "combat", "weight": 1 } ]
+  },
+  
+  {
+    "type": "skill",
+    "id": "science_weird",
+    "name": { "str": "weird science" },
+    "description": "Plastic tubes and pots and pans, Bits and pieces and the magic from the hand. A mix of chemistry, electronics, and mechanics that delve a bit deeper into esoteric oddities, as well as some more inherently outlandish fields of specialization like cryptozoology.",
+    "tags": [ "combat_skill" ],
+    "time_to_attack": { "min_time": 30, "base_time": 100, "time_reduction_per_level": 7 },
+    "companion_survival_rank_factor": 1,
+    "display_category": "display_crafting",
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 1 }, { "skill": "combat", "weight": 1 } ]
+  }
+]

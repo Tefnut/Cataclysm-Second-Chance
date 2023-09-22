@@ -1,0 +1,91 @@
+[
+  {
+    "id": "50_pistol_crack",
+    "copy-from": "pistol_1shot",
+    "type": "GUN",
+    "name": { "str": "wrist breaker" },
+    "description": "A crudely made single barrel pistol, chambered in .50 BMG and covered in picatinny rails. Miraculously, despite how it looks, it functions incredibly well.",
+    "weight": "750 g",
+    "volume": "700 ml",
+    "barrel_length": "75 ml",
+    "price": 2000,
+    "price_postapoc": 500,
+    "ascii_picture": "2_shot_special",
+    "bashing": 3,
+    "material": [ "steel" ],
+    "color": "brown",
+    "ammo": "50",
+    "dispersion": 620,
+    "durability": 5,
+    "blackpowder_tolerance": 60,
+    "clip_size": 1,
+    "reload": 200,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "delete": { "flags": "NEVER_JAMS" }
+  },
+  
+  {
+    "id": "gluger",
+    "copy-from": "pistol_base",
+    "type": "GUN",
+    "name": { "str": "Gluger" },
+    "description": "A horrific weapon, someone, somehow, got the upper of a luger and lower of a glock 19, and put the two together. (If you crafted this before I added proper gun parts, dont worry, soon it'll make more sense, I just have to decide HOW I'm adding gun parts)",
+    "weight": "700 g",
+    "volume": "500 ml",
+    "price": 69000,
+    "price_postapoc": 2500,
+    "to_hit": -2,
+    "ascii_picture": "glock_19",
+    "material": [ "plastic", "steel" ],
+    "color": "dark_gray",
+    "ammo": "9mm",
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "durability": 6,
+    "blackpowder_tolerance": 48,
+    "min_cycle_recoil": 380,
+    "magazine_well": "250 ml",
+    "magazines": [ [ "9mm", [ "glockmag", "glockbigmag", "glock17_17", "glock17_22", "glock_drum_50rd", "glock_drum_100rd" ] ] ]
+  },
+  
+  {
+    "id": "grip_tacsac",
+    "type": "GUNMOD",
+    "name": { "str": "tac sac" },
+    "description": "A grip made to resemble testicles. How mature. Its squishy, which means you can squeeze it if you get stressed.",
+    "weight": "68 g",
+    "volume": "119 ml",
+    "price": 6000,
+    "price_postapoc": 500,
+    "material": [ "steel", "plastic", "rubber" ],
+    "symbol": ":",
+    "color": "brown",
+    "location": "underbarrel",
+    "mod_target_category": [
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ],
+      [ "SHOTGUNS" ],
+      [ "M_XBOWS" ],
+      [ "GRENADE_LAUNCHERS" ],
+      [ "ROCKET_LAUNCHERS" ],
+      [ "FLAMETHROWERS" ]
+    ],
+    "handling_modifier": 20,
+    "flags": [ "PUMP_RAIL_COMPATIBLE" ]
+  }
+  
+  
+  
+  
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "construction_group",
+    "id": "install_gridcooler",
+    "name": "Install grid air conditioner"
+  },
+  
+  {
+    "type": "construction_group",
+    "id": "install_floodlight",
+    "name": "Install floodlight"
+  },
+  
+  {
+    "type": "construction",
+    "id": "constr_gridcooler",
+     "group": "install_gridcooler",
+    "category": "WORKSHOP",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 20 ] ],
+    "components": [ [ [ "grid_cooler_item", 1 ] ], [ [ "cable", 5 ] ], [ [ "power_supply", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "f_gridcooler_off"
+  },
+  
+  {
+    "type": "construction",
+    "id": "constr_grid_floodlight",
+    "group": "install_floodlight",
+    "category": "WORKSHOP",
+    "required_skills": [ [ "fabrication", 2 ], [ "electronics", 0 ] ],
+    "time": "20 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "components": [ [ [ "cable", 2 ] ], [ [ "power_supply", 1 ] ], [ [ "floodlight", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "f_floodlight_grid_off"
+  }
+]

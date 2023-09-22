@@ -1,0 +1,11 @@
+[
+   {
+    "id": "homebooks",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "mag_science_weird", "prob": 1 },
+	  { "item": "mag_crackhead_engineering", "prob": 1 }
+    ]
+  }
+]

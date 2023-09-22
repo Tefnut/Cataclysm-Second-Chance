@@ -1,0 +1,18 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "grid_cooler_item",
+    "name": { "str": "grid air conditioner" },
+    "description": "A stationary air conditioning unit meant to be hooked up to your power grid.",
+    "weight": "12500 g",
+    "to_hit": -4,
+    "color": "light_cyan",
+    "symbol": "C",
+    "material": [ "steel" ],
+    "volume": "7500 ml",
+    "bashing": 12,
+    "category": "tools",
+    "price": 20000,
+    "price_postapoc": 1500
+  }
+]
