@@ -15,6 +15,7 @@
     "color": "dark_gray",
     "looks_like": "sten",
     "ammo": [ "45" ],
+	"weapon_category": [ "PISTOLS" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "dispersion": 360,
     "durability": 10,

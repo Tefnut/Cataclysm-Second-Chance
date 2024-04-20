@@ -14,6 +14,7 @@
     "bashing": 12,
     "material": [ "steel" ],
     "ammo": [ "55_boys" ],
+	"weapon_category": [ "RIFLES" ],
     "range": 100,
     "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "dispersion": 130,

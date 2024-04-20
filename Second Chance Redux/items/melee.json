@@ -12,6 +12,7 @@
     "bashing": 2,
     "cutting": 18,
     "material": [ "steel", "plastic" ],
+	"weapon_category": [ "KNIVES" ],
     "symbol": "/",
     "color": "red",
     "ammo": [ "battery" ],
