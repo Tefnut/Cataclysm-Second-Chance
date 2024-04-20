@@ -1,0 +1,168 @@
+[
+  {
+    "id": "on_hand_trounds",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "38_tround_modern", "prob": 100, "charges": [ 30, 60 ] },
+      { "item": "38_tround_triplex", "prob": 50, "charges": [ 30, 60 ] }
+    ]
+  },
+  
+  {
+    "id": "on_hand_950jdj",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [ { "item": "950jdj", "prob": 100, "charges": [ 1, 5 ] } ]
+  },
+  
+  {
+    "id": "on_hand_13mm_gyro",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [ { "item": "13mm_gyro", "prob": 100, "charges": [ 25, 50 ] },
+                 { "item": "13mm_gyro_explosive", "prob": 10, "charges": [ 25, 50 ] }	]
+  },
+  
+  {
+    "id": "on_hand_55",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "55_boys_mk1", "prob": 100, "charges": [ 10, 20 ] },
+      { "item": "55_boys_mk1_tracer", "prob": 75, "charges": [ 10, 20 ] },
+      { "item": "55_boys_mk2", "prob": 75, "charges": [ 10, 20 ] },
+      { "item": "55_boys_APCR", "prob": 75, "charges": [ 10, 20 ] }
+    ]
+  },
+  
+  {
+    "id": "on_hand_8ga",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "8ga_00", "prob": 100, "charges": [ 10, 20 ] },
+      { "item": "8ga_bird", "prob": 100, "charges": [ 10, 20 ] },
+      { "item": "8ga_dragon", "prob": 30, "charges": [ 10, 20 ] },
+      { "item": "8ga_he", "prob": 30, "charges": [ 10, 20 ] },
+      { "item": "8ga_flechette", "prob": 30, "charges": [ 10, 20 ] },
+      { "item": "8ga_slug", "prob": 100, "charges": [ 10, 20 ] }
+    ]
+  },
+  
+  
+  
+  {
+    "id": "nested_dardick_1500",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "dardick_1500", "charges-min": 0, "charges-max": 15 },
+      { "item": "38_tround_clip" },
+      { "item": "38_tround_clip", "prob": 50 },
+      { "group": "on_hand_trounds" }
+    ]
+  },
+  
+  {
+    "id": "nested_dardick_1100",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "dardick_1100", "charges-min": 0, "charges-max": 13 },
+      { "item": "38_tround_clip" },
+      { "item": "38_tround_clip", "prob": 50 },
+      { "group": "on_hand_trounds" }
+    ]
+  },
+  
+  {
+    "id": "nested_dardick_2000",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "dardick_2000", "charges-min": 0, "charges-max": 22 },
+      { "item": "38_tround_clip" },
+      { "item": "38_tround_clip", "prob": 50 },
+      { "group": "on_hand_trounds" }
+    ]
+  },
+  
+  {
+    "id": "nested_dardick_carbine_1500",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "dardick_carbine_1500", "charges-min": 0, "charges-max": 15 },
+      { "item": "38_tround_clip" },
+      { "item": "38_tround_clip", "prob": 50 },
+      { "group": "on_hand_trounds" }
+    ]
+  },
+  
+  {
+    "id": "nested_dardick_carbine_1100",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "dardick_carbine_1100", "charges-min": 0, "charges-max": 13 },
+      { "item": "38_tround_clip" },
+      { "item": "38_tround_clip", "prob": 50 },
+      { "group": "on_hand_trounds" }
+    ]
+  },
+  
+  {
+    "id": "nested_dardick_carbine_2000",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "dardick_carbine_2000", "charges-min": 0, "charges-max": 22 },
+      { "item": "38_tround_clip" },
+      { "item": "38_tround_clip", "prob": 50 },
+      { "group": "on_hand_trounds" }
+    ]
+  },
+  
+  {
+    "id": "nested_dardick_smg",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "dardick_smg", "charges-min": 0, "charges-max": 42 },
+      { "item": "38_tround_clip" },
+      { "item": "38_tround_clip", "prob": 50 },
+      { "group": "on_hand_trounds" }
+    ]
+  },
+  
+  {
+    "id": "nested_shoggoth_gun",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "shoggoth_gun", "charges-min": 0, "charges-max": 1 }, { "group": "on_hand_950jdj" } ]
+  }
+  
+  
+]

@@ -37,7 +37,7 @@
   {
     "id": "mon_dog_pug_pup",
     "type": "MONSTER",
-    "name": { "str": "beagle puppy", "str_pl": "beagle puppies" },
+    "name": { "str": "pug puppy", "str_pl": "pug puppies" },
     "description": "An adorable, defenseless pug puppy.  Much safer to tame than an adult dog.",
     "default_faction": "dog",
     "bodytype": "quadruped",
@@ -122,8 +122,8 @@
     "armor_bullet": 24,
     "regenerates": 50,
 	"anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
-    "reproduction": { "baby_monster": "mon_dog_pug_pup", "baby_count": 4, "baby_timer": 270 },
-    "//": "1-4 puppies & 270 days per-litter for size tiny canines",
+    "reproduction": { "baby_monster": "mon_dog_pug_pup", "baby_count": 10, "baby_timer": 270 },
+    "//": "Pug Shigguroth is the Black Pug of the Forest With One Thousand Puppies, but 1000 puppies would make any computer melt.",
     "flags": [
       "ANIMAL",
       "DOGFOOD",

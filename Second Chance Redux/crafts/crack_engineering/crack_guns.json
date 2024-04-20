@@ -68,7 +68,7 @@
     "difficulty": 5,
     "time": "2 m",
     "batch_time_factors": [ 60, 5 ],
-    "book_learn": [ [ "manual_pistol", 4 ], [ "manual_smg", 4 ] ],
+    "autolearn": true,
     "charges": 1,
     "using": [ [ "bullet_forming", 3 ], [ "ammo_bullet", 3 ] ],
     "components": [ [ [ "45_casing", 1 ] ], [ [ "lgpistol_primer", 1 ] ], [ [ "gunpowder", 30 ] ] ]
@@ -83,7 +83,7 @@
     "difficulty": 2,
     "time": "2 m",
     "batch_time_factors": [ 60, 5 ],
-    "book_learn": [ [ "manual_pistol", 3 ], [ "manual_smg", 3 ], [ "recipe_bullets", 4 ] ],
+    "autolearn": true,
     "charges": 1,
     "using": [ [ "bullet_forming", 2 ], [ "ammo_bullet", 2 ], [ "ammo_9mm", 1 ] ],
     "components": [ [ [ "gunpowder", 12 ] ] ]
@@ -98,10 +98,27 @@
     "difficulty": 3,
     "time": "2 m",
     "batch_time_factors": [ 60, 5 ],
-    "book_learn": [ [ "recipe_bullets", 6 ] ],
+    "autolearn": true,
     "charges": 1,
     "using": [ [ "bullet_forming", 18 ], [ "ammo_bullet", 12 ] ],
     "components": [ [ [ "50_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder", 30 ] ], [ [ "copper", 6 ] ] ]
+  },
+  
+  {
+    "result": "shot_fys",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "crackhead_engineering",
+    "difficulty": 4,
+    "skills_required": [ "gun", 1 ],
+	"autolearn": true,
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "charges": 30,
+    "using": [ [ "ammo_shot", 30 ] ],
+    "tools": [ [ [ "press", -1 ], [ "press_dowel", -1 ] ] ],
+    "components": [ [ [ "gunpowder", 90 ] ], [ [ "napalm", 3000 ] ] ]
   }
   
   

@@ -1,0 +1,537 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "pillow_throw",
+    "symbol": ",",
+    "color": "blue",
+    "name": { "str": "pillow" },
+    "description": "A small pillow with a decorative design.",
+    "price": "10 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "cotton" ],
+    "weight": "514 g",
+    "volume": "500 ml",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  
+    {
+    "type": "GENERIC",
+    "id": "pillow_racecar",
+    "symbol": ",",
+    "color": "green",
+    "name": { "str": "racecar pillow" },
+    "description": "A racecar shaped pillow to rest your head on when sleeping.",
+    "price": "10 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "cotton" ],
+    "weight": "514 g",
+    "volume": "1 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+
+
+  {
+    "type": "GENERIC",
+    "id": "pillow_wool",
+    "symbol": ",",
+    "color": "blue",
+    "name": { "str": "wool pillow" },
+    "description": "A woolly pillow to rest your head on when sleeping.",
+    "price": "10 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "wool" ],
+    "weight": "514 g",
+    "volume": "1 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  
+    {
+    "type": "GENERIC",
+    "id": "cushion_seat",
+    "symbol": ",",
+    "color": "blue",
+    "name": { "str": "seat cushion" },
+    "description": "A cushion used on a chair. It would still be comfy enough to rest your head.",
+    "price": "10 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "cotton" ],
+    "weight": "514 g",
+    "volume": "500 ml",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+
+    {
+    "type": "GENERIC",
+    "id": "plushie_puffball",
+    "symbol": ",",
+    "color": "pink",
+    "name": { "str": "puffball plushie" },
+    "description": "A plushie modelled after a popular video game character. Its pink, round, and soft.",
+    "price": "10 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "cotton" ],
+    "weight": "514 g",
+    "volume": "250 ml",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+
+
+
+
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_miia",
+    "symbol": "[",
+    "color": "red",
+    "name": { "str": "overly long body pillow" },
+    "description": "A massive pillow with a print of an anime snake lady on the front and their scantily clad version on the back.",
+    "price": "800 USD",
+    "material": [ "cotton" ],
+    "weight": "4534 g",
+    "volume": "300 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+   },
+   
+   {
+    "type": "GENERIC",
+    "id": "bodypillow_papi",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str": "harpy body pillow" },
+    "description": "A big, body-sized pillow with a print of an anime bird girl on the front, and the same harpy but nude on the back. She's cute, if a little ditzy looking.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "50 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_mero",
+    "symbol": "[",
+    "color": "pink",
+    "name": { "str": "mermaid body pillow" },
+    "description": "A big, body-sized pillow with a print of an anime fish girl on the front, and the same mermaid but nude on the back. Looking at it almost feels tragic in a way, it lost its real owner.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_suu",
+    "symbol": "[",
+    "color": "green",
+    "name": { "str": "slime girl body pillow" },
+    "description": "A big, body-sized pillow with a print of an anime slime girl on the front, and the same slime but nude on the back. Theres a level of innocense to her rarely seen in a slime.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_zombina",
+    "symbol": "[",
+    "color": "red",
+    "name": { "str": "zombie body pillow" },
+    "description": "A big, body-sized pillow with a print of an anime zombie girl on the front, and the same undead but nude on the back. The pillow feels well travelled, like its owner took it places.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_kanna",
+    "symbol": "[",
+    "color": "white",
+    "name": { "str": "dragon loli body pillow" },
+    "description": "A small, body-sized pillow with a print of a small anime dragon girl on the front, and the same dragon but nude on the back. If this was pre-cataclysm, you could hear the police coming.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "40 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_tohru",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str": "dragon girl body pillow" },
+    "description": "A big, body-sized pillow with a print of a dragon girl in a maid outfit on the front, and the same dragon but nude on the back. It gives an energy of enthusiasm.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_felix",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str": "catboy body pillow" },
+    "description": "A big, body-sized pillow with a print of a catgirl on the front, and the same feline but nude on the back. Wait, thats not a girl...",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_ichigo_mewmew",
+    "symbol": "[",
+    "color": "pink",
+    "name": { "str": "magical catgirl body pillow" },
+    "description": "A big, body-sized pillow with a print of a catgirl in an incredibly frilly magical girl outfit on the front, and the same feline but nude on the back.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_felicia",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str": "catgirl body pillow" },
+    "description": "A big, body-sized pillow with a print of a nude, yet tastefully furry catgirl on the front, and the same feline's rear on the back. She's incredibly buff, but you feel like somethings missing.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_tamamochan",
+    "symbol": "[",
+    "color": "white",
+    "name": { "str": "kitsune schoolgirl body pillow" },
+    "description": "A big, body-sized pillow with a print of a kitsune schoolgirl on the front, and the same kitsune but nude on the back. She seems excited and happy.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_lightpaws",
+    "symbol": "[",
+    "color": "yellow",
+    "name": { "str": "noble kitsune body pillow" },
+    "description": "A big, body-sized pillow with a print of a noble looking kitsune on the front, and the same kitsune but nude on the back. there's a surprising amount of detail in the paws.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_ahri",
+    "symbol": "[",
+    "color": "white",
+    "name": { "str": "kitsune body pillow" },
+    "description": "A big, body-sized pillow with a print of a sultry looking kitsune on the front, and the same kitsune but nude on the back. She seems quite charming.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_tamamo",
+    "symbol": "[",
+    "color": "yellow",
+    "name": { "str": "kitsune loli body pillow" },
+    "description": "A small, body-sized pillow with a print of a kitsune on the front, and the same kitsune but nude on the back. You feel like you should be arrested for owning this.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "40 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_illusen",
+    "symbol": "[",
+    "color": "green",
+    "name": { "str": "earth faerie body pillow" },
+    "description": "A large, body-sized pillow with a print of a nature faerie on the front, and the same fae but nude on the back. It feels soft and comforting.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_jhudora",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str": "dark faerie body pillow" },
+    "description": "A large, body-sized pillow with a print of a purple and green faerie on the front, and the same fae but nude on the back. It feels intimidating and cruel.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_megumin",
+    "symbol": "[",
+    "color": "black",
+    "name": { "str": "wizard body pillow" },
+    "description": "A big, body-sized pillow with a print of an cute anime mage in black and red robes, and the same wizard but nude on the back. It smells faintly of sulphur.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_aqua",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str": "goddess body pillow" },
+    "description": "A big, body-sized pillow with a print of a blue-haired anime girl on the front, and the same girl but nude on the back. She seems kinda useless-looking though, and you don't know why.",
+    "price": "5 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_michiru",
+    "symbol": "[",
+    "color": "red",
+    "name": { "str": "tanuki body pillow" },
+    "description": "A big, body-sized pillow with a print of an anthro tanuki girl on the front, and the same girl but nude on the back. It feels sporty.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_panty",
+    "symbol": "[",
+    "color": "yellow",
+    "name": { "str": "blonde angel body pillow" },
+    "description": "A big, body-sized pillow with a print of a blonde angelic girl on the front, and the same girl, nude, on the back. It kinda looks gross, like it had been 'used' a lot.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_stocking",
+    "symbol": "[",
+    "color": "black",
+    "name": { "str": "gothic angel body pillow" },
+    "description": "A big, body-sized pillow with a print of a gothic angel girl on the front, and the same girl, nude, on the back. It smells of sweets!",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+    
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_angeldust",
+    "symbol": "[",
+    "color": "pink",
+    "name": { "str": "spider body pillow" },
+    "description": "A big, body-sized pillow with a print of a demonic spider on the front, and the same spider but nude on the back. The pillow smells strangely of miscellaneous drugs.",
+    "price": "60 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  
+  
+  
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_browning",
+    "symbol": "[",
+    "color": "green",
+    "name": { "str": "M2 Browning body pillow" },
+    "description": "A massive body pillow, printed with an m2 Browning for some reason. What sort of degenerate would sleep with one of these?.",
+    "price": "15 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  
+  
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_survivor",
+    "symbol": "[",
+    "color": "green",
+    "name": { "str": "survivor body pillow" },
+    "description": "A massive body-sized pillow, made of kevlar. It is printed with an anime girl in full tactical gear and a balaclava on it's front, and a scantily clad version on the rear. The balaclava remains on.",
+    "price": "15 USD",
+    "material": [ "cotton", "kevlar" ],
+    "weight": "2267 g",
+    "volume": "60 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_gwen",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str": "bunny body pillow" },
+    "description": "A big, body-sized pillow with a print of an anthro bunny on the front, with an exceptionally detailed open mouth. On the back, is the same bunny, but from behind, nude, and a lot pudgier. It feels like it must be special to a higher being.",
+    "price": "1500 USD",
+    "material": [ "cotton" ],
+    "weight": "2267 g",
+    "volume": "80 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_tefnut",
+    "symbol": "[",
+    "color": "yellow",
+    "name": { "str": "indescribable body pillow" },
+    "description": "A COLOSSAL, monster pillow with a print of a strange brown-and-yellow creature on the front, and the same creature on the back, from behind. She looks kind of like a bee... sphinx... thing? It feels, powerful.",
+    "price": "1500 USD",
+    "material": [ "cotton" ],
+    "weight": "774 g",
+    "volume": "400 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_chaosvolt",
+    "symbol": "[",
+    "color": "red",
+    "name": { "str": "dragon body pillow" },
+    "description": "A COLOSSAL, monster pillow with a print of an actual ass dragon. Its an actual dragon. Just, a dragon. It seems arcane",
+    "price": "1500 USD",
+    "material": [ "cotton" ],
+    "weight": "774 g",
+    "volume": "400 L",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  
+    {
+    "id": "astolfo_bean",
+    "type": "TOOL",
+    "name": { "str": "Bean Plushie" },
+    "description": "This is a talking plushie, round and plump. Its soft, but something feels wrong here.",
+    "weight": "907 g",
+    "volume": "750 ml",
+    "price": "20 USD",
+    "to_hit": -1,
+    "material": [ "cotton" ],
+    "symbol": "|",
+    "color": "pink",
+    "ammo": [ "battery" ],
+    "charges_per_use": 1,
+    "turns_per_charge": 20,
+    "use_action": "DOLLCHAT",
+	"flags": [ "SLEEP_AID" ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml"
+  }
+]
