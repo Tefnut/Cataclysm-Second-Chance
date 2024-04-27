@@ -11,6 +11,14 @@
   },
   
   {
+    "id": "on_hand_mmm_cells",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [ { "item": "mmm_cell", "prob": 100, "charges": [ 1, 30 ] } ]
+  },
+  
+  {
     "id": "on_hand_950jdj",
     "type": "item_group",
     "//": "a collection of ammo that would be found with a loaded gun.",
@@ -162,6 +170,42 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [ { "item": "shoggoth_gun", "charges-min": 0, "charges-max": 1 }, { "group": "on_hand_950jdj" } ]
+  },
+  
+  {
+    "id": "nested_revere",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "mmm_revere", "charges-min": 0, "charges-max": 2 },
+      { "group": "on_hand_mmm_cells" }
+    ]
+  },
+  
+  {
+    "id": "nested_haldane",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "mmm_haldane", "charges-min": 0, "charges-max": 5 },
+      { "group": "on_hand_mmm_cells" }
+    ]
+  },
+  
+  {
+    "id": "nested_garvey",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup clips, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "mmm_garvey", "charges-min": 0, "charges-max": 6 },
+      { "group": "on_hand_mmm_cells" }
+    ]
   }
   
   

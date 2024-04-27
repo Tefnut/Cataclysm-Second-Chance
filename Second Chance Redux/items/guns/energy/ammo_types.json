@@ -1,0 +1,8 @@
+[
+ {
+    "type": "ammunition_type",
+    "id": "mmm_cell",
+    "name": "Minuteman Munitions Power Cell",
+    "default": "mmm_cell"
+  }
+]

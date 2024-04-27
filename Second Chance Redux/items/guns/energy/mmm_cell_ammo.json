@@ -1,0 +1,41 @@
+[
+ {
+    "id": "mmm_cell",
+    "type": "AMMO",
+    "name": { "str": "Minuteman Munitions power cell" },
+    "description": "A small, efficient power cell made by Minuteman Munitions for use in commercially available energy weapons. MMM Power Cells were the first incarnation of the \"Cycling Cell\", batteries for energy weapons designed to discharge everything into one shot and be cycled for the next, like ballistic weapon rounds. The advantage comes in that they're often more reliable and energy dense than comparable ballistic munitions, as well as that they're more easily used for compact energy weapons than larger, rechargable batteries, with the primary downside being the added weight of having to carry several smaller batteries, as well as potential reload issues.",
+    "weight": "13 g",
+    "volume": "250 ml",
+    "price": "75 cent",
+    "price_postapoc": "6 USD",
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "steel" ],
+    "symbol": "=",
+    "color": "light_gray",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "mmm_cell",
+    "casing": "mmm_cell_spent",
+    "range": 32,
+    "damage": { "damage_type": "true", "amount": 10 },
+    "dispersion": 30,
+    "recoil": 10,
+    "effects": [ "NEVER_MISFIRES", "NOGIB" ]
+  },
+  
+  {
+    "id": "mmm_cell_spent",
+    "copy-from": "casing",
+    "looks_like": "battery",
+    "type": "GENERIC",
+	"material": "steel",
+    "symbol": "=",
+    "color": "light_gray",
+    "name": { "str": "spent Minuteman Munitions power cell" },
+    "description": "A spent Minuteman Munitions power cell. The cells are damaged in the process of firing, so you'd need a fairly advanced set up to recharge this.",
+    "weight": "16 g",
+    "volume": "6ml"
+  }
+  
+  
+]

@@ -126,7 +126,8 @@
     "items": [
       { "group": "nested_dardick_carbine_1500", "prob": 25 },
       { "group": "nested_dardick_carbine_1100", "prob": 35 },
-	  { "group": "nested_dardick_carbine_2000", "prob": 5 }
+	  { "group": "nested_dardick_carbine_2000", "prob": 5 },
+	  { "group": "nested_garvey", "prob": 35 }
     ]
   },
   
@@ -152,7 +153,8 @@
 	  { "group": "nested_dardick_1500", "prob": 5 },
       { "group": "nested_dardick_1100", "prob": 10 },
 	  { "group": "nested_dardick_2000", "prob": 5 },
-	  { "group": "nested_dardick_smg", "prob": 5 }
+	  { "group": "nested_dardick_smg", "prob": 5 },
+	  { "group": "nested_garvey", "prob": 5 }
     ]
   },
   
@@ -163,7 +165,8 @@
     "items": [
       { "group": "nested_dardick_carbine_1500", "prob": 100 },
       { "group": "nested_dardick_carbine_1100", "prob": 125 },
-	  { "group": "nested_dardick_carbine_2000", "prob": 50 }
+	  { "group": "nested_dardick_carbine_2000", "prob": 50 },
+	  { "group": "nested_garvey", "prob": 25 }
     ]
   },
   
@@ -183,7 +186,47 @@
     "id": "guns_survival",
     "//": "Guns typically carried by survivors, either improvised or thematically appropriate.",
     "items": [
-      { "group": "nested_dardick_smg", "prob": 5 }
+      { "group": "nested_dardick_smg", "prob": 5 },
+	  { "group": "nested_garvey", "prob": 5 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common",
+    "//": "Pistols commonly owned by citizens and found in many locations.",
+    "items": [
+      { "group": "nested_revere", "prob": 5 },
+	  { "group": "nested_haldane", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "carried_guns_pistol_common",
+    "//": "Pistols commonly owned by citizens and carried by them. If a gun has mags, it has no loose ammo. If it has no mags, it has loose ammo.",
+    "items": [
+      { "group": "nested_revere", "prob": 5 },
+	  { "group": "nested_haldane", "prob": 1 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_display",
+    "//": "Empty pistols found exclusively in gun stores.",
+    "items": [
+      { "item": "mmm_revere", "prob": 5, "charges-min": 0, "charges-max": 0 },
+	  { "group": "nested_haldane", "prob": 1 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "ammo_pistol_common",
+    "//": "Pistol ammo commonly owned by citizens and found in many locations.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "mmm_cell", "prob": 10 }
     ]
   }
   
