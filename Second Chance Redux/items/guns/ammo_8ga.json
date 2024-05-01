@@ -13,9 +13,6 @@
     "color": "red",
     "damage_states": [ 0, 0 ]
   },
-
-
-
   {
     "id": "8ga_00",
     "type": "AMMO",

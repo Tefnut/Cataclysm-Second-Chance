@@ -77,9 +77,9 @@
     "covers": [ "feet", "legs" ],
     "coverage": 75,
     "encumbrance": 5,
-    "warmth": 10,
+    "warmth": 20,
     "material_thickness": 2,
-    "flags": [ "VARSIZE", "SKINTIGHT", "STURDY" ]
+    "flags": [ "VARSIZE", "SKINTIGHT", "STURDY", "FANCY" ]
   },
   
   
@@ -101,7 +101,7 @@
     "encumbrance": 5,
     "warmth": 10,
     "material_thickness": 1,
-    "flags": [ "VARSIZE", "SKINTIGHT" ]
+    "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ]
   }
   
 ]

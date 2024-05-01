@@ -264,19 +264,74 @@
     ]
   },
   
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common",
+    "//": "Rifles commonly owned by citizens and found in many locations.",
+    "items": [
+      { "group": "nested_drehen_556", "prob": 35 },
+	  { "group": "nested_drehen_308", "prob": 15 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "carried_guns_rifle_common",
+    "//": "Rifles commonly owned by citizens and carried by them. Has mags or loose ammo.",
+    "items": [
+      { "group": "nested_drehen_556", "prob": 35 },
+	  { "group": "nested_drehen_308", "prob": 15 }
+    ]
+  },
+  
   
     {
     "type": "item_group",
     "id": "guns_rifle_rare",
     "//": "Less common rifles including those only used by police/paramilitary forces.",
     "items": [
+	  { "group": "nested_drehen_700", "prob": 15 },
+	  { "group": "nested_drehen_50", "prob": 35 },
+	  { "group": "nested_boys", "prob": 35 },
+	  { "group": "nested_dragunov", "prob": 15 },
+	  { "group": "nested_avs36", "prob": 15 },
       { "item": "51_gyro_rifle", "prob": 35, "charges-min": 0, "charges-max": 30 },
-	  { "item": "drehen_700", "prob": 35, "charges-min": 0, "charges-max": 3 },
-	  { "item": "drehen_308", "prob": 35, "charges-min": 0, "charges-max": 5 },
-	  { "item": "drehen_556", "prob": 35, "charges-min": 0, "charges-max": 9 },
-	  { "item": "drehen_50", "prob": 35, "charges-min": 0, "charges-max": 4 },
 	  { "item": "rifle_flintlock_tactical", "prob": 35, "charges-min": 0, "charges-max": 2 },
 	  { "item": "boys_antitank", "prob": 35, "charges-min": 0, "charges-max": 5 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "carried_guns_rifle_rare",
+    "//": "Less common rifles including those only carried by police/paramilitary forces. Served with mags or a side of loose ammo.",
+    "items": [
+      { "group": "nested_drehen_700", "prob": 15 },
+	  { "group": "nested_drehen_50", "prob": 35 },
+	  { "group": "nested_boys", "prob": 35 },
+	  { "group": "nested_dragunov", "prob": 15 },
+	  { "group": "nested_avs36", "prob": 15 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_cop",
+    "//": "Police issue weapons of all types",
+    "items": [
+      { "group": "nested_drehen_12", "prob": 15 },
+	  { "group": "nested_drehen_8", "prob": 5 },
+	  { "group": "nested_remington_870_breacher_8ga", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "carried_guns_cop",
+    "//": "Police issue weapons of all types. Carried, so they have mags or loose ammo.",
+    "items": [
+      { "group": "nested_drehen_12", "prob": 15 },
+	  { "group": "nested_drehen_8", "prob": 5 },
+	  { "group": "nested_remington_870_breacher_8ga", "prob": 15 }
     ]
   },
   
@@ -313,12 +368,54 @@
     "//": "Uncommon or rare shotguns in civilian possession.",
     "subtype": "distribution",
     "entries": [
-	  { "item": "drehen_12", "prob": 35, "charges-min": 0, "charges-max": 6 },
-	  { "item": "drehen_8", "prob": 35, "charges-min": 0, "charges-max": 5 }
+	  { "group": "nested_drehen_12", "prob": 35 },
+      { "group": "nested_drehen_8", "prob": 15 },
+	  { "group": "nested_aa12", "prob": 15 },
+	  { "group": "nested_winchester_1887_8ga", "prob": 15 },
+	  { "group": "nested_remington_1100_8ga", "prob": 15 },
+	  { "group": "nested_remington_870_breacher_8ga", "prob": 15 }
+	  
     ]
   },
   
+  {
+    "type": "item_group",
+    "id": "carried_guns_shotgun_rare",
+    "//": "Uncommon or rare shotguns in civilian possession. Comes with loose ammo, unless one of these actually has mags, then it'd have mags.",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "nested_drehen_12", "prob": 35 },
+      { "group": "nested_drehen_8", "prob": 15 },
+	  { "group": "nested_aa12", "prob": 15 },
+	  { "group": "nested_winchester_1887_8ga", "prob": 15 },
+	  { "group": "nested_remington_1100_8ga", "prob": 15 },
+	  { "group": "nested_remington_870_breacher_8ga", "prob": 15 }
+    ]
+  },
   
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_common",
+    "//": "Shotguns commonly owned by citizens and found in many locations.",
+    "items": [
+      { "group": "nested_shotgun_d_8ga", "prob": 20 },
+	  { "group": "nested_shotgun_s_8ga", "prob": 20 },
+	  { "group": "nested_remington_870_8ga", "prob": 40 },
+	  { "group": "nested_remington_870_express_8ga", "prob": 30 }
+	  
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "carried_guns_shotgun_common",
+    "//": "Shotguns commonly owned by citizens and carried for home defense. Has loose ammo, because these aren't the fancy mag-fed shotguns.",
+    "items": [
+      { "group": "nested_shotgun_d_8ga", "prob": 20 },
+	  { "group": "nested_shotgun_s_8ga", "prob": 20 },
+	  { "group": "nested_remington_870_8ga", "prob": 40 },
+	  { "group": "nested_remington_870_express_8ga", "prob": 30 }
+    ]
+  },
   
   {
     "type": "item_group",
