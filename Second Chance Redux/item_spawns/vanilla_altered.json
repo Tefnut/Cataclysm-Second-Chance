@@ -511,12 +511,32 @@
     "id": "guns_rifle_obscure",
     "//": "Imported or otherwise very obscure rifles.",
     "items": [
-	  { "item": "dragunov", "prob": 75, "charges-min": 0, "charges-max": 10 },
+	  { "group": "nested_dragunov", "prob": 75 },
+	  { "group": "nested_avs36", "prob": 50 },
 	  { "item": "aek999", "prob": 75, "charges-min": 100, "charges-max": 500 },
-	  { "item": "avs36", "prob": 50, "charges-min": 0, "charges-max": 15 },
 	  { "item": "pkm", "prob": 25, "charges-min": 100, "charges-max": 500 },
 	  { "item": "huaqing", "prob": 25, "charges-min": 100, "charges-max": 500 },
-      { "item": "shoggoth_gun", "prob": 1, "charges-min": 0, "charges-max": 1  }
+	  { "group": "nested_shoggoth_gun", "prob": 1 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_survival",
+    "//": "Guns typically carried by survivors, either improvised or thematically appropriate.",
+    "items": [
+	  { "group": "nested_dragunov", "prob": 1 },
+	  { "group": "nested_avs36", "prob": 1 },
+	  { "group": "nested_shoggoth_gun", "prob": 1 },
+	  { "group": "nested_drehen_700", "prob": 1 },
+	  { "group": "nested_drehen_50", "prob": 1 },
+	  { "group": "nested_drehen_308", "prob": 15 },
+	  { "group": "nested_drehen_556", "prob": 35 },
+	  { "group": "nested_drehen_12", "prob": 15 },
+	  { "group": "nested_drehen_8", "prob": 1 },
+      { "group": "nested_remington_870_8ga", "prob": 5 },
+      { "group": "nested_shotgun_s_8ga", "prob": 10 },
+      { "group": "nested_shotgun_d_8ga", "prob": 10 }
     ]
   },
   

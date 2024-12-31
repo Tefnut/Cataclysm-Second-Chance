@@ -309,10 +309,10 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "6x50mm", [ "type96mag", "belt6x50mm" ] ] ]
+    "magazines": [ [ "6x50mm", [ "belt6x50mm", "type96mag" ] ] ]
   },
   
-      {
+  {
     "id": "type3",
     "looks_like": "ar15",
     "type": "GUN",
@@ -508,7 +508,7 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "7x58mm", [ "type99mag", "belt7x58mm" ] ] ]
+    "magazines": [ [ "7x58mm", [ "belt7x58mm", "type99mag"  ] ] ]
   },
   {
     "id": "type92",

@@ -3,9 +3,9 @@
     "type": "item_group",
     "id": "guns_pistol_ww2",
     "items": [
-      { "item": "type_26_revolver", "prob": 50, "charges-min": 0, "charges-max": 6 },
-	  { "item": "nambu_14", "prob": 50, "charges-min": 0, "charges-max": 8 },
-	  { "item": "type2", "prob": 5, "charges-min": 0, "charges-max": 30 }
+      { "group": "nested_type26", "prob": 50 },
+	  { "group": "nested_type14", "prob": 100 },
+	  { "group": "nested_type2", "prob": 5 }
 	 ]
   },
   
@@ -34,9 +34,10 @@
     "type": "item_group",
     "id": "guns_smg_ww2",
     "items": [
-      { "item": "type100", "prob": 50, "charges-min": 0, "charges-max": 30 },
-	  { "item": "greasegun", "prob": 75, "charges-min": 0, "charges-max": 30 },
-	  { "item": "tommygun", "prob": 50, "charges-min": 0, "charges-max": 20 }
+      { "group": "nested_type100", "prob": 50 },
+	  { "group": "nested_tommygun", "prob": 75 },
+	  { "group": "nested_greasegun", "prob": 100 },
+	  { "group": "nested_ppsh", "prob": 50 }
 	 ]
   },
   
@@ -72,31 +73,32 @@
     "type": "item_group",
     "id": "guns_rifle_ww2",
     "items": [
-      { "item": "type30", "prob": 75, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type30_carbine", "prob": 75, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type38", "prob": 50, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type38_carbine", "prob": 50, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type1_tera", "prob": 5, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type97", "prob": 50, "charges-min": 0, "charges-max": 5 },
+      { "group": "nested_type30", "prob": 75 },
+	  { "group": "nested_type30_carbine", "prob": 75 },
+	  { "group": "nested_type38", "prob": 50 },
+	  { "group": "nested_type38_carbine", "prob": 50 },
+	  { "group": "nested_type1_tera", "prob": 5 },
+	  { "group": "nested_type97", "prob": 50 },
 	  
-	  { "item": "type96", "prob": 25, "charges-min": 0, "charges-max": 30 },
-	  { "item": "type3", "prob": 25, "charges-min": 0, "charges-max": 500 },
+	  { "group": "nested_type96", "prob": 25 },
+	  { "group": "nested_type3", "prob": 25 },
 	  
-	  { "item": "type99", "prob": 25, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type99_carbine", "prob": 25, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type99_sniper", "prob": 25, "charges-min": 0, "charges-max": 5 },
+	  { "group": "nested_type99", "prob": 25 },
+	  { "group": "nested_type99_carbine", "prob": 25 },
+	  { "group": "nested_type99_sniper", "prob": 25 },
 	  
-	  { "item": "type99_lmg", "prob": 10, "charges-min": 0, "charges-max": 5 },
-	  { "item": "type92", "prob": 10, "charges-min": 0, "charges-max": 5 },
+	  { "group": "nested_type99_lmg", "prob": 10 },
+	  { "group": "nested_type92", "prob": 10 },
+
+	  { "group": "nested_garand", "prob": 100 },
+	  { "group": "nested_m1903", "prob": 75 },
+	  { "group": "nested_m1918", "prob": 75 },
+	  { "group": "nested_m1941_johnson", "prob": 50 },
+	  { "group": "nested_m1919", "prob": 5 },
 	  
-	  
-	  { "item": "garand", "prob": 100, "charges-min": 0, "charges-max": 8 },
-	  { "item": "m1903", "prob": 75, "charges-min": 0, "charges-max": 5 },
-	  { "item": "m1918", "prob": 75, "charges-min": 0, "charges-max": 20 },
-	  { "item": "m1941_johnson", "prob": 50, "charges-min": 0, "charges-max": 20 },
-	  { "item": "m1919", "prob": 5, "charges-min": 0, "charges-max": 500 },
-	  
-	  { "item": "avs36", "prob": 50, "charges-min": 0, "charges-max": 15 }
+	  { "group": "nested_mosin44", "prob": 75 },
+	  { "group": "nested_mosin91_30", "prob": 75 },
+	  { "group": "nested_avs36", "prob": 25 }
 	  
 	 ]
   },
@@ -150,10 +152,16 @@
     "type": "item_group",
     "id": "guns_heavy_ww2",
     "items": [
-      { "item": "m2browning", "prob": 50, "charges-min": 0, "charges-max": 100 },
-	  { "item": "m1919", "prob": 50, "charges-min": 0, "charges-max": 500 },
-	  { "item": "bazooka_m9", "prob": 50, "charges-min": 0, "charges-max": 1 },
-	  { "item": "boys_antitank", "prob": 25, "charges-min": 0, "charges-max": 5 }
+      { "group": "nested_m2browning", "prob": 25 },
+	  { "group": "nested_stinger", "prob": 75 },
+	  { "group": "nested_m1919", "prob": 50 },
+	  
+	  { "group": "nested_type3", "prob": 25 },
+	  { "group": "nested_type92", "prob": 10 },
+	  
+	  { "group": "nested_boys", "prob": 25 },
+	  
+	  { "item": "bazooka_m9", "prob": 50, "charges-min": 0, "charges-max": 1 }
 	 ]
   },
   

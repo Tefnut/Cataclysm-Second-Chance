@@ -16,10 +16,15 @@
     "melee_cut": 2,
     "fear_triggers": [ "HURT" ],
     "reproduction": { "baby_monster": "mon_dog_pug_pup", "baby_count": 4, "baby_timer": 270 },
+	"petfood": {
+      "food": [ "DOGFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
     "//": "1-4 puppies & 270 days per-litter for size tiny canines",
     "flags": [
       "ANIMAL",
-      "DOGFOOD",
+       "CANPLAY",
       "GROUP_MORALE",
       "HARDTOSHOOT",
       "PET_MOUNTABLE",
@@ -61,6 +66,11 @@
     "harvest": "mammal_tiny",
     "path_settings": { "max_dist": 10 },
     "upgrades": { "age_grow": 42, "into_group": "GROUP_PUG_UPGRADE" },
+	"petfood": {
+      "food": [ "DOGFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
     "fear_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
     "death_function": [ "NORMAL" ],
     "special_attacks": [ [ "EAT_FOOD", 100 ] ],
@@ -71,7 +81,7 @@
     "id": "mon_dog_pug_black",
     "copy-from": "mon_dog",
     "type": "MONSTER",
-    "name": { "str": "blackpug" },
+    "name": { "str": "black pug" },
     "description": "A pug! With its chubby body, flat face, and small size, its a wonder the thing is still alive. This ones black. Something about it seems, sacred..",
     "volume": "2000 ml",
 	"weight": "8 kg",
@@ -85,9 +95,14 @@
     "fear_triggers": [ "HURT" ],
     "reproduction": { "baby_monster": "mon_dog_pug_pup", "baby_count": 4, "baby_timer": 270 },
     "//": "1-4 puppies & 270 days per-litter for size tiny canines",
+	"petfood": {
+      "food": [ "DOGFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
     "flags": [
       "ANIMAL",
-      "DOGFOOD",
+       "CANPLAY",
       "GROUP_MORALE",
       "HARDTOSHOOT",
       "PET_MOUNTABLE",
@@ -124,9 +139,14 @@
 	"anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
     "reproduction": { "baby_monster": "mon_dog_pug_pup", "baby_count": 10, "baby_timer": 270 },
     "//": "Pug Shigguroth is the Black Pug of the Forest With One Thousand Puppies, but 1000 puppies would make any computer melt.",
+	"petfood": {
+      "food": [ "DOGFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
     "flags": [
       "ANIMAL",
-      "DOGFOOD",
+      "CANPLAY",
       "GROUP_MORALE",
       "HARDTOSHOOT",
       "PET_MOUNTABLE",

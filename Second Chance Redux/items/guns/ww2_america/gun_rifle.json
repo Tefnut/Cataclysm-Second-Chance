@@ -36,7 +36,7 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "3006", [ "m1941mag", "m1941bigmag", "belt3006" ] ] ]
+    "magazines": [ [ "3006", [ "belt3006", "m1941mag", "m1941bigmag" ] ] ]
   },
   {
     "id": "m1919",
@@ -76,7 +76,7 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "3006", [ "m1918mag", "m1918bigmag", "belt3006" ] ] ]
+    "magazines": [ [ "3006", [ "belt3006", "m1918mag", "m1918bigmag" ] ] ]
   },
   {
     "id": "makeshift_stinger",

@@ -73,8 +73,7 @@
       "WARM",
       "HIT_AND_RUN",
       "KEENNOSE",
-      "BLEED",
-	  "CATFOOD"
+      "BLEED"
     ]
   },
   
@@ -103,9 +102,14 @@
     "fear_triggers": [ "HURT" ],
 	"anger_triggers": [ "STALK", "PLAYER_WEAK",  "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "death_function": [ "NORMAL" ],
+	"petfood": {
+      "food": [ "BIRDFOOD" ],
+      "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
+      "pet": "The %s runs around your leg."
+    },
     "reproduction": { "baby_egg": "egg_bird", "baby_count": 3, "baby_timer": 5 },
     "baby_flags": [ "SPRING" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "BIRDFOOD" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "CANPLAY" ]
   },
   
   {
@@ -134,8 +138,13 @@
 	"anger_triggers": [ "STALK", "PLAYER_WEAK", "FRIEND_ATTACKED" ],
     "death_function": [ "NORMAL" ],
     "reproduction": { "baby_egg": "egg_bird", "baby_count": 3, "baby_timer": 5 },
+	"petfood": {
+      "food": [ "BIRDFOOD" ],
+      "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
+      "pet": "The %s runs around your leg."
+    },
     "baby_flags": [ "SPRING" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "BIRDFOOD" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "CANPLAY" ]
   },
   
   
@@ -161,9 +170,14 @@
     "melee_dice_sides": 1,
     "dodge": 4,
     "harvest": "mammal_tiny",
+	"petfood": {
+      "food": [ "BIRDFOOD" ],
+      "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
+      "pet": "The %s runs around your leg."
+    },
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "BIRDFOOD" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "CANPLAY" ]
   }
   
   

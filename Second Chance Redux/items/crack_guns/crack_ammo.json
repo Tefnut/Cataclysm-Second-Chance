@@ -7,7 +7,6 @@
     "description": "Some 9x19mm cartridges with rather... phallic projectiles. Exceptionally high pressure, they seem intended for 'maximum penetration'.",
     "price": 300,
     "price_postapoc": 800,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "count": 25,
     "relative": { "damage": { "damage_type": "bullet", "armor_penetration": 45 }, "dispersion": -15 },
     "proportional": { "recoil": 2 }
@@ -22,7 +21,6 @@
     "volume": "250 ml",
     "price": 2200,
     "price_postapoc": 2500,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "dark_gray",
@@ -46,7 +44,6 @@
     "volume": "250 ml",
     "price": 180,
     "price_postapoc": 600,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
@@ -69,7 +66,6 @@
     "description": "A shotgun shell loaded with napalm. You have really went all out on the war crimes with this one, huh? Well, it should burn all the fur off the squirrels. Or set the woods on fire.",
     "price": "60 USD",
     "price_postapoc": "32 USD",
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "count": 5,
     "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 0 },
     "extend": { "effects": [ "PYROPHORIC" ] }
