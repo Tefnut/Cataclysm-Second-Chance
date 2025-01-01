@@ -1,0 +1,49 @@
+[
+   {
+    "id": "body_pillows",
+    "type": "item_group",
+    "items": [
+        [ "bodypillow_miia", 30 ],
+        [ "bodypillow_papi", 30 ],
+		[ "bodypillow_mero", 30 ],
+		[ "bodypillow_zombina", 30 ],
+		[ "bodypillow_suu", 30 ],
+		
+		[ "bodypillow_tohru", 30 ],
+		[ "bodypillow_kanna", 1 ],
+			   
+	    [ "bodypillow_megumin", 1 ],
+	    [ "bodypillow_aqua", 30 ],
+		
+		[ "bodypillow_michiru", 10 ],
+		
+		[ "bodypillow_browning", 1 ],
+		[ "bodypillow_survivor", 1 ],
+		
+			   
+		[ "bodypillow_panty", 30 ],
+		[ "bodypillow_stocking", 1 ],
+			   
+		[ "bodypillow_angeldust", 30 ],
+			   
+			   
+			   
+		[ "bodypillow_chaosvolt", 1 ],
+			   
+		[ "bodypillow_felix", 20 ],
+		[ "bodypillow_ichigo_mewmew", 15 ],
+		[ "bodypillow_felicia", 10 ],
+			   
+		[ "bodypillow_tamamochan", 1 ],
+		[ "bodypillow_lightpaws", 30 ],
+		[ "bodypillow_ahri", 30 ],
+		[ "bodypillow_tamamo", 1 ],
+			   
+		[ "bodypillow_illusen", 19 ],
+		[ "bodypillow_jhudora", 10 ],
+			   
+		[ "bodypillow_gwen", 1 ],
+		[ "bodypillow_tefnut", 1 ] 
+    ]
+  }
+]

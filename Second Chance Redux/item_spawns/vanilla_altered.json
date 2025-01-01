@@ -581,59 +581,46 @@
                [ "950_overkill", 5 ]		   ]
   },
   
-    {
+  
+  {
+    "type": "item_group",
+    "id": "bedroom",
+    "subtype": "distribution",
+    "entries": [ 
+	  { "group": "body_pillows", "prob": 2 },
+      { "item": "pillow_wool", "prob": 1 },
+	  { "item": "cushion_seat", "prob": 1 },
+	  { "item": "pillow_racecar", "prob": 1 },
+	  { "item": "pillow_throw", "prob": 1 },
+	  
+	  { "item": "blanket_survivor", "prob": 1 },
+	  { "item": "snuggie_survivor", "prob": 1 },
+	  { "item": "fur_blanket_survivor", "prob": 1 },
+	  
+	  { "item": "plushie_puffball", "prob": 1 },
+	  { "item": "astolfo_bean", "prob": 1 }
+	  
+    ]
+  },
+  
+  {
     "type": "item_group",
     "id": "bed",
-    "items": [ 
-	           [ "pillow_throw", 8 ],
-			   [ "pillow_wool", 8 ],
-			   [ "cushion_seat", 8 ],
-			   [ "pillow_racecar", 1 ],
-			   
-			   [ "pillow", 28 ],
-			   [ "blanket", 28 ],
-			   
-			   [ "blanket_survivor", 1 ],
-			   [ "fur_blanket_survivor", 1 ],
-			   [ "snuggie_survivor", 1 ],
-			   
-			   [ "plushie_puffball", 1 ],
-			   
-	           [ "bodypillow_miia", 1 ],
-               [ "bodypillow_papi", 1 ],
-			   [ "bodypillow_kanna", 1 ],
-			   [ "bodypillow_mero", 1 ],
-			   [ "bodypillow_megumin", 1 ],
-			   [ "bodypillow_aqua", 1 ],
-			   [ "bodypillow_michiru", 1 ],
-			   [ "bodypillow_browning", 1 ],
-			   [ "bodypillow_survivor", 1 ],
-			   [ "bodypillow_gwen", 1 ],
-			   [ "bodypillow_tefnut", 1 ],
-			   [ "bodypillow_panty", 1 ],
-			   [ "bodypillow_stocking", 1 ],
-			   [ "bodypillow_angeldust", 1 ],
-			   
-			   [ "bodypillow_zombina", 1 ],
-			   [ "bodypillow_suu", 1 ],
-			   [ "bodypillow_tohru", 1 ],
-			   [ "bodypillow_chaosvolt", 1 ],
-			   
-			   [ "bodypillow_felix", 1 ],
-			   [ "bodypillow_ichigo_mewmew", 1 ],
-			   [ "bodypillow_felicia", 1 ],
-			   
-			   [ "bodypillow_tamamochan", 1 ],
-			   [ "bodypillow_lightpaws", 1 ],
-			   [ "bodypillow_ahri", 1 ],
-			   [ "bodypillow_tamamo", 1 ],
-			   
-			   [ "bodypillow_illusen", 1 ],
-			   [ "bodypillow_jhudora", 1 ],
-			   
-               [ "astolfo_bean", 1 ]		
-
-			   ]
+    "subtype": "distribution",
+    "entries": [
+      { "group": "body_pillows", "prob": 2 },
+      { "item": "pillow_wool", "prob": 1 },
+	  { "item": "cushion_seat", "prob": 1 },
+	  { "item": "pillow_racecar", "prob": 1 },
+	  { "item": "pillow_throw", "prob": 1 },
+	  
+	  { "item": "blanket_survivor", "prob": 1 },
+	  { "item": "snuggie_survivor", "prob": 1 },
+	  { "item": "fur_blanket_survivor", "prob": 1 },
+	  
+	  { "item": "plushie_puffball", "prob": 1 },
+	  { "item": "astolfo_bean", "prob": 1 }
+    ]
   },
   
   
