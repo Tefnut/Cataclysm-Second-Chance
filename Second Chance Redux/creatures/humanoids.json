@@ -27,7 +27,7 @@
     "path_settings": { "max_dist": 10 },
 	"special_attacks": [
       {
-        "type": "bite",
+        "type": "bite", 
         "cooldown": 20,
         "accuracy": 6,
         "damage_max_instance": [
@@ -44,7 +44,8 @@
       "groups": [ [ "subway", 40 ], [ "sewer", 20 ], [ "trash", 5 ], [ "ammo", 18 ] ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "FILTHY" ]
+	"//": "Had to remove Filthy. Thanks Obama.",
+    "flags": [ "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "HUMAN"]
   },
   
   
@@ -52,7 +53,7 @@
     "id": "mon_lithovore",
     "type": "MONSTER",
     "name": { "str": "lithovore" },
-    "description": "A stout mutated humanoid, covered in rocky spikes. It wanders the vast underground, digging vast tunnels to sate its massive appetite. Its rocky skin allows it to resist even heavy attacks.",
+    "description": "A stout mutated humanoid, covered in rocky spikes. It wanders the vast underground, digging vast tunnels to sate its massive appetite for stone. Its rocky skin allows it to resist even heavy attacks.",
     "default_faction": "lithovore",
     "bodytype": "human",
     "species": [ "MUTANT" ],
@@ -79,8 +80,9 @@
       "subtype": "collection",
       "groups": [ [ "subway", 40 ], [ "sewer", 20 ], [ "trash", 5 ], [ "bedroom", 5 ], [ "dresser", 10 ], [ "ammo", 18 ] ]
     },
+	"//": "Had to remove Filthy. Thanks Obama.",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "WARM", "BORES", "CAN_DIG", "BASHES", "GROUP_BASH", "HUMAN", "FILTHY" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BORES", "CAN_DIG", "BASHES", "GROUP_BASH", "HUMAN" ]
   }
   
   

@@ -3,7 +3,7 @@
     "id": "mon_megakoi",
     "type": "MONSTER",
     "name": { "str": "megakoi" },
-    "description": "This thing seems like a koi, but massive. It dumbly swims around the water. It is prized for it's delicious meat.",
+    "description": "This thing seems like a koi, but massive. It dumbly swims around the water. It is prized for its delicious meat.",
     "default_faction": "carp",
     "bodytype": "fish",
     "species": [ "FISH" ],

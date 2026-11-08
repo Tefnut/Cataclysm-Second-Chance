@@ -91,8 +91,19 @@
         "need_charges_msg": "The wrist computer's charge is too low.",
         "type": "transform"
       },
+	  {
+        "target": "wrist_comp_budget_music",
+        "msg": "You put in the earbuds and start listening to music.",
+        "active": true,
+        "moves": 200,
+        "need_charges": 1,
+        "transform_charges": 1,
+        "need_charges_msg": "The wrist computer's batteries need more charge.",
+        "type": "transform",
+        "internal_name": "music_player",
+        "menu_text": "Listen to music"
+      },
       "CAMERA",
-      "MP3",
       "PORTABLE_GAME",
       "EINKTABLETPC",
       "RADGLOVE"
@@ -123,7 +134,18 @@
     "description": "This wrist computer is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
     "power_draw": 300,
     "revert_to": "wrist_comp_budget",
-    "use_action": [ "MP3_ON" ],
+    "use_action": [ 
+
+      {
+        "target": "wrist_comp_budget",
+        "msg": "You take out your earbuds and stop listening to music.",
+        "active": true,
+        "moves": 200,
+        "type": "transform",
+        "internal_name": "music_player",
+        "menu_text": "Listen to music"
+      },
+	],
     "flags": [
       "WATCH",
       "WATER_FRIENDLY",

@@ -8,6 +8,6 @@
     "description": "The successor to Tefnut's Expansion, remade from the ground up. A mod that aims to bring more hope and humor to whats normally a fairly grimdark setting.",
     "version": "BN version, update 4/19/2024",
     "category": "content",
-    "dependencies": [ "bn" ]
+    "dependencies": [ "bn", "exotic_ammo" ]
   }
 ]
