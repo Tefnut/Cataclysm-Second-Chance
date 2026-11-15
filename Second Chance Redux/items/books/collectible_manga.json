@@ -1,0 +1,114 @@
+[
+   {
+    "id": "manga_mewmew_1",
+    "type": "BOOK",
+    "name": { "str": "Tokyo Mew Mew: Volume 1", "str_pl": "copies of Tokyo Mew Mew: Volume 1" },
+    "description": "A magical girl manga made by Mia Ikumi & Reiko Yoshida. 11-year-old Ichigo is out on a hot date with her crush when suddenly she's involved in an odd incident in which her DNA is merged with the DNA of an almost extinct wildcat. When four other girls' DNA is merged with the DNA of four other almost extinct animals, it's apparent that they're part of a much bigger plan. Ichigo and her friends have been chosen to become a part of a secret project called the 'Mew Project.' Their mission: To protect the planet from aliens who are using the planet's animals to attack humans. Only time will tell if these supernatural superheroes will be up to the challenge.",
+    "//": "description copied verbatim from the back of the copy in my bookshelf.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "pink",
+    "price": "1000 cent",
+	"//2": "Back of my copy says 10$, im not clarifying for inflation.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_mewmew_2",
+    "type": "BOOK",
+    "name": { "str": "Tokyo Mew Mew: Volume 2", "str_pl": "copies of Tokyo Mew Mew: Volume 2" },
+    "description": "A magical girl manga made by Mia Ikumi & Reiko Yoshida. Ichigo was just another normal seventh grade - until she was involved in an odd incident in which her DNA was merged with the DNA of an almost extinct wildcat. When four other girls' DNA is merged with the DNA of four other almost extinct animals, it's apparent that they're part of a much bigger plan. Now, Ichigo has transformed into a crime-fighting cat named Mew Mew and must find the rest of the Tokyo Mew Mew crew as soon as possible. However, that mission turns out to be much more difficult than she ever imnagined! What do you do when a superhero denies her fate and pushes away her destiny? It's a race against the clock as Ichigo and her pals try to recruit a reluctant superhero in time to save the world!",
+    "//": "description copied verbatim from the back of the copy in my bookshelf.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "light_blue",
+    "price": "1000 cent",
+	"//2": "Back of my copy says 10$, im not clarifying for inflation.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_mewmew_3",
+    "type": "BOOK",
+    "name": { "str": "Tokyo Mew Mew: Volume 3", "str_pl": "copies of Tokyo Mew Mew: Volume 3" },
+    "description": "A magical girl manga made by Mia Ikumi & Reiko Yoshida. Ichigo's life has never been the same since her DNA was merged with the DNA of an almost extinct wildcat. When four other girls' DNA is merged with the DNA of four other almost extinct animals, it's apparent theyre part of a much bigger plan. Ichigo, who has transformed into a crime-fighting cat named Mew Mew, has finally connected with all the other girls who make up Tokyo Mew Mew. Together, the fivesome must fight the aliens before they take over the world! Between battles, Ichigo is worried that Masaya knows her secret identity. Will they have a future if he learns the truth!?",
+    "//": "description copied verbatim from the back of the copy in my bookshelf.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "light_blue",
+    "price": "1000 cent",
+	"//2": "Back of my copy says 10$, im not clarifying for inflation.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_mewmew_4",
+    "type": "BOOK",
+    "name": { "str": "Tokyo Mew Mew: Volume 4", "str_pl": "copies of Tokyo Mew Mew: Volume 4" },
+    "description": "A magical girl manga made by Mia Ikumi & Reiko Yoshida. Ichigo and her friends are in for the fight of their lives. The giant cocoon is about to unleash a kirema anima that will destroy Tokyo, and its up to the Tokyo Mew Mew crew to save the world! As the Mew Mews desperately try to find the Mew Aqua needed to defeat the monster, they encounter an unfriendly foe who threatens their lives. Will they be able to save themselves, defeat the kirema anima, and rescue Tokyo in time?!",
+    "//": "description copied verbatim from the back of the copy in my bookshelf.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "yellow",
+    "price": "1000 cent",
+	"//2": "Back of my copy says 10$, im not clarifying for inflation.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_mewmew_5",
+    "type": "BOOK",
+    "name": { "str": "Tokyo Mew Mew: Volume 5", "str_pl": "copies of Tokyo Mew Mew: Volume 5" },
+    "description": "A magical girl manga made by Mia Ikumi & Reiko Yoshida. Even though Masaya and Ichigo are now an official couple, things don't stay trouble-free for long. When a mysterious man called the Blue Knight suddenly reveals a major secret, he messes things up in a major way for Ichigo. She must save the day (again!) to help Masaya... But is she ready to transform into a Mew Mew in front of him? And, if she does find the courage, will Masaya will be okay with her secret or shun her for it? Meanwhile, there's an evil plot to destroy Tokyo in the works and Pudding's been kidnapped and held hostage. Now, the Mew Mew squad must successfully battle the kirema anima and make it in time to save their beloved pudding.",
+    "//": "description copied verbatim from the back of the copy in my bookshelf. Yes, even the 'will Masaya will' part.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "pink",
+    "price": "1000 cent",
+	"//2": "Back of my copy says 10$, im not clarifying for inflation.",
+	"//3": "Last copy of my personal collection. Found 'em in a used book store back in high school.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_monmusu_1",
+    "type": "BOOK",
+    "name": { "str": "Monster Musume: Volume 1", "str_pl": "Monster Musume: Volume 1" },
+    "description": "A slice of life manga made by Okayado. What do world governments do when they learn that fantastical beings are not merely fiction, but flesh and blood-not to mention feather, hoof, and fang? Why, they create new regulations, of course, like the Interspecies Cultural Exchange Accord! When twenty-something Kurusu Kumihito becomes an involuntary \"volunteer\" in the government homestay program for monster girls, his world is turned upside down. A lamia named Miia is sent to live with him, and its Kimihito's job to make sure the sexy snake girl integrates into every day life. While cold-blooded Miia is hot for Kimihito, the penalties for interspecies breeding are dire. Even worse, when a buxom centaur girl and a scantily-clad harpy move into Kimihito's house, whats a full blooded young man with raging hormones to do?!",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "red",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 12.99$, im not clarifying for inflation.",
+	"//3": "Only have the first volume for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_hellsing_1",
+    "type": "BOOK",
+    "name": { "str": "Hellsing: Volume 1", "str_pl": "Hellsing: Volume 1" },
+    "description": "An action manga made by Kohta Hirano. There's a secret organization somewhere in England created to defend the Queen and country from monsters of all sorts. Enter Hellsing, an agency long in tooth, with the xperience, know-how, and... er... equipment, to handle the problems that arise when vampires, ghouls, and the like take to England's streets. \"What Equipment?\" you may ask. How about another vampire, souped up by generations of study and refinement, armed with a big pistol loaded with special silver bullets? That oughta do the trick.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "red",
+    "price": "1000 cent",
+	"//2": "Back of my copy says 10$, im not clarifying for inflation.",
+	"//3": "Only have the first volume for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "lightnovel_monmusu_job_1",
+    "type": "BOOK",
+    "name": { "str": "Monster Girls on the Job: Volume 1", "str_pl": "Monster Girls on the Job: Volume 1" },
+    "description": "A slice-of-life light novel written by Yoshino Origuchi, on the Monster Musume setting made by Okayado. Ordinary twentysomething Kurusu Kimihito thought living with a bunch of monster girls was complicated enough, but there's a new directive sent down from the government: get a job! Now lamia Miia, centaur Centoria, and all your favorites have to join the working world, leading to sexy uniforms, on-the-job shenanigans, and all-new hilarity!",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "red",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 12.99$, im not clarifying for inflation.",
+	"//3": "Only have the first volume for now. I'll try and pick up more over time.",
+    "fun": 1
+  }
+]

@@ -26,7 +26,7 @@
   {
     "id": "nambu_14",
     "copy-from": "pistol_base",
-    "looks_like": "glock_17",
+    "looks_like": "m1911",
     "type": "GUN",
     "name": { "str": "Nambu Type 14" },
     "description": "The Japanese sidearm of World War 2, the Nambu Type 14 is a semi-automatic pistol made to keep costs down. Despite this, theyre still decently usable.",
@@ -48,7 +48,7 @@
 
   {
     "id": "type2",
-    "looks_like": "hk_mp5",
+    "looks_like": "mac_11",
     "copy-from": "smg_base",
     "type": "GUN",
     "reload_noise_volume": 10,

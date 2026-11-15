@@ -1,7 +1,7 @@
 [
   {
     "id": "boysmag",
-    "looks_like": "stanag30",
+    "looks_like": "m107a1mag",
     "type": "MAGAZINE",
     "name": { "str": "Boys magazine" },
     "description": "Standard 5-round box magazine for a Boys anti-tank rifle.",

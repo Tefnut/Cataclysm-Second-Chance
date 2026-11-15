@@ -1,0 +1,35 @@
+[
+   {
+    "id": "alofs_12",
+    "category": "spare_parts",
+    "type": "TOOL",
+    "color": "light_gray",
+    "symbol": ",",
+    "looks_like": "llink",
+    "name": { "str": "Alofs Reloading Magazine, 12 gauge" },
+    "description": "A modification for 12 gauge break-action shotguns. When the breach is opened, it automatically pushes a new shell into place, turning a single barrel from 1 round, to 5+1+1.",
+    "price": "400 USD",
+    "price_postapoc": "250 cent",
+    "material": [ "steel" ],
+    "weight": "500 g",
+    "volume": "500 ml",
+    "to_hit": -1
+  },
+  
+  {
+    "id": "alofs_8",
+    "category": "spare_parts",
+    "type": "TOOL",
+    "color": "light_gray",
+    "symbol": ",",
+    "looks_like": "llink",
+    "name": { "str": "Alofs Reloading Magazine, 8 gauge" },
+    "description": "A modification for 8 gauge break-action shotguns. When the breach is opened, it automatically pushes a new shell into place, turning a single barrel from 1 round, to 3+1+1.",
+    "price": "400 USD",
+    "price_postapoc": "250 cent",
+    "material": [ "steel" ],
+    "weight": "750 g",
+    "volume": "750 ml",
+    "to_hit": -1
+  }
+]

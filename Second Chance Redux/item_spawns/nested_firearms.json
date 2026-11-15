@@ -56,11 +56,33 @@
     "entries": [
       { "item": "8ga_00", "prob": 100, "charges": [ 10, 20 ] },
       { "item": "8ga_bird", "prob": 100, "charges": [ 10, 20 ] },
-	  { "item": "8ga_scrap", "prob": 50, "charges": [ 10, 20 ] },
+	  { "item": "8ga_scrap", "prob": 20, "charges": [ 10, 20 ] },
       { "item": "8ga_dragon", "prob": 30, "charges": [ 10, 20 ] },
       { "item": "8ga_he", "prob": 30, "charges": [ 10, 20 ] },
       { "item": "8ga_flechette", "prob": 30, "charges": [ 10, 20 ] },
-      { "item": "8ga_slug", "prob": 100, "charges": [ 10, 20 ] }
+      { "item": "8ga_slug", "prob": 100, "charges": [ 10, 20 ] },
+	  { "item": "8ga_00_magnum", "prob": 10, "charges": [ 10, 20 ] },
+      { "item": "8ga_bird_magnum", "prob": 10, "charges": [ 10, 20 ] },
+	  { "item": "8ga_scrap_magnum", "prob": 5, "charges": [ 10, 20 ] },
+      { "item": "8ga_dragon_magnum", "prob": 3, "charges": [ 10, 20 ] },
+      { "item": "8ga_he_magnum", "prob": 3, "charges": [ 10, 20 ] },
+      { "item": "8ga_flechette_magnum", "prob": 3, "charges": [ 10, 20 ] },
+      { "item": "8ga_slug_magnum", "prob": 10, "charges": [ 10, 20 ] }
+    ]
+  },
+  
+  {
+    "id": "on_hand_shot",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "shot_00_magnum", "prob": 10, "charges": [ 10, 20 ] },
+      { "item": "shot_bird_magnum", "prob": 10, "charges": [ 10, 20 ] },
+      { "item": "shot_dragon_magnum", "prob": 3, "charges": [ 10, 20 ] },
+      { "item": "shot_he_magnum", "prob": 3, "charges": [ 10, 20 ] },
+      { "item": "shot_flechette_magnum", "prob": 3, "charges": [ 10, 20 ] },
+      { "item": "shot_slug_magnum", "prob": 10, "charges": [ 10, 20 ] }
     ]
   },
   

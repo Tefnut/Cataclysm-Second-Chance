@@ -1,0 +1,71 @@
+[
+   {
+    "result": "alofs_12_crack",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "crackhead_engineering",
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ], [ "mechanics", 4] ],
+    "time": "55 m",
+	"reversible": true,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 100 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
+    ],
+   "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "shot_hull", -1 ], ["12ga_magnum_casing", -1 ] ] ],
+    "components": [  [ [ "scrap", 8 ] ], [ [ "pipe", 1] ] ]
+  },
+  
+  {
+    "type": "recipe",
+    "result": "shotgun_alofs_12_double",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "crackhead_engineering",
+    "difficulty": 3,
+	"skills_required": [ [ "mechanics", 3] ],
+    "time": "24 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "shotgun_d", 1 ] ], [ [ "alofs_12", 2 ] ] ]
+  },
+  
+  {
+    "type": "recipe",
+    "result": "shotgun_alofs_12_crack",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "crackhead_engineering",
+    "difficulty": 3,
+	"skills_required": [ [ "mechanics", 3] ],
+    "time": "12 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "shotgun_s", 1 ] ], [ [ "alofs_12_crack", 1 ] ] ]
+  },
+  
+  {
+    "type": "recipe",
+    "result": "shotgun_alofs_12_double_crack",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "crackhead_engineering",
+    "difficulty": 6,
+	"skills_required": [ [ "mechanics", 3] ],
+    "time": "24 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "shotgun_d", 1 ] ], [ [ "alofs_12_crack", 2 ] ] ]
+  }
+  
+  
+]

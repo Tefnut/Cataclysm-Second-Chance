@@ -2,6 +2,7 @@
    {
     "id": "pipe_double_shotgun_8ga",
     "copy-from": "pipe_shotgun_8ga",
+	"looks_like": "shotgun_d",
     "type": "GUN",
     "name": { "str": "double-barrel pipe shotgun, 8 gauge" },
     "description": "A home-made double-barreled shotgun.  It is simply two pipes attached to a stock, with a pair of hammers to strike the two rounds it holds.",
@@ -26,6 +27,7 @@
   {
     "id": "pipe_shotgun_8ga",
     "copy-from": "shotgun_base",
+	"looks_like": "shotgun_s",
     "type": "GUN",
     "name": { "str": "pipe shotgun, 8 gauge" },
     "description": "A home-made shotgun.  It is simply a pipe attached to a stock, with a hammer to strike the single 8 gauge shell it holds. Its so crude, one may worry 8 gauge might damage it.",
@@ -59,6 +61,7 @@
   {
     "id": "shotgun_d_8ga",
     "copy-from": "shotgun_s_8ga",
+	"looks_like": "shotgun_d",
     "type": "GUN",
     "name": { "str": "double barrel shotgun" },
     "description": "An old 8 gauge shotgun, possibly antique.  It is little more than a pair of barrels, a wood stock, and a hammer to strike the cartridges.",
@@ -78,6 +81,7 @@
     "copy-from": "shotgun_1shot",
     "type": "GUN",
     "name": { "str": "single barrel shotgun, 8 gauge" },
+	"looks_like": "shotgun_s",
     "description": "An old 8 gauge shotgun, possibly antique.  It is little more than a barrel, a wood stock, and a hammer to strike the cartridge.  Its simple design keeps it both light and accurate.",
     "weight": "2494 g",
     "volume": "2044 ml",

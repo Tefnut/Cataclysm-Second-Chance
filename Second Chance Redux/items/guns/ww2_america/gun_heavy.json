@@ -1,7 +1,7 @@
 [
   {
     "id": "bazooka_m9",
-    "looks_like": "m79",
+    "looks_like": "LAW",
     "type": "GUN",
     "copy-from": "rocket_base",
     "reload_noise_volume": 10,

@@ -423,14 +423,72 @@
     "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
     "items": [
       [ "8ga_00", 15 ],
+	  [ "8ga_bird", 10 ],
 	  [ "8ga_dragon", 5 ],
 	  [ "8ga_flechette", 15 ],
 	  [ "8ga_he", 5 ],
-	  [ "8ga_slug", 15 ]
+	  [ "shot_00_magnum", 15 ],
+	  [ "shot_bird_magnum", 10 ],
+	  [ "shot_dragon_magnum", 5 ],
+	  [ "shot_flechette_magnum", 15 ],
+	  [ "shot_he_magnum", 5 ],
+	  [ "shot_slug_magnum", 15 ],
+	  [ "8ga_00_magnum", 5 ],
+	  [ "8ga_bird_magnum", 3 ],
+	  [ "8ga_dragon_magnum", 1 ],
+	  [ "8ga_flechette_magnum", 5 ],
+	  [ "8ga_he_magnum", 1 ],
+	  [ "8ga_slug_magnum", 5 ]
     ]
   },
   
-    {
+  {
+    "type": "item_group",
+    "id": "fridge_condiment_random",
+    "subtype": "distribution",
+    "entries": [
+      
+      { "group": "ketchup_green_sealed_rng", "prob": 30 },
+	  { "group": "ketchup_purple_sealed_rng", "prob": 30 },
+      { "item": "hotsauce", "charges-min": 1, "prob": 5 }
+      
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "ketchup_green_sealed_rng",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "ketchup_green", "prob": 4, "charges-min": 1 },
+      { "item": "ketchup_green", "prob": 1, "charges": 32, "container-item": "condiment_bottle_sealed" }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "ketchup_purple_sealed_rng",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "ketchup_purple", "prob": 4, "charges-min": 1 },
+      { "item": "ketchup_purple", "prob": 1, "charges": 32, "container-item": "condiment_bottle_sealed" }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "condiments",
+    "ammo": 75,
+    "magazine": 100,
+    "subtype": "distribution",
+    "entries": [
+      { "group": "ketchup_green_sealed_rng", "prob": 35 },
+	  { "group": "ketchup_purple_sealed_rng", "prob": 30 },
+	  { "item": "hotsauce", "prob": 25 }
+    ]
+  },
+  
+  {
     "type": "item_group",
     "id": "cannedfood",
     "items": [
@@ -460,14 +518,87 @@
     {
     "type": "item_group",
     "id": "fridgesnacks",
-    "items": [
-      [ "chiliburger", 8 ],
-	  [ "crab_imitation", 20 ],
-	  [ "citrusrush", 10 ],
-	  [ "kiwi_strawberry", 10 ],
-	  [ "pineapple_soda", 10 ],
-	  [ "cola_cocaine", 1 ],
-	  [ "jumpjuice", 1 ]
+    "subtype": "distribution",	
+	"entries": [
+      { "item": "chiliburger", "prob": 8 },
+      { "item": "pizza_junk", "prob": 12 },
+	  { "item": "fastfood_burrito", "prob": 12 },
+	  { "item": "fastfood_taco", "prob": 12 },
+	  { "item": "fastfood_quesadilla", "prob": 12 },
+	  { "item": "crab_imitation", "prob": 20 },
+	  { "item": "soda_tsunami_original", "prob": 20 },
+	  { "item": "citrusrush", "prob": 10 },
+	  { "item": "kiwi_strawberry", "prob": 10 },
+	  { "item": "pineapple_soda", "prob": 10 },
+	  { "item": "cola_cocaine", "prob": 1 },
+	  { "item": "jumpjuice", "prob": 1 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "fridge_leftovers_random",
+    "//": "More controlled selection than fridgesnacks, may warrant merging the two itemgroups in the future.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "chiliburger", "charges": [ 1, 2 ], "prob": 10 },
+	  { "item": "pizza_junk", "charges": [ 1, 2 ], "prob": 10 },
+	  { "item": "fastfood_burrito", "charges": [ 1, 2 ], "prob": 10 },
+	  { "item": "fastfood_taco", "charges": [ 1, 2 ], "prob": 10 },
+	  { "item": "fastfood_quesadilla", "charges": [ 1, 2 ], "prob": 10 }
+      
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "fridge_meat_random",
+    "//": "Includes meat substitutes.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "crab_imitation", "prob": 30 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "fridge_drinks_random",
+    "subtype": "distribution",
+    "entries": [
+      
+      { "item": "soda_tsunami_original", "count": [ 1, 4 ], "prob": 25, "container-item": "bottle_glass_tsunami" },
+      { "item": "soda_tsunami_original", "charges": [ 1, 2 ], "prob": 25, "container-item": "bottle_plastic_tsunami_small" },
+	  { "item": "soda_tsunami_original", "charges": [ 4, 10 ], "prob": 25, "container-item": "bottle_plastic_tsunami_large" },
+	  
+	  { "item": "cola_cocaine", "count": [ 1, 3 ], "prob": 1, "container-item": "bottle_glass" },
+	  
+	  { "item": "jumpjuice", "count": [ 1, 15 ], "prob": 1, "container-item": "jug_plastic" },
+	  
+	  { "item": "citrusrush", "count": [ 1, 6 ], "prob": 15 },
+      { "item": "citrusrush", "charges": [ 4, 8 ], "prob": 15, "container-item": "bottle_twoliter" },
+	  
+	  { "item": "pineapple_soda", "count": [ 1, 6 ], "prob": 15 },
+      { "item": "pineapple_soda", "charges": [ 4, 8 ], "prob": 15, "container-item": "bottle_twoliter" },
+
+	  
+	  { "item": "kiwi_strawberry", "count": [ 1, 6 ], "prob": 15 },
+      { "item": "kiwi_strawberry", "charges": [ 4, 8 ], "prob": 15, "container-item": "bottle_twoliter" }
+      
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "softdrinks_canned",
+    "subtype": "distribution",
+    "entries": [
+     
+      { "item": "soda_tsunami_original", "prob": 35 },
+	  { "item": "citrusrush", "prob": 25 },
+	  { "item": "pineapple_soda", "prob": 25 },
+	  { "item": "kiwi_strawberry", "prob": 25 },
+	  { "item": "cola_cocaine", "prob": 5 }
+      
     ]
   },
 
@@ -776,7 +907,7 @@
     "id": "everyday_gear",
     "items": [
       [ "wrist_comp_bad", 50 ],
-      [ "wrist_comp_budget", 180 ]
+      [ "wrist_comp_deluxe", 25 ]
     ]
   },
   
@@ -785,7 +916,7 @@
     "id": "electronics",
     "items": [
       [ "wrist_comp_bad", 20 ],
-	  [ "wrist_comp_budget", 10 ]
+	  [ "wrist_comp_deluxe", 5 ]
     ]
   },
   {
@@ -795,7 +926,7 @@
     "id": "consumer_electronics",
     "items": [
       [ "wrist_comp_bad", 50 ],
-	  [ "wrist_comp_budget", 25 ]
+	  [ "wrist_comp_deluxe", 5 ]
     ]
   },
   
@@ -808,8 +939,8 @@
     "items": [
       { "item": "wrist_comp_bad", "prob": 9, "charges-min": 0, "charges-max": 15 },
       { "item": "wrist_comp_bad", "prob": 1, "charges-min": 50, "charges-max": 50 },
-      { "item": "wrist_comp_budget", "prob": 9, "charges-min": 0, "charges-max": 15 },
-      { "item": "wrist_comp_budget", "prob": 1, "charges-min": 130, "charges-max": 130 }
+      { "item": "wrist_comp_deluxe", "prob": 3, "charges-min": 0, "charges-max": 599 },
+      { "item": "wrist_comp_deluxe", "prob": 1, "charges-min": 600, "charges-max": 1300 }
     ]
   }
   

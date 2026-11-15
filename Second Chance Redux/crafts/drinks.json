@@ -1,0 +1,17 @@
+[
+  {
+    "type": "recipe",
+    "result": "soda_tsunami_original_diy",
+    "result_mult": 6,
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "tools": [ [ [ "atomic_soda_machine", -1 ] ], [ [ "carbondioxide_tank", 1 ] ] ],
+    "difficulty": 1,
+    "time": "1m",
+    "batch_time_factors": [ 80, 1 ],
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "soda_tsunami_original_syrup", 1 ] ], [ [ "water_clean", 5 ] ] ]
+  }
+]

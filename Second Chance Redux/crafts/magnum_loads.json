@@ -1,0 +1,290 @@
+[
+   {
+    "result": "8ga_00_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 15 ] ],
+    "components": [
+      [ [ "8ga_casing_magnum", 1 ] ],
+	  [ [ "gunpowder", 12 ] ],
+      [ [ "lgrifle_primer", 1 ] ]
+    ]
+  },
+  
+  {
+    "result": "8ga_scrap_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ] ],
+    "components": [
+      [ [ "8ga_casing_magnum", 1 ] ],
+	  [
+        [ "scrap", 2 ],
+        [ "nail", 15 ],
+        [ "bb", 25 ],
+        [ "solder_wire", 15 ],
+        [ "platinum_small", 6 ],
+        [ "gold_small", 6 ],
+        [ "bearing", 8 ],
+        [ "lead", 11 ],
+        [ "silver_small", 11 ],
+        [ "bismuth", 11 ],
+        [ "shrapnel", 6 ]
+      ],
+	  [ [ "gunpowder", 12 ] ],
+      [ [ "lgrifle_primer", 1 ] ]
+    ]
+  },
+  
+  {
+    "result": "8ga_bird_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 15 ] ],
+    "components": [
+      [ [ "8ga_casing_magnum", 1 ] ],
+	  [ [ "gunpowder", 12 ] ],
+      [ [ "lgrifle_primer", 1 ] ]
+    ]
+  },
+  
+  {
+    "result": "8ga_slug_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 15 ] ],
+    "components": [
+      [ [ "8ga_casing_magnum", 1 ] ],
+	  [ [ "gunpowder", 12 ] ],
+      [ [ "lgrifle_primer", 1 ] ]
+    ]
+  },
+  
+  {
+    "result": "8ga_dragon_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 15 ] ],
+    "components": [
+      [ [ "8ga_casing_magnum", 1 ] ],
+	  [ [ "gunpowder", 12 ] ],
+	  [ [ "magnesium", 8 ] ],
+      [ [ "lgrifle_primer", 1 ] ]
+    ]
+  },
+  
+  {
+    "result": "8ga_flechette_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 15 ] ],
+    "components": [
+      [ [ "8ga_casing_magnum", 1 ] ],
+	  [ [ "gunpowder", 12 ] ],
+	  [ [ "combatnail", 15 ] ],
+      [ [ "lgrifle_primer", 1 ] ]
+    ]
+  },
+  
+  {
+    "result": "shot_00_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 10 ] ],
+    "components": [ [ [ "gunpowder", 9 ] ], [ [ "12ga_magnum_casing", 1 ] ], [ [ "shotgun_primer", 1 ] ] ]
+  },
+  
+  {
+    "result": "shot_bird_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 1 ], [ "manual_shotgun", 1 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet_birdshot", 10 ] ],
+    "components": [ [ [ "gunpowder", 4 ] ], [ [ "12ga_magnum_casing", 1 ] ], [ [ "shotgun_primer", 1 ] ] ]
+  },
+  
+  {
+    "result": "shot_dragon_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ] ],
+    "components": [ [ [ "gunpowder", 4 ] ], [ [ "magnesium", 5 ] ], [ [ "12ga_magnum_casing", 1 ] ], [ [ "shotgun_primer", 1 ] ] ]
+  },
+  {
+    "result": "shot_flechette_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 4 ], [ "manual_shotgun", 4 ] ],
+    "charges": 1,
+
+    "qualities": [ { "id": "CASING_PRESSING", "level": 1 } ],
+    "components": [ [ [ "gunpowder", 9 ] ], [ [ "combatnail", 10 ] ], [ [ "12ga_magnum_casing", 1 ] ], [ [ "shotgun_primer", 1 ] ] ]
+  },
+  
+  {
+    "result": "shot_slug_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 20 ] ],
+    "components": [ [ [ "gunpowder", 9 ] ], [ [ "12ga_magnum_casing", 1 ] ], [ [ "shotgun_primer", 1 ] ] ]
+  },
+  
+  {
+    "result": "shot_scrap_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "skills_required": [ "gun", 1 ],
+    "time": "2 m",
+    "batch_time_factors": [ 50, 5 ],
+    "autolearn": true,
+    "charges": 2,
+
+    "qualities": [ { "id": "CASING_PRESSING", "level": 1 } ],
+    "components": [
+      [ [ "gunpowder", 18 ] ], 
+	  [ [ "12ga_magnum_casing", 1 ] ], 
+	  [ [ "shotgun_primer", 1 ] ],
+      [
+        [ "scrap", 1 ],
+        [ "nail", 10 ],
+        [ "bb", 20 ],
+        [ "solder_wire", 10 ],
+        [ "platinum_small", 4 ],
+        [ "gold_small", 4 ],
+        [ "bearing", 5 ],
+        [ "lead", 7 ],
+        [ "silver_small", 7 ],
+        [ "bismuth", 7 ],
+        [ "copper", 7 ],
+        [ "cartridgebrass", 14 ],
+        [ "shrapnel", 4 ]
+      ]
+    ]
+  },
+  
+  {
+    "result": "shot_he_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "textbook_anarch", 4 ], [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ] ],
+    "components": [
+      [ [ "gunpowder", 5 ] ],
+      [ [ "military_explosive", 3, "LIST" ], [ "stable_explosive", 3, "LIST" ] ],
+      [ [ "impact_fuze", 1 ] ], 
+	  [ [ "12ga_magnum_casing", 1 ] ], 
+	  [ [ "shotgun_primer", 1 ] ]
+    ]
+  },
+  
+  {
+    "result": "410shot_000_magnum",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_SHOT",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "skills_required": [ "gun", 1 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "manual_shotgun", 2 ] ],
+    "charges": 1,
+    "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 5 ] ],
+    "components": [ [ [ "gunpowder", 5 ] ], [ [ "410shot_magnum_casing", 1 ] ], [ [ "shotgun_primer", 1 ] ] ]
+  }
+]

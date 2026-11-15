@@ -1,0 +1,12 @@
+[
+   {
+    "id": "collectible_sc",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "ttrpg_books", "prob": 2 },
+	  { "group": "weeb_books", "prob": 2 },
+	  { "group": "bloat_books", "prob": 2 }
+    ]
+  }
+]

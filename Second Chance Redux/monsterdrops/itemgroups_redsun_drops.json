@@ -1,0 +1,115 @@
+[
+
+   {
+    "id": "clothing_redsun",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Standard (non-winter) set of clothes worn by Red Sun.",
+    "items": [
+      { "item": "fatigues_redsun" },
+	  { "item": "service_cap_redsun" },
+      { "item": "belt_senninbari" },
+	  { "item": "headband_hachimaki" },
+      { "distribution": [ { "item": "socks", "prob": 95 }, { "item": "socks_wool", "prob": 5 } ] },
+      { "item": "boots_jump" },
+      {
+        "distribution": [
+          { "collection": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] },
+          { "distribution": [ { "item": "briefs" }, { "item": "boxer_briefs" }, { "item": "boxer_shorts" } ] }
+        ]
+      }
+    ]
+   },
+   
+   {
+    "id": "clothing_redsun_set",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Standard (non-winter) set of clothes and combat gear worn by Red Sun.",
+    "items": [
+      { "group": "clothing_redsun" },
+      { "item": "elbow_pads", "prob": 10 },
+      { "item": "knee_pads", "prob": 85 },
+      { "item": "helm_type92", "prob": 80 },
+      { "item": "gloves_tactical", "prob": 60 },
+      {
+        "distribution": [ { "group": "military_ballistic_vests_and_plates", "prob": 100 } ],
+        "prob": 90
+      },
+      {
+        "distribution": [ { "item": "nature_ghillie", "prob": 50 }, { "item": "urban_ghillie", "prob": 50 } ],
+        "prob": 5
+      },
+      { "item": "molle_pack", "prob": 85 },
+      { "group": "clothing_tactical_leg", "prob": 15 },
+      {
+        "distribution": [
+          { "group": "clothing_glasses", "prob": 60 },
+          { "item": "glasses_bal", "prob": 30 },
+          { "item": "goggles_nv", "prob": 5 },
+          { "item": "goggles_nv_enhanced", "prob": 1 },
+          { "item": "goggles_ir", "prob": 5 }
+        ],
+        "prob": 20
+      },
+      { "group": "clothing_watch", "prob": 5 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_redsun",
+    "items": [
+      { "group": "nested_type26", "prob": 50 },
+	  { "group": "nested_type14", "prob": 100 },
+	  { "group": "nested_type2", "prob": 5 },
+	  { "group": "nested_type100", "prob": 50 },
+	  { "group": "nested_type30", "prob": 75 },
+	  { "group": "nested_type30_carbine", "prob": 75 },
+	  { "group": "nested_type38", "prob": 50 },
+	  { "group": "nested_type38_carbine", "prob": 50 },
+	  { "group": "nested_type1_tera", "prob": 5 },
+	  { "group": "nested_type97", "prob": 50 },
+	  { "group": "nested_type96", "prob": 25 },
+	  { "group": "nested_type3", "prob": 25 },
+	  { "group": "nested_type99", "prob": 25 },
+	  { "group": "nested_type99_carbine", "prob": 25 },
+	  { "group": "nested_type99_sniper", "prob": 25 },
+	  { "group": "nested_type99_lmg", "prob": 10 },
+	  { "group": "nested_type92", "prob": 10 }
+	 ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_redsun_sidearm",
+    "items": [
+      { "group": "nested_type26", "prob": 50 },
+	  { "group": "nested_type14", "prob": 100 },
+	  { "group": "nested_type2", "prob": 5 }
+	 ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_redsun_long",
+    "items": [
+	  { "group": "nested_type100", "prob": 50 },
+	  { "group": "nested_type30", "prob": 75 },
+	  { "group": "nested_type30_carbine", "prob": 75 },
+	  { "group": "nested_type38", "prob": 50 },
+	  { "group": "nested_type38_carbine", "prob": 50 },
+	  { "group": "nested_type1_tera", "prob": 5 },
+	  { "group": "nested_type97", "prob": 50 },
+	  { "group": "nested_type96", "prob": 25 },
+	  { "group": "nested_type3", "prob": 25 },
+	  { "group": "nested_type99", "prob": 25 },
+	  { "group": "nested_type99_carbine", "prob": 25 },
+	  { "group": "nested_type99_sniper", "prob": 25 },
+	  { "group": "nested_type99_lmg", "prob": 10 },
+	  { "group": "nested_type92", "prob": 10 }
+	 ]
+  },
+
+
+]

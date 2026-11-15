@@ -2,6 +2,7 @@
   {
     "id": "9mmpenis",
     "copy-from": "9mm",
+	"looks_like": "9mm",
     "type": "AMMO",
     "name": { "str": "9x19mm Parabellend" },
     "description": "Some 9x19mm cartridges with rather... phallic projectiles. Exceptionally high pressure, they seem intended for 'maximum penetration'.",
@@ -24,6 +25,7 @@
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "dark_gray",
+	"looks_like": "50bmg",
     "count": 25,
     "stack_size": 10,
     "ammo_type": "50",
@@ -47,6 +49,7 @@
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
+	"looks_like": "45_super",
     "count": 30,
     "stack_size": 30,
     "ammo_type": "45",
@@ -61,13 +64,14 @@
   {
     "id": "shot_fys",
     "copy-from": "shot_slug",
+	"looks_like": "shot_dragon",
     "type": "AMMO",
     "name": { "str": "napalm slug" },
     "description": "A shotgun shell loaded with napalm. You've really went all out on the war crimes with this one, huh? Well, it should burn all the fur off the squirrels. Or set the woods on fire.",
     "price": "60 USD",
     "price_postapoc": "32 USD",
     "count": 5,
-    "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 0 },
+    "damage": { "damage_type": "heat", "amount": 30, "armor_penetration": 0 },
     "extend": { "effects": [ "PYROPHORIC" ] }
   }
 ]

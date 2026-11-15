@@ -1,7 +1,7 @@
 [
   {
     "id": "m1941_johnson",
-    "looks_like": "ar15",
+    "looks_like": "m1918",
     "type": "GUN",
     "copy-from": "rifle_manual",
     "reload_noise_volume": 10,
@@ -40,7 +40,7 @@
   },
   {
     "id": "m1919",
-    "looks_like": "ar15",
+    "looks_like": "m1918",
     "type": "GUN",
     "copy-from": "mg_base",
     "reload_noise_volume": 10,
@@ -80,7 +80,7 @@
   },
   {
     "id": "makeshift_stinger",
-    "looks_like": "ar15",
+    "looks_like": "m1919browning_stinger",
     "type": "GUN",
     "copy-from": "mg_base",
     "reload_noise_volume": 10,

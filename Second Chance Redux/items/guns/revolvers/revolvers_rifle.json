@@ -3,7 +3,7 @@
  {
     "id": "drehen_308",
     "copy-from": "rifle_manual",
-    "looks_like": "ar15",
+    "looks_like": "revolver_shotgun",
     "type": "GUN",
     "name": { "str_sp": "Drehenfeuer NS-308" },
     "description": "A revolver rifle made in germany, the Nachtschutze-308 is a powerful five shot revolver rifle, chambered in the powerful 7.62x51mm round. It was marketed primarily towards those who wanted to get a good shot from afar at night. While it didn't come with a supressor, or a night vision scope, at least not here in the states, those were still heavily marked towards purchasers of the gun.",
@@ -29,7 +29,7 @@
  {
     "id": "drehen_556",
     "copy-from": "rifle_manual",
-    "looks_like": "ar15",
+    "looks_like": "revolver_shotgun",
     "type": "GUN",
     "name": { "str_sp": "Drehenfeuer SG-556" },
     "description": "A revolver rifle made in germany, the Schleudergewehr-556 is a powerful nine shot revolver rifle, chambered in 5.56 NATO ammunition. Advertised for home defense, due to the affordability of it's ammo, its relatively popular among hobbyist shooters.",
@@ -55,7 +55,7 @@
    {
     "id": "drehen_50",
     "copy-from": "rifle_manual",
-    "looks_like": "ar15",
+    "looks_like": "revolver_shotgun",
     "type": "GUN",
     "name": { "str_sp": "Drehenfeuer SG-50" },
     "description": "A revolver rifle made in germany, the Schleudergewehr-50 is a powerful four shot revolver rifle, chambered in .50 BMG. Being as heavy as it is, it was advertised as a revolver for the big game hunter, or the marksman with an eye on power.",
@@ -81,7 +81,7 @@
    {
     "id": "drehen_700",
     "copy-from": "rifle_manual",
-    "looks_like": "ar15",
+    "looks_like": "revolver_shotgun",
     "type": "GUN",
     "name": { "str_sp": "Drehenfeuer DK-700" },
     "description": "A revolver rifle made in germany, the Drachenkanone-700 is a powerful three shot revolver rifle, chambered in .700 Nitro Express. It was sold for exceptionally high prices as a weapon for the rich and eccentric. It has an incredibly long barrel, allowing for long ranged, incredibly accurate shots.",

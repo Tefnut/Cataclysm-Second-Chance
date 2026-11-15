@@ -1,10 +1,10 @@
 [
 {
     "id": "m1941bigmag",
-    "looks_like": "stanag30",
+    "looks_like": "m1918bigmag",
     "type": "MAGAZINE",
     "name": { "str": "M1941 extended magazine" },
-    "description": "An aftermarket magazine for use with the Browning Automatic Rifle, holds 30 rounds.",
+    "description": "An aftermarket magazine for use with the m1941 \"Johnnygun\", holds 30 rounds of .30-06.",
     "weight": "300 g",
     "volume": "750 ml",
     "price": "85 USD",
@@ -20,10 +20,10 @@
   },
   {
     "id": "m1941mag",
-    "looks_like": "stanag30",
+    "looks_like": "m1918mag",
     "type": "MAGAZINE",
     "name": { "str": "M1941 magazine" },
-    "description": "A standard capacity magazine for use with the Browning Automatic Rifle, holds 20 rounds.",
+    "description": "A standard capacity magazine for use with the m1941 \"Johnnygun\", holds 20 rounds of .30-06.",
     "weight": "200 g",
     "volume": "500 ml",
     "price": "36 USD",

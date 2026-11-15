@@ -28,6 +28,7 @@
     "volume": "250 ml",
     "spoils_in": "1 day",
     "type": "COMESTIBLE",
+	"looks_like": "meat_cooked",
     "name": { "str": "spicy meat" },
 	   "conditional_names": [
       { "type": "FLAG", "condition": "CANNIBALISM", "name": "Spicy Scamp" },
@@ -42,6 +43,76 @@
     "calories": 402,
     "vitamins": [ [ "vitC", 16 ], [ "calcium", 2 ], [ "iron", 69 ], [ "vitB", 778 ] ],
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ]
+  },
+  
+  {
+  "id": "ketchup_green",
+  "type": "COMESTIBLE",
+  "symbol": "~",
+  "color": "green",
+  "name": "green ketchup",
+  "description": "A viscous paste of tomato, salt, and vinegar, dyed a neon green. At least, you think its tomato-based. Nowhere on the bottle was the word \"tomato\", even in the ingredients list, but there are \"other natural flavors,\" whatever that means...",
+  "price": "1875 cent",
+  "price_postapoc": "1 USD",
+  "material": [
+    "junk"
+  ],
+  "weight": "18 g",
+  "volume": "250 ml",
+  "comestible_type": "DRINK",
+  "container": "condiment_bottle_unsealed",
+  "calories": 21,
+  "flags": [
+    "NO_COOKING_BUFF"
+  ],
+  "charges": 16,
+  "fun": -6,
+  "phase": "liquid",
+  "vitamins": [
+    [
+      "veggy_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ]
+  },
+  
+  {
+  "id": "ketchup_purple",
+  "type": "COMESTIBLE",
+  "symbol": "~",
+  "color": "magenta",
+  "name": "purple ketchup",
+  "description": "A viscous paste of tomato, salt, and vinegar, dyed a vibrant magenta. You dont think this is legally food anymore..",
+  "price": "1875 cent",
+  "price_postapoc": "1 USD",
+  "material": [
+    "junk"
+  ],
+  "weight": "18 g",
+  "volume": "250 ml",
+  "comestible_type": "DRINK",
+  "container": "condiment_bottle_unsealed",
+  "calories": 21,
+  "flags": [
+    "NO_COOKING_BUFF"
+  ],
+  "charges": 16,
+  "fun": -6,
+  "phase": "liquid",
+  "vitamins": [
+    [
+      "veggy_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ]
   }
   
   

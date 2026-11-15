@@ -167,7 +167,7 @@
   
     {
     "id": "huaqing",
-    "looks_like": "ar15",
+    "looks_like": "m134",
     "copy-from": "gatling_base",
     "type": "GUN",
     "reload_noise_volume": 10,

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "seasoning_mild",
+    "type": "requirement",
+    "//": "Non-salt seasonings you might add to a dish to flavor it. Should be about a teaspoon, or smallest serving",
+    "components": [
+      [
+        [ "hotsauce", 1 ]
+      ]
+    ]
+  },
+  
+  {
+    "id": "condiment_lite",
+    "type": "requirement",
+    "//": " just the most 'vanilla' options",
+    "components": [ 
+	   [ 
+		 [ "ketchup_green", 1 ],
+		 [ "ketchup_purple", 1 ]
+	   ] 
+	  ]
+  },
+  
+  {
+    "id": "condiment",
+    "type": "requirement",
+    "//": " Should be about a teaspoon, or smallest serving",
+    "components": [ 
+	   [ 
+	     [ "hotsauce", 1 ], 
+	   ] 
+	  ]
+  }
+]

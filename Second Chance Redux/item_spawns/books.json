@@ -4,8 +4,75 @@
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
-      { "item": "mag_science_weird", "prob": 1 },
+      { "group": "ttrpg_books", "prob": 2 },
+	  { "group": "weeb_books", "prob": 2 },
+	  { "group": "bloat_books", "prob": 2 },
+	  { "item": "mag_science_weird", "prob": 1 },
 	  { "item": "mag_crackhead_engineering", "prob": 1 }
+    ]
+  },
+  
+  {
+    "id": "ttrpg_books",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "dnd_handbook", "prob": 10 },
+	  { "item": "pathfinder_guide_1", "prob": 5 },
+	  { "item": "pathfinder_guide_2", "prob": 5 },
+	  { "item": "ttrpg_book_erotic", "prob": 1 },
+	  { "item": "ttrpg_book_vore", "prob": 1 },
+	  { "item": "fatal_rpg_handbook", "prob": 1 }
+    ]
+  },
+  
+  {
+    "id": "weeb_books",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "manga_mewmew_1", "prob": 10 },
+	  { "item": "manga_mewmew_2", "prob": 10 },
+	  { "item": "manga_mewmew_3", "prob": 10 },
+	  { "item": "manga_mewmew_4", "prob": 10 },
+	  { "item": "manga_mewmew_5", "prob": 10 },
+	  { "item": "manga_monmusu_1", "prob": 10 },
+	  { "item": "manga_hellsing_1", "prob": 10 },
+	  { "item": "lightnovel_monmusu_job_1", "prob": 10 }
+	  
+    ]
+  },
+  
+  {
+    "id": "bloat_books",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "book_foxhunt", "prob": 10 },
+	  { "item": "book_kcks", "prob": 10 }
+	  
+    ]
+  },
+  
+  {
+    "id": "novels",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+	  { "group": "bloat_books", "prob": 4 }
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "games",
+    "items": [
+      [ "pathfinder_guide_1", 5 ],
+	  [ "pathfinder_guide_2", 5 ],
+	  [ "ttrpg_book_evil", 2 ],
+	  [ "ttrpg_book_erotic", 1 ],
+	  [ "ttrpg_book_vore", 1 ],
+	  [ "fatal_rpg_handbook", 1 ]
     ]
   }
 ]

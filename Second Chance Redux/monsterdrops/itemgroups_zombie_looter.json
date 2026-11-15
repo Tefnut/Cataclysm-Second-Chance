@@ -1,0 +1,113 @@
+[
+   
+  
+  {
+    "type": "item_group",
+    "id": "zombie_looter_bags",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "backpack_hiking", "prob": 15 },
+      { "item": "backpack_tactical_large", "prob": 15 },
+      { "item": "bigback", "prob": 15 },
+      { "item": "travelpack", "prob": 20 },
+      { "item": "duffelbag", "prob": 40 }
+    ]
+  },
+  
+  {
+    "id": "zombie_looter_single_roll",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "foodintincan", "prob": 200 },
+	  { "group": "MRE", "prob": 200 },
+	  { "group": "cannedfood", "prob": 150 },
+	  { "group": "big_canned_food", "prob": 150 },
+	  { "group": "preserved_food", "prob": 100 },
+	  { "group": "pet_food", "prob": 100 },
+	  
+	  { "group": "homebooks", "prob": 150 },
+	  { "group": "book_gunref", "prob": 100 },
+	  { "group": "book_military", "prob": 100 },
+	  { "group": "book_survival", "prob": 100 },
+	  { "group": "hardware_books", "prob": 100 },
+	  
+	  { "group": "antique_guns_with_ammo", "prob": 100 },
+	  { "group": "guns_pistol_common", "prob": 100 },
+	  { "group": "guns_rifle_common", "prob": 100 },
+	  { "group": "guns_smg_common", "prob": 100 },
+	  { "group": "guns_shotgun_common", "prob": 100 },
+	  
+	  { "group": "guns_pistol_rare", "prob": 50 },
+	  { "group": "guns_rifle_rare", "prob": 50 },
+	  { "group": "guns_smg_rare", "prob": 50 },
+	  { "group": "guns_shotgun_rare", "prob": 50 },
+	  
+	  { "group": "guns_pistol_obscure", "prob": 10 },
+	  { "group": "guns_rifle_obscure", "prob": 10 },
+	  { "group": "guns_smg_obscure", "prob": 10 },
+	  { "group": "guns_shotgun_rare", "prob": 10 },
+	  
+	  { "group": "sports", "prob": 100 },
+	  { "group": "camping", "prob": 100 },
+	  
+	  { "group": "electronics", "prob": 100 },
+	  
+	  { "group": "collectible_sc", "prob": 150 },
+	  { "group": "home_display_case", "prob": 50 },
+	  { "group": "house_safe_misc", "prob": 50 },
+	  { "group": "gemstones", "prob": 50 },
+	  { "group": "vault_good", "prob": 25 },
+	  { "group": "my_precious", "prob": 25 },
+	  { "group": "vault_bad", "prob": 50 },
+	  
+	  { "group": "arcade_prizes", "prob": 50 },
+	  
+	  { "group": "museum_primitive", "prob": 50 },
+	  { "group": "museum_melee", "prob": 50 },
+	  { "group": "museum_guns", "prob": 50 },
+	  { "group": "museum_misc", "prob": 50 },
+	  
+	  { "group": "guns_pistol_ww2", "prob": 50 },
+	  { "group": "guns_rifle_ww2", "prob": 50 },
+	  { "group": "guns_smg_ww2", "prob": 50 },
+	  { "group": "guns_shot_ww2", "prob": 25 },
+	  { "group": "guns_heavy_ww2", "prob": 5 },
+	  
+	  { "group": "fort_display_case", "prob": 50 },
+	  
+	  { "group": "pawn", "prob": 50 },
+	  { "group": "mil_surplus", "prob": 50 },
+	  
+	  { "group": "ss_merch_1", "prob": 50 },
+	  { "group": "ss_merch_2", "prob": 50 },
+	  { "group": "ss_merch_3", "prob": 50 },
+	  
+	  { "group": "stash_drugs", "prob": 50 },
+	  { "group": "drugs_misc", "prob": 50 },
+	  { "group": "drugs_pharmacy", "prob": 50 },
+	  { "group": "jar_weed", "prob": 50 },
+	  { "group": "softdrugs", "prob": 50 },
+	  { "group": "harddrugs", "prob": 50 },
+	  
+	  { "group": "tools_home", "prob": 50 },
+	  { "group": "tools_general", "prob": 50 },
+	  
+	  { "group": "cop_armory", "prob": 25 },
+	  { "group": "cop_evidence", "prob": 25 },
+	  { "group": "contraband", "prob": 25 },
+	  { "group": "fireman_gear", "prob": 25 },
+	  { "group": "lmoe_guns", "prob": 25 },
+	  
+	  { "group": "fishing_items", "prob": 25 },
+	  
+	  
+	  { "group": "subway", "prob": 5 },
+	  { "group": "sewer", "prob": 5 },
+	  
+	  { "group": "guns_redsun", "prob": 5 },
+	  
+	  { "group": "science", "prob": 1 }
+    ]
+  }
+]

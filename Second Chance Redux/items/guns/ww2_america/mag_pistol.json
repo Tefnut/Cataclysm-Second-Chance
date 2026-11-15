@@ -1,7 +1,7 @@
 [
   {
     "id": "m3mag",
-    "looks_like": "mp5mag",
+    "looks_like": "stenmag",
     "type": "MAGAZINE",
     "name": { "str": "M3 magazine" },
     "description": "A cheap 30-round steel box magazine for use with the M3.",

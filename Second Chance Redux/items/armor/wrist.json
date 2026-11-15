@@ -65,26 +65,30 @@
       "TRADER_AVOID"
     ]
   },
+  
+  
   {
     "type": "TOOL_ARMOR",
-    "id": "wrist_comp_budget",
-    "name": { "str": "wrist computer", "str_pl": "wrist computers" },
+    "id": "wrist_comp_deluxe",
+    "name": { "str": "Omoikane Industries Data-Arm", "str_pl": "Omoikane Industries Data-Arms" },
     "category": "clothing",
-    "volume": "1000 ml",
-    "description": "A fancy wrist-mounted computer, with a menagerie of useful features, such as SD reading, a built-in thermometer, and even a radiation monitor!",
-    "weight": "112 g",
+    "volume": "1250 ml",
+    "description": "The Omoikane Industries Data-Arm was the peak in pre-cataclysm wrist computer technology. Encased in a trendy translucent plastic shell, the Data-Arm has much more robust insides, featuring a heavier battery pack, and deluxe gadgets including a thermometer, camera, and even a dosimeter. These babies are fairly new, and incredibly expensive, top-of-the-line gear, that was intended for serious intellectuals to do serious work. It comes stock with apps for just about everything, from games, to music, to survival guides. Its said that some rare models have a shackled artificial intelligence within them, but this one just has the stock Omoikane digital assistant, a glorified search engine modelled after the Japanese kami of wisdom and intelligence for which the company got its name.",
+	"//": "Will eventually have more functionalities added, but for now, is just better in battery life.",
+    "weight": "250 g",
     "to_hit": -1,
     "color": "light_gray",
+	"looks_like": "wrist_comp_budget",
     "covers": [ "hand_either" ],
     "initial_charges": 500,
-    "max_charges": 600,
+    "max_charges": 1500,
     "charges_per_use": 1,
-    "price": "60 USD",
-    "price_postapoc": "1 USD",
+    "price": "600 USD",
+    "price_postapoc": "60 USD",
     "material": [ "plastic_trans" ],
     "use_action": [
       {
-        "target": "wrist_comp_budget_flashlight",
+        "target": "wrist_comp_deluxe_flashlight",
         "msg": "You activate the flashlight.",
         "active": true,
         "need_charges": 1,
@@ -92,7 +96,7 @@
         "type": "transform"
       },
 	  {
-        "target": "wrist_comp_budget_music",
+        "target": "wrist_comp_deluxe_music",
         "msg": "You put in the earbuds and start listening to music.",
         "active": true,
         "moves": 200,
@@ -127,17 +131,19 @@
     "ammo": [ "battery" ]
   },
   {
-    "id": "wrist_comp_budget_music",
+    "id": "wrist_comp_deluxe_music",
     "copy-from": "wrist_comp_budget",
     "type": "TOOL",
-    "name": { "str": "wrist computer - music", "str_pl": "wrist computers - music" },
+    "name": { "str": "Omoikane Industries Data-Arm - music", "str_pl": "Omoikane Industries Data-Arms - music" },
     "description": "This wrist computer is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
-    "power_draw": 300,
-    "revert_to": "wrist_comp_budget",
+    "power_draw": 200,
+	"//": "Deluxe version has 2/3 the power draw.",
+	"looks_like": "wrist_comp_budget_music",
+    "revert_to": "wrist_comp_deluxe",
     "use_action": [ 
 
       {
-        "target": "wrist_comp_budget",
+        "target": "wrist_comp_deluxe",
         "msg": "You take out your earbuds and stop listening to music.",
         "active": true,
         "moves": 200,
@@ -164,15 +170,17 @@
     "magazine_well": "250 ml"
   },
   {
-    "id": "wrist_comp_budget_flashlight",
-    "copy-from": "wrist_comp_budget",
+    "id": "wrist_comp_deluxe_flashlight",
+    "copy-from": "wrist_comp_deluxe",
     "type": "TOOL",
-    "name": { "str": "wrist computer - Flashlight", "str_pl": "wrist computers - Flashlight" },
-    "power_draw": 1500,
+    "name": { "str": "Omoikane Industries Data-Arm - Flashlight", "str_pl": "Omoikane Industries Data-Arms - Flashlight" },
+    "power_draw": 1000,
+	"//": "Deluxe version has 2/3 the power draw.",
+	"looks_like": "wrist_comp_budget_flashlight",
     "revert_to": "wrist_comp_budget",
     "use_action": [
       {
-        "target": "wrist_comp_budget",
+        "target": "wrist_comp_deluxe",
         "msg": "You deactivate the flashlight app.",
         "menu_text": "Turn off flashlight",
         "type": "transform"

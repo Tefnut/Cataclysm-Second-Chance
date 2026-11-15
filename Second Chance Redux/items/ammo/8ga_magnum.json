@@ -1,0 +1,119 @@
+[
+   {
+    "id": "8ga_casing_magnum",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "8 gauge magnum casing" },
+    "description": "An empty brass casing from an 8 gauge shotgun shell. Magnum shells are incredibly rare, you may want to hold onto these.",
+    "weight": "8 g",
+    "volume": "12 ml",
+	"looks_like": "50_casing",
+    "stackable": true,
+    "material": [ "brass" ],
+    "symbol": "=",
+    "color": "yellow",
+    "damage_states": [ 0, 0 ]
+  },
+  
+  {
+    "id": "8ga_00_magnum",
+    "type": "AMMO",
+    "name": { "str": "8 Gauge 00 shot, magnum" },
+    "description": "A shell filled with metal pellets.  Extremely damaging, plus the spread makes it very accurate at short range.  The \"magnum\" casing allows for a higher pressure load, getting better range, force, and penetration, but being louder and kicking harder.",
+    "weight": "32 g",
+    "volume": "250 ml",
+    "price": "5 USD",
+    "price_postapoc": "8 USD",
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "red",
+    "count": 20,
+    "stack_size": 20,
+    "ammo_type": "8ga",
+    "casing": "8ga_hull",
+    "range": 15,
+    "damage": { "damage_type": "bullet", "amount": 162 },
+    "recoil": 3000,
+    "loudness": 160,
+    "effects": [ "COOKOFF", "SHOT" ]
+  },
+
+  {
+    "id": "8ga_bird_magnum",
+    "copy-from": "8ga_00_magnum",
+    "type": "AMMO",
+    "name": { "str": "8 gauge birdshot, magnum" },
+    "description": "an 8 gauge shell loaded with a large amount of tiny pellets.  Designed for hunting birds and other small game, its applications in combat are very limited. The \"magnum\" casing allows for a higher pressure load, getting better range, force, and penetration, but being louder and kicking harder. While normally magnum birdshot seems like a terrible idea, this sort of narrow cone of concentrated lead might be effective.",
+    "price": "1 USD",
+    "price_postapoc": "4 USD",
+    "range": 0,
+    "damage": { "damage_type": "bullet", "amount": 91, "armor_multiplier": 3 },
+    "loudness": 100,
+    "shape": [ "cone", { "half_angle": 30, "length": 20 } ],
+    "extend": { "effects": [ "NOGIB" ] }
+  },
+
+  {
+    "id": "8ga_dragon_magnum",
+    "copy-from": "8ga_00_magnum",
+    "type": "AMMO",
+    "name": { "str": "8ga dragon's breath shell, magnum" },
+    "description": "An 8 gauge shotgun shell filled with magnesium pellets or shards, used mostly as a distress flare or pyrotechnics tool.  When the round is fired, high temperature sparks and flames shoot out of the barrel, igniting everything in their path. The \"magnum\" casing allows for a higher pressure load, getting better range, force, and penetration, but being louder and kicking harder.",
+    "price": "30 USD",
+    "price_postapoc": "36 USD",
+    "damage": { "damage_type": "heat", "amount": 80 },
+    "proportional": { "recoil": 0.6, "loudness": 0.8, "dispersion": 1.2 },
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 30, "length": 15 } ],
+    "extend": { "effects": [ "INCENDIARY", "STREAM", "NOGIB" ] }
+  },
+  
+  {
+    "id": "8ga_flechette_magnum",
+    "copy-from": "8ga_00_magnum",
+    "type": "AMMO",
+    "name": { "str": "8ga flechette shell, magnum" },
+    "description": "An 8 gauge shotgun shell filled with tiny steel darts.  Extremely damaging, plus the spread makes it very accurate at short range.  Slices through most forms of armor with ease. The \"magnum\" casing allows for a higher pressure load, getting better range, force, and penetration, but being louder and kicking harder.",
+    "price": "20 USD",
+    "price_postapoc": "8 USD",
+    "count": 10,
+    "relative": { "damage": { "damage_type": "bullet", "amount": -6, "armor_penetration": 16 } }
+  },
+  {
+    "id": "8ga_he_magnum",
+    "copy-from": "8ga_slug_magnum",
+    "type": "AMMO",
+    "name": { "str": "8 gauge explosive slug, magnum" },
+    "//": "$60/shot thanks to tight regulation, one way or another.",
+    "description": "An 8 gauge shotgun shell shooting a small explosive.  Damaging, but rather inaccurate and short ranged.  Banned in several states. The \"magnum\" casing allows for a higher pressure load, getting better range, force, and penetration, but being louder and kicking harder. Its like having a grenade launcher in shotgun form.",
+    "price": "60 USD",
+    "price_postapoc": "32 USD",
+    "count": 5,
+    "damage": { "damage_type": "bullet", "amount": 70, "armor_penetration": 0 },
+    "extend": { "effects": [ "EXPLOSIVE" ] }
+  },
+  {
+    "id": "8ga_scrap_magnum",
+    "copy-from": "8ga_00_magnum",
+    "type": "AMMO",
+    "name": { "str": "8 gauge 00 shot, scrap loaded, magnum" },
+    "description": "An 8 gauge shotgun shell, filled with whatever was lying around.  They are more damaging than birdshot, but fairly inaccurate. The \"magnum\" casing allows for a higher pressure load, getting better range, force, and penetration, but being louder and kicking harder.",
+    "proportional": { "price": 0.4, "damage": { "damage_type": "bullet", "amount": 0.6 }, "dispersion": 1.2 },
+    "extend": { "effects": [ "RECYCLED" ] },
+    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+  },
+  
+  {
+    "id": "8ga_slug_magnum",
+    "copy-from": "8ga_00_magnum",
+    "type": "AMMO",
+    "name": { "str": "8 gauge shotgun slug, magnum" },
+    "description": "A heavy 8 gauge metal slug used with shotguns to give them the range capabilities of a rifle.  Extremely damaging but rather inaccurate. The \"magnum\" casing allows for a higher pressure load, getting better range, force, and penetration, but being louder and kicking harder.",
+    "price": "6 USD",
+    "price_postapoc": "6 USD",
+    "dispersion": 100,
+    "relative": { "range": 16, "damage": { "damage_type": "bullet", "armor_penetration": 20 } },
+    "proportional": { "recoil": 1.4 },
+    "delete": { "effects": [ "SHOT" ] }
+  }
+]

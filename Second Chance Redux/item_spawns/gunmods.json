@@ -1,0 +1,19 @@
+[
+   {
+    "type": "item_group",
+    "id": "gunmod_common",
+    "//": "Common gunmods typically owned by citizens and found in many locations.",
+    "items": [
+      [ "alofs_12", 1 ]
+    ]
+  },
+   
+   {
+    "type": "item_group",
+    "id": "gunmod_rare",
+    "//": "Less common gunmods including those only used by police/paramilitary forces.",
+    "items": [
+      [ "alofs_12", 8 ]
+    ]
+  }
+]

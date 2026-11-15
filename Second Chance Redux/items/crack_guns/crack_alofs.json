@@ -1,0 +1,35 @@
+[
+   {
+    "id": "alofs_12_crack",
+    "category": "spare_parts",
+    "type": "TOOL",
+    "color": "light_gray",
+    "symbol": ",",
+    "looks_like": "llink",
+    "name": { "str": "Alofs Reloading Magazine, XL, 12 gauge" },
+    "description": "A custom, jury-rigged modification for 12 gauge break-action shotguns. When the breach is opened, it automatically pushes a new shell into place, turning a single barrel from 1 round, to 8+1+1.",
+    "price": "400 USD",
+    "price_postapoc": "250 cent",
+    "material": [ "steel" ],
+    "weight": "750 g",
+    "volume": "750 ml",
+    "to_hit": -1
+  },
+  
+  {
+    "id": "alofs_8_crack",
+    "category": "spare_parts",
+    "type": "TOOL",
+    "color": "light_gray",
+    "symbol": ",",
+    "looks_like": "llink",
+    "name": { "str": "Alofs Reloading Magazine, XL, 8 gauge" },
+    "description": "A custom, jurry-rigged modification for 8 gauge break-action shotguns. When the breach is opened, it automatically pushes a new shell into place, turning a single barrel from 1 round, to 5+1+1.",
+    "price": "400 USD",
+    "price_postapoc": "250 cent",
+    "material": [ "steel" ],
+    "weight": "1125 g",
+    "volume": "1125 ml",
+    "to_hit": -1
+  }
+]

@@ -32,6 +32,41 @@
       [ "underbarrel", 1 ]
     ],
     "magazines": [ [ "shot", [ "aa12boxmag", "aa12drummag", "aa12bigdrummag" ] ] ]
+  },
+  
+  {
+    "id": "shotgun_alofs_12",
+    "copy-from": "shotgun_base",
+	"looks_like": "shotgun_s",
+    "type": "GUN",
+    "name": { "str": "single shotgun (Alofs), 12ga" },
+    "description": "An antique or handmade break-action single shotgun hooked up with a unique device. The Alofs Reloading Magazine allows for automatic loading whenever the breach is opened, changing the capacity from 1, to 5+1+1, for a whopping 7 round capacity.",
+    "weight": "2994 g",
+    "volume": "2294 ml",
+	"//": "+500 weight and +500 volume for the Alofs device.",
+    "barrel_volume": "500 ml",
+    "price": "1600 USD",
+    "price_postapoc": "20 USD",
+    "material": [ "steel", "wood" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 210,
+    "durability": 9,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "muzzle", 1 ],
+      [ "mechanism", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "blackpowder_tolerance": 96,
+    "clip_size": 7,
+    "extend": { "flags": [ "RELOAD_ONE" ] }
   }
   
   

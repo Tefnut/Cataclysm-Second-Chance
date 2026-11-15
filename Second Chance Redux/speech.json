@@ -25,5 +25,56 @@
     "speaker": [ "astolfo_bean" ],
     "sound": "Lemme suck that dick",
     "volume": 10
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "BANZAI!",
+    "volume": 30
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "Give me your liver, gaijin!",
+    "volume": 20
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "Hai de sore o kanjite iru",
+    "volume": 20
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "Itami!",
+    "volume": 20
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "Hidoi geri o shite imasu!",
+    "volume": 20
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "Shi-ne!",
+    "volume": 20
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "Omae o korosu!",
+    "volume": 10
   }
+  
+  
 ]
