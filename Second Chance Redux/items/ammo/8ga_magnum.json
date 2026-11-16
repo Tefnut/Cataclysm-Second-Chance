@@ -30,7 +30,7 @@
     "count": 20,
     "stack_size": 20,
     "ammo_type": "8ga",
-    "casing": "8ga_hull",
+    "casing": "8ga_casing_magnum",
     "range": 15,
     "damage": { "damage_type": "bullet", "amount": 162 },
     "recoil": 3000,
