@@ -15,19 +15,118 @@
     "flags": [ "NO_SALVAGE" ]
   },
   
+  {
+  "type": "COMESTIBLE",
+  "id": "raw_sasquatch_fur",
+  "category": "spare_parts",
+  "name": "raw sasquatch pelt",
+  "weight": "114 g",
+  "volume": "170 ml",
+  "color": "brown",
+  "spoils_in": "1 day 12 hours",
+  "comestible_type": "FOOD",
+  "symbol": ",",
+  "quench": -20,
+  "healthy": -5,
+  "calories": 350,
+  "description": "A carefully folded raw skin harvested from a fur-bearing humanoid, you think it was sasquatch. Can be processed into a cured sasquatch pelt.",
+  "price": "330 cent",
+  "price_postapoc": "1 USD",
+  "material": [
+    "fur_sasquatch",
+    "flesh"
+  ],
+  "flags": [
+    "NO_SALVAGE",
+    "TRADER_AVOID",
+    "SMOKABLE"
+  ],
+  "smoking_result": "cured_sasquatch_pelt",
+  "stack_size": 1,
+  "fun": -24,
+  "vitamins": [
+    [
+      "meat_allergen",
+      1
+    ]
+  ]
+},
+
+ {
+  "type": "GENERIC",
+  "id": "cured_sasquatch_pelt",
+  "symbol": ",",
+  "color": "brown",
+  "name": {
+    "str": "cured sasquatch pelt"
+  },
+  "description": "A rolled up sasquatch hide which has been scraped of extraneous hair and flesh and treated to prevent decay.  It could be tanned and transformed into usable fur pelts.",
+  "price": "5 USD",
+  "price_postapoc": "10 USD",
+  "material": [
+    "fur_sasquatch",
+    "flesh"
+  ],
+  "flags": [
+    "NO_SALVAGE"
+  ],
+  "weight": "114 g",
+  "volume": "170 ml",
+  "category": "scrap_fabric",
+  "stackable": true,
+  "to_hit": -1
+    },
+  
     {
     "type": "GENERIC",
     "id": "fur_sasquatch",
     "symbol": ",",
     "color": "brown",
     "name": { "str": "sasquatch fur pelt" },
-    "description": "A small bolt of fur from a sasquatch.  Can be made into warm clothing.",
+    "description": "A small bolt of fur from a sasquatch.  Can be made into exceptionally warm clothing.",
     "price": "10 USD",
-    "price_postapoc": "1 USD",
+    "price_postapoc": "20 USD",
     "material": [ "fur_sasquatch", "leather" ],
     "flags": [ "NO_SALVAGE" ],
     "weight": "114 g",
     "volume": "250 ml",
     "category": "spare_parts"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "ceramic_armor_exalted",
+    "category": "scrap_ceramics",
+    "symbol": ",",
+    "color": "yellow",
+    "name": { "str": "otherworldly ceramic armor plate" },
+    "description": "A strange plate of a white ceramic material harvested from an otheworldly creature, similar to porcelain. It has both traits of ceramic, metal, and, terrifyingly, flesh...",
+    "price": "80 USD",
+    "price_postapoc": "1 USD",
+    "material": "ceramic_exalted",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "bashing": 4
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "ceramic_shard_exalted",
+    "symbol": "*",
+    "color": "white",
+    "name": { "str": "otherworldly ceramic shard" },
+    "description": "A broken shard of a porcelain-like material, harvested from an otherworldly creature.  It is heavy and has a somewhat sharp edge, but it's too irregular to cut properly. It feels like you could fuse shards together similar to welding metal...",
+    "material": "ceramic",
+    "flags": [ "TRADER_AVOID", "SHATTERS" ],
+    "weight": "750 g",
+    "volume": "250 ml",
+    "bashing": 5,
+    "cutting": 2,
+    "to_hit": -1,
+    "qualities": [ [ "BUTCHER", -66 ] ],
+    "stackable": true,
+    "category": "scrap_ceramics"
   }
+  
+  
   ]

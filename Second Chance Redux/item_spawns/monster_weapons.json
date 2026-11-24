@@ -1,0 +1,24 @@
+[
+  {
+    "id": "feral_humans_monster_weapon_butcher",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [ { "item": "knife_butcher", "prob": 75, "damage": [ 2, 4 ] }, { "item": "knife_carving", "prob": 25, "damage": [ 2, 4 ] }, { "item": "knife_meat_cleaver", "prob": 50, "damage": [ 2, 4 ] } ]
+  },
+  
+  {
+    "id": "feral_humans_monster_weapon_pan",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [ { "item": "pan", "prob": 75, "damage": [ 2, 4 ] }, { "item": "copper_pan", "prob": 25, "damage": [ 2, 4 ] }, { "item": "steel_pan", "prob": 25, "damage": [ 2, 4 ] } ]
+  },
+  
+  {
+    "id": "feral_humans_monster_weapon_bat",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [ { "item": "bat", "prob": 75, "damage": [ 2, 4 ] }, { "item": "bat_metal", "prob": 25, "damage": [ 2, 4 ] }, { "item": "bat_nerf", "prob": 5, "damage": [ 2, 4 ] } ]
+  }
+  
+  
+]

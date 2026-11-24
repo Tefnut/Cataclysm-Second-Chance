@@ -1,0 +1,29 @@
+[
+   {
+    "type": "effect_type",
+    "id": "exalted_mutagrowth",
+    "name": [ "Mutagenic Growth" ],
+    "desc": [ "Your body has mutated into a powerful new temporary form." ],
+    "apply_message": "Your muscles swell and your power increases.",
+    "remove_message": "Your body rapidly returns to normal.",
+    "rating": "good",
+    "max_intensity": 4,
+    "base_mods": { "per_mod": [ 1, 3 ], "dex_mod": [ 1, 3 ], "str_mod": [ 1, 5 ], "speed_mod": [ 5, 10 ] },
+    "scaling_mods": { "per_mod": [ 1, 3 ], "dex_mod": [ 1, 3 ], "str_mod": [ 1, 3 ], "speed_mod": [ 5, 10 ] }
+  },
+  
+  {
+    "type": "effect_type",
+    "id": "exalted_misstep",
+    "//": "Basically just paralyze poison set to work in a manner useful for spells.",
+    "name": [ "Mental Misstep" ],
+    "desc": [ "Your mind feels sluggish and clumsy." ],
+    "apply_message": "Your mind feels numb.",
+    "remove_message": "Your mind rapidly returns to normal.",
+    "rating": "bad",
+    "max_intensity": 20,
+    "int_dur_factor": "30 s",
+    "base_mods": { "int_mod": [ -1 ] },
+    "scaling_mods": { "int_mod": [ -0.07 ] }
+  }
+]

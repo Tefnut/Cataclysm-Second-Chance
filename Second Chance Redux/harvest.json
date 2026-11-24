@@ -1,0 +1,50 @@
+[
+   {
+    "id": "exalted_machine",
+    "type": "harvest",
+	"//": "For more basic converted creatures. Eventually replace blood and flesh with Exalted versions.",
+    "entries": [
+      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "ceramic_armor_exalted", "type": "skin", "mass_ratio": 0.15 },
+      { "drop": "ceramic_shard_exalted", "type": "skin", "mass_ratio": 0.04 },
+    ]
+  },
+  
+  {
+    "id": "exalted_machine_highshard",
+    "type": "harvest",
+	"//": "For much more intricate creatures. Eventually replace blood and flesh with Exalted versions",
+    "entries": [
+      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "ceramic_armor_exalted", "type": "skin", "mass_ratio": 0.15 },
+      { "drop": "ceramic_shard_exalted", "type": "skin", "mass_ratio": 0.25 },
+    ]
+  },
+  
+  {
+    "id": "sasquatch",
+    "//": "Not human!",
+    "type": "harvest",
+    "entries": [
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "sweetbread", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "kidney", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "stomach_large", "type": "offal", "mass_ratio": 0.005 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_sasquatch_fur", "type": "skin", "mass_ratio": 0.04 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
+    ]
+  }
+]

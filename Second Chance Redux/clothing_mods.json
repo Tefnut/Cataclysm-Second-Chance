@@ -1,0 +1,15 @@
+[
+   {
+    "type": "clothing_mod",
+    "id": "sasquatch_furred",
+    "flag": "sasquatch_furred",
+    "item": "sasquatch_fur",
+    "implement_prompt": "Line it with sasquatch fur",
+    "destroy_prompt": "Destroy sasquatch fur lining",
+    "mod_value": [
+      { "type": "encumbrance", "value": 1 },
+      { "type": "encumbrance", "value": 4, "proportion": [ "coverage" ] },
+      { "type": "warmth", "value": 75, "proportion": [ "coverage" ] }
+    ]
+  }
+]

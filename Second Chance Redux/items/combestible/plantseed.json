@@ -29,7 +29,7 @@
     "type": "COMESTIBLE",
     "name": { "str_sp": "bonsai olive pits" },
     "description": "Some bonsai olive pits, designed to make small olive trees.",
-    "seed_data": { "plant_name": "bonsai olive", "fruit": "olive_black", "byproducts": [ "withered" ], "grow": "91 days" }
+    "seed_data": { "plant_name": "bonsai olive", "fruit": "olive_black", "byproducts": [ "withered" ], "grow": "14 days" }
   },
   
     {
@@ -44,7 +44,7 @@
     "quench": 3,
     "healthy": 1,
     "calories": 46,
-    "description": "Tasty, juicy mutant berry. Can be used to make decent explosives.",
+    "description": "a tasty, juicy genetically modified berry. Can be used to make decent explosives.",
     "price": "4 USD",
     "price_postapoc": "1 USD",
     "material": "fruit",
@@ -61,7 +61,7 @@
     "type": "COMESTIBLE",
     "name": { "str_sp": "explosive barrel cactus seed" },
     "description": "Explosive Barrel Cactus seeds. Grow yourself an arsenal!",
-    "seed_data": { "plant_name": "explosive barrel cactus", "fruit": "barrel_cactus", "byproducts": [ "withered" ], "grow": "91 days" }
+    "seed_data": { "plant_name": "explosive barrel cactus", "fruit": "barrel_cactus", "byproducts": [ "withered" ], "grow": "14 days" }
   },
   
     {

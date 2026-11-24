@@ -1,0 +1,14 @@
+[
+   {
+    "id": "sport_helmets",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Protective clothing for motorbike riding.",
+    "items": [
+      { "item": "helmet_football", "prob": 100 },
+	  { "item": "helmet_bike", "prob": 100 },
+	  { "item": "helmet_ball", "prob": 100 },
+	  { "item": "helmet_skid", "prob": 100 }
+    ]
+  }
+]

@@ -1,0 +1,266 @@
+[
+   {
+    "type": "MONSTER_FACTION",
+    "name": "exalted",
+    "friendly": [ "defense_bot", "utility_bot" ],
+	"//": "They subjugate machines even easier than people.",
+    "neutral": [ "nether" ],
+	"hate": [ "blob", "cult", "zombie_aquatic", "zombie", "player" ],
+    "by_mood": [ "small_animal", "insect", "fish", "mi-go" ]
+  },
+  
+  {
+    "type": "SPECIES",
+    "id": "EXALTED",
+    "name": { "str": "Exalted" },
+    "description": "a creature of the Exalted Machine of Perfection.",
+    "fear_triggers": [ "HURT" ],
+    "footsteps": [
+      "grinding of ceramic",
+      "an ethereal hiss",
+      "a loud scraping",
+	  "horrible screeching"
+    ]
+  },
+  
+  {
+    "id": "mon_fox_exalted",
+    "type": "MONSTER",
+	"looks_like": "mon_dog_skeleton",
+    "name": { "str": "exalted fox", "str_pl": "exalted foxes" },
+    "description": "A what was once an ordinary fox, now covered in porcelain-like plating, flayed skin visible between the gasp. It approaches with a mix of curiosity and corruptive intent. It appears to be holding some kind of strange exotic object in its jaws.",
+	"//": "Based on the MTG card Vulpine Harvester",
+    "default_faction": "exalted",
+    "bodytype": "quadruped",
+    "species": [ "EXALTED" ],
+    "volume": "4750 ml",
+    "weight": "4750 g",
+    "hp": 30,
+    "speed": 150,
+    "material": [ "flesh" ],
+    "symbol": "d",
+    "color": "white",
+    "aggro_character": false,
+    "aggression": 100,
+    "morale": 30,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 9,
+    "melee_cut": 6,
+
+	"armor_bash": 10,
+    "armor_cut": 15,
+    "armor_stab": 15,
+    "armor_bullet": 10,
+    "armor_acid": 3,
+	
+    "dodge": 6,
+    "vision_night": 5,
+    "harvest": "exalted_machine",
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
+	
+	"//2": "Add death drops later with arcana compatability, they should drop essence.",
+	
+    "death_function": [ "AMIGARA", "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "WARM", "HIT_AND_RUN", "KEENNOSE", "BLEED" ]
+  },
+  
+  {
+  "id": "mon_exalted_convert",
+  "type": "MONSTER",
+  "looks_like": "mon_skeleton",
+  "name": {
+    "str": "exalted conscript"
+  },
+  "description": "This was once a human, you think. Now, however? Its an androgynous horrorshow of flayed skin, porcelain-like plates, and features no human normally has, fighting with terrifying purpose. Its ossified armor reflects small arms fire, as it tries to preach to you.",
+  "default_faction": "exalted",
+  "bodytype": "human",
+  "species": [
+    "EXALTED",
+    "HUMAN"
+  ],
+  "volume": "62500 ml",
+  "weight": "81500 g",
+  "hp": 100,
+  "speed": 10,
+  "attack_cost": 115,
+  "material": [
+    "flesh", "ceramic_exalted"
+  ],
+  "symbol": "Z",
+  "color": "white",
+  "aggression": 100,
+  "morale": 100,
+  "melee_skill": 4,
+  "melee_dice": 5,
+  "melee_dice_sides": 3,
+  "melee_cut": 2,
+  "grab_strength": 3,
+  "dodge": 2,
+  
+  "armor_bash": 12,
+  "armor_cut": 36,
+  "armor_stab": 36,
+  "armor_bullet": 48,
+  "armor_acid": 3,
+  "//": "Bash cut, stab, and bullet armor based on half the bash, cut, and bullet resist of a set of exalted ceramic ballistic plates. These are the grunts, they shouldn't be too tough.",
+  
+  "vision_night": 3,
+  "harvest": "exalted_machine",
+  
+  "//2": "Give some Exalted ceramic weapons",
+  
+  "special_attacks": [
+    [
+	  "PARROT",
+	  20
+	],
+	[
+      "GRAB",
+      7
+    ],
+    [
+      "scratch",
+      20
+    ]
+  ],
+
+  "//3": "Re-add death drops later with arcana compatability, they should drop essence.",
+
+  "death_function": [
+    "NORMAL"
+  ],
+  "//4": "Only a grunt, so doesnt get artifacts, whereas the foxes, priests, and angels either seek out artifacts or exploit them.",
+  "flags": [
+    "SEES",
+    "HEARS",
+    "SMELLS",
+	"PATH_AVOID_DANGER_2", 
+	"PRIORITIZE_TARGETS",
+    "WARM",
+    "BASHES",
+    "GROUP_BASH",
+    "POISON",
+    "BLEED",
+    "PUSH_MON"
+    ]
+  },
+
+  {
+    "id": "mon_exalted_priest",
+    "type": "MONSTER",
+    "name": { "str": "exalted priest" },
+    "description": "A strange being with alien anatomy, including flayed skin, and porcelain plates across its emaciated form. An uncannily long, extending neck leads to an armored, expressionless face, that nonetheless chants hymns. Its presence fills you with unnatural terror.",
+	"looks_like": "mon_skeleton",
+	"//": "appearance based on the Magic: The Gathering card Priests of Norn, Indoctrination Attendant, and Phyrexian Censor",
+    "default_faction": "exalted",
+    "bodytype": "human",
+    "species": [ "EXALTED" ],
+    "volume": "92500 ml",
+    "weight": "120 kg",
+    "hp": 210,
+    "speed": 100,
+    "material": [ "flesh", "ceramic_exalted" ],
+    "symbol": "&",
+    "color": "white",
+    "aggression": 100,
+    "morale": 30,
+    "melee_skill": 7,
+    "melee_dice": 4,
+    "melee_dice_sides": 6,
+    "melee_cut": 6,
+    "dodge": 4,
+	
+    "armor_bash": 16,
+    "armor_cut": 48,
+    "armor_stab": 48,
+    "armor_bullet": 62,
+    "armor_acid": 3,
+    "//2": "Bash cut, stab, and bullet armor based on 2/3 the bash, cut, and bullet resist of a set of exalted ceramic ballistic plates. These are meant to be a threat.",
+	
+    "vision_day": 50,
+    "vision_night": 20,
+    "harvest": "exalted_machine",
+    "path_settings": { "max_dist": 50 },
+    "special_attacks": [
+      [ "PARROT", 0 ],
+	  [ "FEAR_PARALYZE", 0 ],
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] }
+    ],
+    "death_function": [ "AMIGARA", "NORMAL" ],
+    "flags": [
+      "SEES",
+      "SMELLS",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "PATH_AVOID_DANGER_2",
+      "PRIORITIZE_TARGETS"
+    ]
+  },
+  
+  {
+  "id": "mon_exalted_angel",
+  "type": "MONSTER",
+  "name": {
+    "str": "exalted angel"
+  },
+  "description": "A creature resembling an angel of biblical myth, but with flayed red skin, and covered in pristine porcelain plates. It holds an otherworldly object in one hand. It scours the world on flayed wings in search of those it can make Perfect.",
+  "looks_like": "mon_skeleton",
+  "//": "design based on Phyrexian Angels like Apostle of Invasion, Bascilla Shepard, Shattered Angel, and Norn's Choirmaster",
+  "default_faction": "exalted",
+  "bodytype": "angel",
+  "species": [
+    "EXALTED"
+  ],
+  "diff": 8,
+  "volume": "92500 ml",
+  "weight": "120 kg",
+  "hp": 250,
+  "speed": 150,
+  "material": [  "flesh", "ceramic_exalted"   ],
+  "symbol": "H",
+  "color": "white",
+  "aggression": 100,
+  "morale": 100,
+  "melee_skill": 9,
+  "melee_dice": 3,
+  "melee_dice_sides": 4,
+  "melee_cut": 0,
+  "dodge": 2,
+  
+  "armor_bash": 24,
+    "armor_cut": 72,
+    "armor_stab": 72,
+    "armor_bullet": 96,
+    "armor_acid": 3,
+    "//2": "Bash cut, stab, and bullet armor based on the bash, cut, and bullet resist of a set of exalted ceramic ballistic plates. These are meant to be an EXTREME threat.",
+  
+  "harvest": "exalted_machine",
+  "special_attacks": [
+    [
+      "FEAR_PARALYZE",
+      0
+    ]
+  ],
+  "death_function": [
+    "AMIGARA",
+	"NORMAL"
+  ],
+  "flags": [
+    "SEES",
+    "HEARS",
+    "SMELLS",
+    "WARM",
+    "BLEED",
+    "HARDTOSHOOT",
+    "ATTACKMON",
+    "FLIES",
+    "POISON",
+    "PATH_AVOID_DANGER_2",
+    "PRIORITIZE_TARGETS"
+  ]
+  }
+]

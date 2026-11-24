@@ -1,0 +1,957 @@
+[
+  {
+   "id": "hat_fur_sasquatch",
+   "type": "ARMOR",
+   "name": {
+     "str": "sasquatch fur hat"
+           },
+   "description": "A hat made from the pelt of a sasquatch. Extremely warm. Part of you may feel a bit bad about wearing a skinned humanoid creature, but its fine, they probably eat babies, right?",
+   "weight": "246 g",
+   "volume": "750 ml",
+   "price": "500 USD",
+   "price_postapoc": "50 USD",
+   "material": [
+                "fur_sasquatch"
+               ],
+   "symbol": "[",
+   "looks_like": "hat_fur",
+   "color": "brown",
+   "covers": [ "head" ],
+   "coverage": 95,
+   "encumbrance": 10,
+   "warmth": 105,
+   "material_thickness": 3,
+   "valid_mods": [
+                   "resized_large",
+                   "resized_small"
+                 ],
+  "flags": [
+	"FANCY"
+  ]
+  },
+  
+  {
+  "id": "coat_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch fur coat"
+  },
+  "description": "A sasquatch fur coat with a couple small pockets.  Extremely warm, and super durable. Some people pre cataclysm would pay a fortune for something like this. Who knows, maybe some still will.",
+  "weight": "1677 g",
+  "volume": "5750 ml",
+  "price": "4500 USD",
+  "price_postapoc": "50 USD",
+  "to_hit": -5,
+  "material": [
+    "fur_sasquatch",
+    "cotton"
+  ],
+  "symbol": "[",
+  "looks_like": "coat_fur",
+  "color": "brown",
+  "covers": [
+    "torso",
+    "arms"
+  ],
+  "coverage": 95,
+  "encumbrance": 30,
+  "storage": "1 L",
+  "warmth": 120,
+  "material_thickness": 4,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ],
+  "environmental_protection": 2,
+  "flags": [
+    "VARSIZE",
+    "POCKETS",
+    "OUTER",
+    "ALLOWS_WINGS",
+	"FANCY"
+  ]
+ },
+ 
+ {
+  "id": "pants_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str_sp": "sasquatch fur pants"
+  },
+  "description": "A hefty pair of sasquatch fur-lined pants. Would go good with a sasquatch skull codpiece, you reckon.",
+  "weight": "920 g",
+  "volume": "4 L",
+  "price": "2000 USD",
+  "price_postapoc": "50 USD",
+  "to_hit": 1,
+  "material": [
+    "cotton",
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "pants_fur",
+  "color": "brown",
+  "covers": [
+    "legs"
+  ],
+  "coverage": 95,
+  "encumbrance": 20,
+  "storage": "1 L",
+  "warmth": 80,
+  "material_thickness": 3,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ],
+  "environmental_protection": 3,
+  "flags": [
+    "VARSIZE",
+    "POCKETS",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "boots_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of sasquatch fur boots",
+    "str_pl": "pairs of sasquatch fur boots"
+  },
+  "description": "Boots lined with sasquatch fur for warmth. The footprints are even modelled after the footprints of the sasquatch killed to make them. Neat!",
+  "weight": "1890 g",
+  "volume": "4500 ml",
+  "price": "1400 USD",
+  "price_postapoc": "50 USD",
+  "to_hit": -1,
+  "bashing": 1,
+  "material": [
+    "leather",
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "boots_fur",
+  "color": "brown",
+  "covers": [
+    "feet"
+  ],
+  "coverage": 90,
+  "encumbrance": 20,
+  "warmth": 90,
+  "material_thickness": 3,
+  "environmental_protection": 2,
+  "flags": [
+    "VARSIZE",
+    "WATERPROOF",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "gloves_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of sasquatch fur gloves",
+    "str_pl": "pairs of sasquatch fur gloves"
+  },
+  "description": "A pair of warm fur gloves.  They are somewhat cumbersome, and make your hands look much bigger.",
+  "weight": "400 g",
+  "volume": "1 L",
+  "price": "400 USD",
+  "price_postapoc": "50 USD",
+  "to_hit": 1,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "gloves_fur",
+  "color": "brown",
+  "covers": [
+    "hands"
+  ],
+  "coverage": 95,
+  "encumbrance": 30,
+  "warmth": 105,
+  "material_thickness": 3,
+  "valid_mods": [
+    "resized_large",
+    "resized_small"
+  ]
+},
+
+{
+  "id": "armor_farmor_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch fur body armor"
+  },
+  "description": "Thick body armor made from fur of a cryptid.  Warm and comfortable, perfect for fighting in a wintery forest.",
+  "weight": "3414 g",
+  "volume": "10 L",
+  "price": "1 kUSD",
+  "price_postapoc": "15 USD",
+  "to_hit": -5,
+  "bashing": 2,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "armor_farmor",
+  "color": "brown",
+  "covers": [
+    "legs",
+    "torso",
+    "arms"
+  ],
+  "coverage": 90,
+  "encumbrance": 25,
+  "storage": "1 L",
+  "warmth": 90,
+  "material_thickness": 4,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ],
+  "flags": [
+    "VARSIZE",
+    "POCKETS",
+    "WATERPROOF",
+    "STURDY",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "sasquatchsuit",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch suit"
+  },
+  "description": "A full body fursuit in the form of sasquatch, made of genuine sasquatch fur.  It is quite encumbering and has little storage but is very warm.",
+  "weight": "7033 g",
+  "volume": "12 L",
+  "price": "80000 USD",
+  "price_postapoc": "200 USD",
+  "to_hit": -3,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "wolfsuit",
+  "//": "looks like a wolf fursuit until I can sprite up a proper sasquatch suit.",
+  "color": "brown",
+  "covers": [
+    "legs",
+    "torso",
+    "arms",
+    "hands",
+    "head",
+    "feet",
+    "mouth",
+    "eyes"
+  ],
+  "coverage": 100,
+  "encumbrance": 30,
+  "storage": "1 L",
+  "warmth": 100,
+  "material_thickness": 7,
+  "environmental_protection": 2,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded",
+    "resized_large",
+    "resized_small"
+  ],
+  "flags": [
+    "OUTER",
+	"SUPER_FANCY"
+  ],
+  "qualities": [
+    [
+      "SLEEP_AID",
+      4
+    ]
+  ]
+},
+
+{
+  "id": "sasquatchsuit_fake",
+  "type": "ARMOR",
+  "name": {
+    "str": "faux fur sasquatch suit"
+  },
+  "description": "A full body fursuit in the form of sasquatch, made of faux fur.  It is quite encumbering and has little storage but is very warm. Perfect for all your scooby doo shenanigans.",
+  "weight": "7033 g",
+  "volume": "12 L",
+  "price": "8000 USD",
+  "price_postapoc": "20 USD",
+  "to_hit": -3,
+  "material": [
+    "faux_fur"
+  ],
+  "symbol": "[",
+  "looks_like": "wolfsuit",
+  "//": "looks like a wolf fursuit until I can sprite up a proper sasquatch suit.",
+  "color": "brown",
+  "covers": [
+    "legs",
+    "torso",
+    "arms",
+    "hands",
+    "head",
+    "feet",
+    "mouth",
+    "eyes"
+  ],
+  "coverage": 100,
+  "encumbrance": 30,
+  "storage": "1 L",
+  "warmth": 50,
+  "material_thickness": 7,
+  "environmental_protection": 2,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded",
+    "resized_large",
+    "resized_small"
+  ],
+  "flags": [
+    "OUTER",
+	"FANCY"
+  ],
+  "qualities": [
+    [
+      "SLEEP_AID",
+      4
+    ]
+  ]
+},
+
+{
+  "id": "scarf_fur_sasquatch",
+  "type": "TOOL_ARMOR",
+  "category": "clothing",
+  "looks_like": "scarf_fur",
+  "symbol": "[",
+  "color": "brown",
+  "name": {
+    "str": "sasquatch fur scarf",
+    "str_pl": "sasquatch fur scarves"
+  },
+  "description": "A long sasquatch fur scarf, worn over the mouth for warmth.  Use it to loosen it if you get too warm.",
+  "price": "900 USD",
+  "price_postapoc": "25 USD",
+  "material": [
+    "fur_sasquatch"
+  ],
+  "weight": "140 g",
+  "volume": "1 L",
+  "to_hit": -3,
+  "use_action": {
+    "type": "transform",
+    "msg": "You loosen your %s.",
+    "target": "scarf_fur_sasquatch_loose",
+    "menu_text": "Loosen"
+  },
+  "covers": [
+    "mouth"
+  ],
+  "flags": [
+    "OUTER",
+    "ALLOWS_MUZZLE",
+	"FANCY"
+  ],
+  "warmth": 105,
+  "environmental_protection": 3,
+  "encumbrance": 10,
+  "coverage": 85,
+  "material_thickness": 3
+},
+
+{
+  "id": "scarf_fur_sasquatch_loose",
+  "type": "TOOL_ARMOR",
+  "looks_like": "scarf_fur_loose",
+  "category": "clothing",
+  "repairs_like": "scarf_fur_sasquatch",
+  "symbol": "[",
+  "color": "brown",
+  "name": {
+    "str": "sasquatch fur scarf (loose)",
+    "str_pl": "sasquatch fur scarves (loose)"
+  },
+  "description": "A long sasquatchfur scarf, worn over the mouth for warmth.  Use it to wear it tighter if you get too cold.",
+  "price": "900 USD",
+  "price_postapoc": "25 USD",
+  "material": [
+    "fur"
+  ],
+  "weight": "140 g",
+  "volume": "1 L",
+  "to_hit": -3,
+  "revert_to": "scarf_fur_sasquatch",
+  "use_action": {
+    "type": "transform",
+    "msg": "You wrap your scarf a bit tighter.",
+    "target": "scarf_fur_sasquatch",
+    "menu_text": "Wrap tighter"
+  },
+  "covers": [
+    "mouth"
+  ],
+  "flags": [
+    "OUTER",
+    "ALLOWS_NATURAL_ATTACKS",
+    "ALLOWS_MUZZLE",
+	"FANCY"
+  ],
+  "warmth": 52,
+  "environmental_protection": 2,
+  "encumbrance": 10,
+  "coverage": 45,
+  "material_thickness": 3
+},
+
+{
+  "id": "cloak_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch fur cloak"
+  },
+  "description": "A heavy sasquatch fur cloak meant to be thrown over your body. Due to how thick sasquatch fur is, it may make a good defensive option.",
+  "weight": "1735 g",
+  "volume": "4 L",
+  "price": "2450 USD",
+  "price_postapoc": "75 USD",
+  "to_hit": -1,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "cloak_fur",
+  "color": "brown",
+  "covers": [
+    "torso",
+    "arms",
+    "legs"
+  ],
+  "coverage": 65,
+  "encumbrance": 6,
+  "warmth": 90,
+  "material_thickness": 2,
+  "environmental_protection": 3,
+  "flags": [
+    "OVERSIZE",
+    "HOOD",
+    "OUTER",
+    "WATERPROOF",
+    "RAINPROOF",
+    "ALLOWS_TAIL_SNAKE",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "duster_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch fur duster"
+  },
+  "description": "A thick sasquatch fur full-length duster.  Has many pockets for storage.",
+  "weight": "2362 g",
+  "volume": "9750 ml",
+  "price": "9790 USD",
+  "price_postapoc": "50 USD",
+  "to_hit": -1,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "duster_fur",
+  "color": "brown",
+  "covers": [
+    "torso",
+    "arms",
+    "legs"
+  ],
+  "coverage": 90,
+  "encumbrance": 19,
+  "storage": "6 L",
+  "warmth": 75,
+  "material_thickness": 3,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ],
+  "environmental_protection": 1,
+  "flags": [
+    "VARSIZE",
+    "POCKETS",
+    "OUTER",
+    "WATERPROOF",
+    "RAINPROOF",
+    "ALLOWS_TAIL_SNAKE",
+    "ALLOWS_WINGS",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "sleeveless_duster_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sleeveless sasquatch fur duster"
+  },
+  "//": "The general guideline for sleeveless dusters is the components, volume, weight, time to craft, and value are 15% lower (rounded down) than the original.  Making it from an original takes 50% the time.",
+  "description": "A thick sasquatch fur full-length duster without sleeves, leaving your arms unencumbered.  Has plenty of storage space due to its many pockets.",
+  "weight": "2007 g",
+  "volume": "8250 ml",
+  "price": "8321 USD",
+  "price_postapoc": "40 USD",
+  "to_hit": -1,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "sleevelss_duster_fur",
+  "color": "brown",
+  "covers": [
+    "torso",
+    "legs"
+  ],
+  "coverage": 90,
+  "encumbrance": 19,
+  "storage": "6 L",
+  "warmth": 75,
+  "material_thickness": 3,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ],
+  "environmental_protection": 1,
+  "flags": [
+    "VARSIZE",
+    "POCKETS",
+    "OUTER",
+    "WATERPROOF",
+    "RAINPROOF",
+    "ALLOWS_TAIL_SNAKE",
+    "ALLOWS_WINGS",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "trenchcoat_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "fur trenchcoat"
+  },
+  "description": "A thick fur sasquatch trenchcoat, lined with pockets.  Great for storage.",
+  "weight": "1750 g",
+  "volume": "7250 ml",
+  "price": "9790 USD",
+  "price_postapoc": "50 USD",
+  "to_hit": -1,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "trenchcoat_fur",
+  "color": "brown",
+  "covers": [
+    "torso",
+    "arms"
+  ],
+  "coverage": 90,
+  "encumbrance": 19,
+  "storage": "6 L",
+  "warmth": 75,
+  "material_thickness": 3,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ],
+  "environmental_protection": 1,
+  "flags": [
+    "VARSIZE",
+    "POCKETS",
+    "OUTER",
+    "ALLOWS_WINGS",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "sleeveless_trenchcoat_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sleeveless sasquatch fur trenchcoat"
+  },
+  "//": "The general guideline for sleeveless trenchcoats is the components, volume, weight, time to craft, and value are 15% lower (rounded down) than the original.  Making it from an original takes 50% the time.",
+  "description": "A thick sasquatch fur trenchcoat without sleeves, leaving your arms unencumbered.  Has plenty of storage space due to its many pockets.",
+  "weight": "1487 g",
+  "volume": "6750 ml",
+  "price": "8321 USD",
+  "price_postapoc": "40 USD",
+  "to_hit": -1,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "sleeveless_trenchcoat_fur",
+  "color": "brown",
+  "covers": [
+    "torso"
+  ],
+  "coverage": 90,
+  "encumbrance": 19,
+  "storage": "6 L",
+  "warmth": 75,
+  "material_thickness": 3,
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ],
+  "environmental_protection": 1,
+  "flags": [
+    "VARSIZE",
+    "POCKETS",
+    "OUTER",
+    "ALLOWS_WINGS",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "fur_blanket_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch fur blanket"
+  },
+  "description": "A heavy sasquatch fur blanket that covers most of your body. it looks luxuriously warm and useful for sleeping.",
+  "weight": "3500 g",
+  "volume": "8 L",
+  "price": "1950 USD",
+  "price_postapoc": "50 USD",
+  "to_hit": -1,
+  "material": [
+    "cotton",
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "blanket",
+  "color": "brown",
+  "covers": [
+    "torso",
+    "arms",
+    "hands",
+    "legs",
+    "feet"
+  ],
+  "coverage": 100,
+  "encumbrance": 55,
+  "warmth": 120,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [
+    "OVERSIZE",
+    "OUTER",
+    "ALLOWS_NATURAL_ATTACKS",
+    "ALLOWS_TAIL_SNAKE",
+    "ALLOWS_HOOVES",
+	"FANCY"
+  ],
+  "qualities": [
+    [
+      "SLEEP_AID",
+      4
+    ]
+  ]
+},
+
+{
+  "id": "loincloth_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch fur loincloth"
+  },
+  "description": "A stretch of sasquatch pelt tied into a loincloth.  Covers your modesty, but not much else.  Now you are a true barbarian warrior.",
+  "weight": "64 g",
+  "volume": "250 ml",
+  "price": "750 USD",
+  "price_postapoc": "25 USD",
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "loincloth_fur",
+  "color": "brown",
+  "covers": [
+    "legs"
+  ],
+  "coverage": 5,
+  "warmth": 8,
+  "material_thickness": 1,
+  "flags": [
+    "VARSIZE",
+    "SKINTIGHT",
+    "OVERSIZE",
+    "ALLOWS_TAIL_SNAKE",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "chestwrap_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "sasquatch fur chestwrap"
+  },
+  "description": "Sasquatch pelts wrapped around the chest.  Preserves your modesty and keeps things out of the way, but not good for much else.",
+  "weight": "154 g",
+  "volume": "750 ml",
+  "price": "250 USD",
+  "price_postapoc": "10 cent",
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "chestwrap_fur",
+  "color": "brown",
+  "covers": [
+    "torso"
+  ],
+  "coverage": 25,
+  "encumbrance": 5,
+  "warmth": 30,
+  "material_thickness": 1,
+  "flags": [
+    "SKINTIGHT",
+    "OVERSIZE",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "footrags_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of sasquatch fur foot wraps",
+    "str_pl": "pairs of sasquatch fur foot wraps"
+  },
+  "description": "Sasquatch pelts tied around your feet.  Not much of an improvement over being barefoot, still better than nothing.",
+  "weight": "135 g",
+  "volume": "500 ml",
+  "price": "70 USD",
+  "price_postapoc": "25 USD",
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "footrags_fur",
+  "color": "brown",
+  "covers": [
+    "feet"
+  ],
+  "coverage": 65,
+  "encumbrance": 4,
+  "warmth": 30,
+  "material_thickness": 1,
+  "flags": [
+    "SKINTIGHT",
+    "COMPACT",
+    "OVERSIZE",
+    "ALLOWS_NATURAL_ATTACKS",
+    "ALLOWS_HOOVES",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "gloves_wraps_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of sasquatch fur hand wraps",
+    "str_pl": "pairs of sasquatch fur hand wraps"
+  },
+  "description": "Pieces of sasquatch pelt that are meant to be wrapped around your hands.  Provide small amounts of protection while punching and performing other general mischief.",
+  "weight": "250 g",
+  "volume": "500 ml",
+  "price": "70 USD",
+  "price_postapoc": "25 USD",
+  "to_hit": 2,
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "gloves_wraps_fur",
+  "color": "brown",
+  "covers": [
+    "hands"
+  ],
+  "coverage": 50,
+  "encumbrance": 4,
+  "warmth": 30,
+  "material_thickness": 1,
+  "flags": [
+    "SKINTIGHT",
+    "OVERSIZE",
+    "COMPACT",
+    "ALLOWS_NATURAL_ATTACKS",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "stockings_snake_tail_fur_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "fur tail warmer"
+  },
+  "description": "An oversized leg warmer made of sasquatch fur.  Clearly designed for legless mutants, or an awkward tube skirt for more normal survivors.",
+  "weight": "1080 g",
+  "volume": "6000 ml",
+  "price": "120 USD",
+  "price_postapoc": "25 USD",
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "stockings_snake_tail_fur",
+  "color": "brown",
+  "covers": [
+    "feet",
+    "legs"
+  ],
+  "coverage": 90,
+  "encumbrance": 40,
+  "warmth": 75,
+  "material_thickness": 2,
+  "flags": [
+    "VARSIZE",
+    "SKINTIGHT",
+    "OVERSIZE",
+    "ALLOWS_HOOVES",
+    "ALLOWS_TAIL_SNAKE",
+    "WATERPROOF",
+	"FANCY"
+  ],
+  "copy-from": "stockings_snake_tail",
+  "valid_mods": [
+    "steel_padded",
+    "hard_steel_padded",
+    "alloy_padded"
+  ]
+},
+
+{
+  "id": "leg_warmers_f_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of sasquatch fur leggings",
+    "str_pl": "pairs of sasquatch fur leggings"
+  },
+  "description": "Snug fur sleeves to keep your legs warm.  Simple yet effective since prehistoric times.",
+  "weight": "694 g",
+  "volume": "1500 ml",
+  "price": "150 USD",
+  "price_postapoc": "25 USD",
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "leg_warmers_f",
+  "color": "brown",
+  "covers": [
+    "legs"
+  ],
+  "coverage": 60,
+  "encumbrance": 3,
+  "warmth": 60,
+  "material_thickness": 2,
+  "flags": [
+    "VARSIZE",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "leg_warmers_xlf_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of sasquatch pelt fetlock furs",
+    "str_pl": "pairs of sasquatch pelt fetlock furs"
+  },
+  "description": "Snug sasquatch fur sleeves to keep your fetlocks warm.",
+  "weight": "66 g",
+  "volume": "750 ml",
+  "price": "2500 USD",
+  "price_postapoc": "25 USD",
+  "material": [
+    "fur_sasquatch"
+  ],
+  "symbol": "[",
+  "looks_like": "leg_warmers_xlf",
+  "color": "brown",
+  "covers": [
+    "feet"
+  ],
+  "coverage": 60,
+  "encumbrance": 7,
+  "warmth": 60,
+  "material_thickness": 2,
+  "flags": [
+    "VARSIZE",
+    "OVERSIZE",
+    "ALLOWS_HOOVES",
+	"FANCY"
+  ]
+},
+
+{
+  "id": "mocassins_sasquatch",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of sasquatch fur moccasins",
+    "str_pl": "pairs of sasquatch fur moccasins"
+  },
+  "description": "Simple shoes made from sasquatch pelts.",
+  "weight": "230 g",
+  "volume": "500 ml",
+  "price": "500 USD",
+  "price_postapoc": "50 USD",
+  "material": [
+    "fur_sasquatch",
+    "leather"
+  ],
+  "symbol": "[",
+  "looks_like": "mocassins",
+  "color": "brown",
+  "covers": [
+    "feet"
+  ],
+  "coverage": 50,
+  "encumbrance": 2,
+  "warmth": 30,
+  "material_thickness": 2,
+  "flags": [
+    "VARSIZE",
+    "WATERPROOF",
+	"FANCY"
+  ]
+}
+
+
+
+
+]

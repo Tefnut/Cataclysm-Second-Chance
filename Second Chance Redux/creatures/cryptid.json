@@ -1,0 +1,94 @@
+[
+  {
+    "type": "SPECIES",
+    "id": "CRYPTID",
+    "name": { "str": "Cryptid" },
+    "description": "a creature of pre-cataclysm legend."
+  },
+   
+  {
+  "id": "mon_sasquatch",
+  "type": "MONSTER",
+  "name": {
+    "str": "sasquatch",
+	"str_pl": "sasquatches"
+  },
+  "description": "A massive furry humanoid, bigger than a person. You estimate it to be around 15 feet tall.",
+  "default_faction": "bear",
+  "//": "bear faction as placeholder.",
+  "bodytype": "human",
+  "species": [
+    "MAMMAL",
+	"CRYPTID"
+  ],
+  "volume": "235353 ml",
+  "weight": "249475 g",
+  "hp": 480,
+  "speed": 120,
+  "material": [
+    "flesh"
+  ],
+  "symbol": "@",
+  "color": "brown",
+  "aggression": 30,
+  "morale": 30,
+  "melee_skill": 6,
+  "melee_dice": 2,
+  "melee_dice_sides": 4,
+  "melee_cut": 0,
+  
+  "grab_strength": 4,
+  
+  "dodge": 3,
+  "harvest": "sasquatch",
+  "path_settings": {
+    "max_dist": 10
+  },
+  "special_attacks": [
+    [
+      "scratch",
+      15
+    ]
+  ],
+  "death_drops": {
+    "subtype": "collection",
+    "groups": [
+      [
+        "subway",
+        40
+      ],
+      [
+        "sewer",
+        20
+      ],
+      [
+        "trash",
+        5
+      ],
+      [
+        "bedroom",
+        5
+      ],
+      [
+        "dresser",
+        10
+      ],
+      [
+        "ammo",
+        18
+      ]
+    ]
+  },
+  "//2": "Keeping the C.H.U.D. drops for fun, and to draw into question, could this really be a human?",
+  "death_function": [
+    "NORMAL"
+  ],
+  "flags": [
+    "SEES",
+    "HEARS",
+    "WARM",
+    "BASHES",
+    "GROUP_BASH"
+  ]
+}
+]

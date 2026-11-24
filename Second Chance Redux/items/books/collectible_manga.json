@@ -73,7 +73,7 @@
   {
     "id": "manga_monmusu_1",
     "type": "BOOK",
-    "name": { "str": "Monster Musume: Volume 1", "str_pl": "Monster Musume: Volume 1" },
+    "name": { "str": "Monster Musume: Volume 1", "str_pl": "copies of Monster Musume: Volume 1" },
     "description": "A slice of life manga made by Okayado. What do world governments do when they learn that fantastical beings are not merely fiction, but flesh and blood-not to mention feather, hoof, and fang? Why, they create new regulations, of course, like the Interspecies Cultural Exchange Accord! When twenty-something Kurusu Kumihito becomes an involuntary \"volunteer\" in the government homestay program for monster girls, his world is turned upside down. A lamia named Miia is sent to live with him, and its Kimihito's job to make sure the sexy snake girl integrates into every day life. While cold-blooded Miia is hot for Kimihito, the penalties for interspecies breeding are dire. Even worse, when a buxom centaur girl and a scantily-clad harpy move into Kimihito's house, whats a full blooded young man with raging hormones to do?!",
 	"copy-from": "paperback_novel",
 	"looks_like": "mag_comic",
@@ -85,9 +85,135 @@
   },
   
   {
+    "id": "manga_kobayashi_color_1",
+    "type": "BOOK",
+    "name": { "str": "Miss Kobayashi's Dragon Maid in Color: Chromatic Edition", "str_pl": "copies of Miss Kobayashi's Dragon Maid in Color: Chromatic Edition" },
+    "description": "A special edition slice of life manga made by coolkyousinnjya, and published by Seven Seas Entertainment. Tohru, Kobayashi, and the rest of the gang from Miss Kobayashi's Dragon Maid leap off the page in full, vibrant color! Inspired by the full-color hundredth chapter of the popular manga seires, this volume collects the sexiest, funniest, and most poignant scenes and presents them in stunning color. Whether relaxing at a hot springs resort, fighting to protect their home, or visiting a faraway city, Tohru and her newfound family's colorful adventures are a delight to revisit.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "green",
+    "price": "1700 cent",
+	"//2": "Back of my copy says 16.99$, im not clarifying for inflation.",
+	"//3": "no volume number listed, so just Chromatic Edition.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_slime_1",
+    "type": "BOOK",
+    "name": { "str": "I've Been Killing Slimes for 300 Years and Maxed Out My Level: Volume 1", "str_pl": "copies of I've Been Killing Slimes for 300 Years and Maxed Out My Level: Volume 1" },
+    "description": "An isekai slice of life manga made by Kisetsu Morita, Yusuke Shiba, and Benio, published by Yen Press. From corporate slave to a laid-back witch - reincarnation's a pretty sweet deal. Or so Azusa believes until her maxed-out status comes to light... In this new manga adaptation of the original novel, nejoy the hilarity that ensues as Azusa attempts to evade all forms of adventure and regain her lazy life.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "green",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 13.00$, im not clarifying for inflation.",
+	"//3": "Only have the first volume for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_bureaucrat_1",
+    "type": "BOOK",
+    "name": { "str": "I Was A Bottom-Tier Buraeucrat for 1,500 Years, and the Demon King Made Me a Minister: Volume 1", "str_pl": "copies of I Was A Bottom-Tier Buraeucrat for 1,500 Years, and the Demon King Made Me a Minister: Volume 1" },
+    "description": "A fantasy manga made by Kisetsu Morita, Yusuke Shiba, and Benio, published by Yen Press. For 1,500 years, Beelzebub has happily taken it easy as a rank-and-file clerk. But her lazy lifestyle comes to an end when the new demon king suddenly promotes her to minister! Can she addopt the appearance and demeanor expected of the highest demon on the bureaucratic pyramid?",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "green",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 13.00$, im not clarifying for inflation.",
+	"//3": "Only have the first volume for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_zombie_1",
+    "type": "BOOK",
+    "name": { "str": "Is This a Zombie?: Volume 1", "str_pl": "copies of Is This a Zombie?: Volume 1" },
+    "description": "A fantasy manga made by Shinichi Kimura and Kobuichi Muririn. Life (or undeath?) isn't easy for Ayumu Aikawa. A seemingly normal high schooler, he is in fact a zombie serving as a bodyguard to an introverted necromancer. This already-complicated existence becomes even moure outlandish when he accidentally steals the powers of a \"Magikewl Girl,\" transforming into one himself!! How's a reanimated corpse supposed to keep his head on his shoulders with roommates like these girls around the house?",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "pink",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 13.00$, im not clarifying for inflation.",
+	"//3": "Only have the first volume for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_succubus_1",
+    "type": "BOOK",
+    "name": { "str": "Saki the Succubus Hungers Tonight: Volume 1", "str_pl": "copies of Saki the Succubus Hungers Tonight: Volume 1" },
+    "description": "An urban fantasy smut manga made by Mikokuno Homare. Saki-chan is a beautiful young woman and just a little naive. She may seem harmless as she wanders the streets, but beware - she's a brand-new succubus who thrives on the lust of men! She's just... Not very good at it yet. When she finds herself with an opportunity to move in with a 30-something man who's never slept with a woman before, she takes it, just like she'll take him!",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "red",
+    "price": "1400 cent",
+	"//2": "Back of my copy says 13.99$, im not clarifying for inflation.",
+	"//3": "Only have the first two volumes for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_nichijou_1",
+    "type": "BOOK",
+    "name": { "str": "Nichijou my ordinary life: Volume 1", "str_pl": "copies of Nichijou my ordinary life: Volume 1" },
+    "description": "A slice of life manga made by Keiichi Arawi. In this just-surreal-enough take on the \"school genre\" of manga, a group of friends (which includes a robot built by a child professor) grapple with all sorts of unexpected situations in their daily lives as high schoolers. The gags, jokes, puns, and haiku keep this series off-kilter even as the characters grow and change. Check out this new take on a storied genre and meet the new ordinary.",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "white",
+    "price": "1400 cent",
+	"//2": "Back of my copy says 13.99$, im not clarifying for inflation.",
+	"//3": "Only have the first two volumes for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_souleater_1",
+    "type": "BOOK",
+    "name": { "str": "Soul Eater: Volume 1", "str_pl": "copies of Soul Eater: Volume 1" },
+    "description": "An action manga made by Atsushi Ohkubo. Maka is a weapon meister, determined to turn her partner, a living scythe named Soul Eater, into a powerful death scythe - the ultimate weapon of Death himself! Charged with the task of reaping tainted souls, Maka and her fellow meisters strive to master their weapons as they face off against the bizarre and dangerous minions of the underworld. But the meisters' own personal quirks may prove a bigger obstacle than any sultry enchantress!",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "red",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 13.00$, im not clarifying for inflation.",
+	"//3": "Only have the first two volumes for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_tamamo_1",
+    "type": "BOOK",
+    "name": { "str": "Tamamo-Chan's a Fox!: Volume 1", "str_pl": "copies of Tamamo-Chan's a Fox!: Volume 1" },
+    "description": "An urban fantasy manga made by Yuuki Ray. Fushimi Tamamo is a fox from the Inari Shrine in Kyoto who longs to try high school life. She transforms into a human girl-but while she thinks she's nailed her disguise, she's a little furrier than she realized. Adults don't seem to notice, and her classmates pretend not to, but Tamamo is definitely shaking up their ordinary high school life!",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "white",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 13.00$, im not clarifying for inflation.",
+	"//3": "Only have the first two volumes for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
+    "id": "manga_tamamo_2",
+    "type": "BOOK",
+    "name": { "str": "Tamamo-Chan's a Fox!: Volume 2", "str_pl": "copies of Tamamo-Chan's a Fox!: Volume 2" },
+    "description": "An urban fantasy manga made by Yuuki Ray. It's an open secret among Tamamo's fellow students that she's actually a fox messenger of the goddess Inari. And now, with her older sister Tenko and younger sister Osaki joining in, the insanity is sure to escalate! But when students seeking to unmask her true form appear on the scene, is it all over for tamamo's slapstick high school adventure?!",
+	"copy-from": "paperback_novel",
+	"looks_like": "mag_comic",
+	"color": "white",
+    "price": "1300 cent",
+	"//2": "Back of my copy says 13.00$, im not clarifying for inflation.",
+	"//3": "Only have the first two volumes for now. I'll try and pick up more over time.",
+    "fun": 1
+  },
+  
+  {
     "id": "manga_hellsing_1",
     "type": "BOOK",
-    "name": { "str": "Hellsing: Volume 1", "str_pl": "Hellsing: Volume 1" },
+    "name": { "str": "Hellsing: Volume 1", "str_pl": "copies of Hellsing: Volume 1" },
     "description": "An action manga made by Kohta Hirano. There's a secret organization somewhere in England created to defend the Queen and country from monsters of all sorts. Enter Hellsing, an agency long in tooth, with the xperience, know-how, and... er... equipment, to handle the problems that arise when vampires, ghouls, and the like take to England's streets. \"What Equipment?\" you may ask. How about another vampire, souped up by generations of study and refinement, armed with a big pistol loaded with special silver bullets? That oughta do the trick.",
 	"copy-from": "paperback_novel",
 	"looks_like": "mag_comic",
@@ -101,7 +227,7 @@
   {
     "id": "lightnovel_monmusu_job_1",
     "type": "BOOK",
-    "name": { "str": "Monster Girls on the Job: Volume 1", "str_pl": "Monster Girls on the Job: Volume 1" },
+    "name": { "str": "Monster Girls on the Job: Volume 1", "str_pl": "copies of Monster Girls on the Job: Volume 1" },
     "description": "A slice-of-life light novel written by Yoshino Origuchi, on the Monster Musume setting made by Okayado. Ordinary twentysomething Kurusu Kimihito thought living with a bunch of monster girls was complicated enough, but there's a new directive sent down from the government: get a job! Now lamia Miia, centaur Centoria, and all your favorites have to join the working world, leading to sexy uniforms, on-the-job shenanigans, and all-new hilarity!",
 	"copy-from": "paperback_novel",
 	"looks_like": "mag_comic",
@@ -110,5 +236,37 @@
 	"//2": "Back of my copy says 12.99$, im not clarifying for inflation.",
 	"//3": "Only have the first volume for now. I'll try and pick up more over time.",
     "fun": 1
+  },
+  
+  {
+    "id": "encyclopedia_monstergirl_1",
+    "type": "BOOK",
+    "name": { "str": "Monster Girl Encyclopedia: Volume 1", "str_pl": "copies of the Monster Girl Encyclopedia: Volume 1" },
+    "description": "An erotic guidebook by Kenkou Cross. For mature monster girl fans only! The definitive source guide for the entire monster girl genre! Told from the perspective of a wandering scholar of monsters,this tantalizing tome includes 100 gorgeous full-color illustrations of seductively-dangerous monster girls. Replete with fascinating lore, elaborate bios, and intricate descriptions, this book has everything you ever wanted to know about monster girls, and more. From centaurs to succubi, from mermaids to slimes, from goblins to werecats - if it's a monster girl you seek, you will find her within these pages!",
+	"copy-from": "paperback_novel",
+	"looks_like": "holybook_kojiki",
+	"color": "black",
+    "price": "3000 cent",
+	"//2": "Back of my copy says 12.99$, im not clarifying for inflation.",
+	"//3": "got both volumes of this one.",
+    "fun": 1,
+    "flags": [ "INSPIRATIONAL" ],
+	"//4": "Inspirational because me and my friend group jokingly call these The Sacred Texts."
+  },
+  
+  {
+    "id": "encyclopedia_monstergirl_2",
+    "type": "BOOK",
+    "name": { "str": "Monster Girl Encyclopedia: Volume 2", "str_pl": "copies of the Monster Girl Encyclopedia: Volume 2" },
+    "description": "An erotic guidebook by Kenkou Cross. For mature monster girl fans only! Delve deeper, in this second volume of the definitive source guide to monster girls! The wandering scholar journeys on, chronicling an additional 100 bewitching, perilous monsters. Within these pages, an incredible diversity of races can be found, many of them living unique lives in marvelous environs. From the monsters of Wonderland to the seductive felines of the Kingdom of Cats, read this book and your most monstrous desires will surely be realized!",
+	"copy-from": "paperback_novel",
+	"looks_like": "holybook_kojiki",
+	"color": "black",
+    "price": "3000 cent",
+	"//2": "Back of my copy says 12.99$, im not clarifying for inflation.",
+	"//3": "got both volumes of this one.",
+    "fun": 1,
+    "flags": [ "INSPIRATIONAL" ],
+	"//4": "Inspirational because me and my friend group jokingly call these The Sacred Texts."
   }
 ]

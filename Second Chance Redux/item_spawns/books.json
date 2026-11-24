@@ -37,8 +37,18 @@
 	  { "item": "manga_mewmew_4", "prob": 10 },
 	  { "item": "manga_mewmew_5", "prob": 10 },
 	  { "item": "manga_monmusu_1", "prob": 10 },
+	  { "item": "manga_slime_1", "prob": 10 },
+	  { "item": "manga_bureaucrat_1", "prob": 10 },
+	  { "item": "manga_tamamo_1", "prob": 10 },
+	  { "item": "manga_tamamo_2", "prob": 10 },
+	  { "item": "manga_succubus_1", "prob": 10 },
+	  { "item": "manga_nichijou_1", "prob": 10 },
+	  { "item": "manga_souleater_1", "prob": 10 },
+	  { "item": "manga_kobayashi_color_1", "prob": 1 },
 	  { "item": "manga_hellsing_1", "prob": 10 },
-	  { "item": "lightnovel_monmusu_job_1", "prob": 10 }
+	  { "item": "lightnovel_monmusu_job_1", "prob": 10 },
+	  { "item": "encyclopedia_monstergirl_1", "prob": 1 },
+	  { "item": "encyclopedia_monstergirl_2", "prob": 1 }
 	  
     ]
   },

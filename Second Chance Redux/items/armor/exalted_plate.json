@@ -1,0 +1,24 @@
+[
+   {
+    "id": "ceramic_exalted_ballistic_plate",
+    "type": "ARMOR",
+    "name": { "str_sp": "otherworldly ceramic ballistic plates" },
+    "description": "A set of polygonal ballistic plates, made of a strange porcelain-like material. They are incredibly durable, even when compared to other forms of armor plates.",
+    "weight": "4 kg",
+    "volume": "4 L",
+    "price": "100 USD",
+    "price_postapoc": "20 USD",
+    "to_hit": -3,
+    "bashing": 6,
+    "material": [ "ceramic_exalted" ],
+    "looks_like": "esapi_plate",
+    "symbol": ",",
+    "color": "dark_gray",
+    "covers": [ "torso" ],
+    "coverage": 85,
+    "encumbrance": 6,
+    "warmth": 0,
+    "material_thickness": 8,
+    "flags": [ "OUTER", "ALLOWS_WINGS", "ARMOR_PLATE", "COMPACT" ]
+  }
+]

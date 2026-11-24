@@ -18,6 +18,38 @@
     "description": "A super-concentrated mutagen, red and sparkly.  You need a syringe to inject it… if you really want to?",
     "color": "red",
     "use_action": { "type": "mutagen_iv", "mutation_category": "KITSUNE" }
+  },
+  
+  {
+    "id": "mutagen_runoff",
+	"copy-from": "mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "Runoff" },
+    "description": "A street-drug made from the runoff of gene tailoring treatments. Highly illegal, but people buy it anyways. Taking it will send your nerves firing uncontrollably, and uncontrollably mutate you.",
+    "price": "2 USD",
+    "price_postapoc": "5 USD",
+    "comestible_type": "DRINK",
+    "spill_field": "fd_mutagen",
+    "category": "mutagen",
+    "weight": "250 g",
+    "volume": "250 ml",
+    "phase": "liquid",
+    "container": "flask_glass",
+    "symbol": "~",
+    "color": "light_green",
+    "healthy": -4,
+	"stim": 4,
+	"fun": 1,
+    "addiction_potential": 9,
+    "addiction_type": "mutagen",
+	"use_action": {
+      "type": "mutagen",
+	  "is_strong": true
+    },
+	"//": "todo: give more effects, maybe replace mutagen use action.",
+    "flags": [ "NUTRIENT_OVERRIDE" ],
+    "vitamins": [ [ "mutant_toxin", 2000 ] ],
+    "material": "water"
   }
 
 

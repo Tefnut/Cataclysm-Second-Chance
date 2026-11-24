@@ -1,0 +1,1113 @@
+[
+   {
+  "type": "recipe",
+  "result": "cured_sasquatch_pelt",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "survival",
+  "difficulty": 1,
+  "time": "5 m",
+  "autolearn": true,
+  "qualities": [
+    {
+      "id": "CUT",
+      "level": 1
+    }
+  ],
+  "components": [
+    [
+      [
+        "salt_water",
+        1
+      ],
+      [
+        "saline",
+        2
+      ],
+      [
+        "salt",
+        2
+      ]
+    ],
+    [
+      [
+        "raw_sasquatch_fur",
+        1
+      ]
+    ]
+  ]
+},
+
+{
+  "type": "recipe",
+  "result": "cured_sasquatch_pelt",
+  "id_suffix": "smoked",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "survival",
+  "skills_required": [
+    "cooking",
+    2
+  ],
+  "difficulty": 1,
+  "time": "20 m",
+  "batch_time_factors": [
+    80,
+    1
+  ],
+  "autolearn": true,
+  "qualities": [
+    {
+      "id": "CUT",
+      "level": 1
+    }
+  ],
+  "tools": [
+    [
+      [
+        "char_smoker",
+        5
+      ]
+    ]
+  ],
+  "components": [
+    [
+      [
+        "raw_sasquatch_fur",
+        1
+      ]
+    ]
+  ]
+},
+
+{
+  "type": "recipe",
+  "result": "fur_sasquatch",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "survival",
+  "difficulty": 3,
+  "time": "12 m",
+  "batch_time_factors": [
+    20,
+    10
+  ],
+  "autolearn": true,
+  "qualities": [
+    {
+      "id": "CUT",
+      "level": 1
+    },
+    {
+      "id": "COOK",
+      "level": 2
+    },
+    {
+      "id": "BOIL",
+      "level": 1
+    },
+    {
+      "id": "CONTAIN",
+      "level": 1
+    }
+  ],
+  "tools": [
+    [
+      [
+        "surface_heat",
+        4,
+        "LIST"
+      ]
+    ]
+  ],
+  "components": [
+    [
+      [
+        "water_clean",
+        1
+      ],
+      [
+        "water",
+        1
+      ]
+    ],
+    [
+      [
+        "tanbark",
+        1
+      ],
+      [
+        "acorns",
+        1
+      ],
+      [
+        "hops",
+        1
+      ],
+      [
+        "pine_bough",
+        1
+      ],
+      [
+        "brain",
+        1
+      ]
+    ],
+    [
+      [
+        "salt_water",
+        1
+      ],
+      [
+        "saline",
+        2
+      ],
+      [
+        "salt",
+        2
+      ]
+    ],
+    [
+      [
+        "edible_tallow_lard",
+        1,
+        "LIST"
+      ],
+      [
+        "tallow_tainted",
+        1
+      ]
+    ],
+    [
+      [
+        "cured_sasquatch_pelt",
+        1
+      ]
+    ]
+  ]
+},
+
+
+ {
+  "result": "hat_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HEAD",
+  "skill_used": "tailor",
+  "difficulty": 3,
+  "time": "30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      2
+    ],
+    [
+      "manual_tailor",
+      2
+    ],
+    [
+      "tailor_portfolio",
+      2
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      8
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        3
+      ]
+    ]
+  ]
+},
+
+   {
+  "result": "coat_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "difficulty": 4,
+  "time": "1 h 40 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_survival",
+      1
+    ],
+    [
+      "trappers_companion",
+      3
+    ],
+    [
+      "survival_book",
+      2
+    ],
+    [
+      "textbook_tailor",
+      3
+    ],
+    [
+      "tailor_portfolio",
+      3
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      20
+    ]
+  ],
+  "components": [
+    [
+      [
+        "rag",
+        11
+      ]
+    ],
+    [
+      [
+        "fur_sasquatch",
+        12
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "pants_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_LEGS",
+  "skill_used": "tailor",
+  "difficulty": 3,
+  "time": "40 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      2
+    ],
+    [
+      "manual_tailor",
+      2
+    ],
+    [
+      "tailor_portfolio",
+      2
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      18
+    ]
+  ],
+  "components": [
+    [
+      [
+        "rag",
+        10
+      ]
+    ],
+    [
+      [
+        "fur_sasquatch",
+        6
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "boots_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_FEET",
+  "skill_used": "tailor",
+  "difficulty": 4,
+  "time": "40 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      1
+    ],
+    [
+      "manual_tailor",
+      1
+    ],
+    [
+      "tailor_portfolio",
+      1
+    ],
+    [
+      "textbook_survival",
+      1
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      13
+    ]
+  ],
+  "components": [
+    [
+      [
+        "leather",
+        7
+      ]
+    ],
+    [
+      [
+        "fur_sasquatch",
+        7
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "gloves_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HANDS",
+  "skill_used": "tailor",
+  "difficulty": 2,
+  "time": "16 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "manual_tailor",
+      1
+    ],
+    [
+      "textbook_survival",
+      1
+    ],
+    [
+      "pocket_survival",
+      1
+    ],
+    [
+      "textbook_tailor",
+      1
+    ],
+    [
+      "tailor_portfolio",
+      1
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      6
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        4
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "armor_farmor_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_SUIT",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "time": "1 h 30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      3
+    ],
+    [
+      "tailor_portfolio",
+      3
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      68
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        48
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "sasquatchsuit",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_SUIT",
+  "skill_used": "tailor",
+  "difficulty": 7,
+  "time": "5 h",
+  "autolearn": true,
+  "using": [
+    [
+      "sewing_standard",
+      200
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        60
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "sasquatchsuit_fake",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_SUIT",
+  "skill_used": "tailor",
+  "difficulty": 7,
+  "time": "5 h",
+  "autolearn": true,
+  "using": [
+    [
+      "sewing_standard",
+      200
+    ]
+  ],
+  "components": [
+    [
+      [
+        "faux_fur",
+        30
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "scarf_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HEAD",
+  "skill_used": "tailor",
+  "difficulty": 2,
+  "time": "20 m",
+  "reversible": true,
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      1
+    ],
+    [
+      "manual_tailor",
+      1
+    ],
+    [
+      "tailor_portfolio",
+      1
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      3
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        4
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "cloak_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_SUIT",
+  "skill_used": "tailor",
+  "difficulty": 3,
+  "time": "25 m",
+  "reversible": true,
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_survival",
+      1
+    ],
+    [
+      "survival_book",
+      1
+    ],
+    [
+      "textbook_tailor",
+      1
+    ],
+    [
+      "manual_tailor",
+      1
+    ],
+    [
+      "tailor_portfolio",
+      1
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      18
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        15
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "duster_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "difficulty": 3,
+  "time": "1 h 30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      2
+    ],
+    [
+      "manual_tailor",
+      2
+    ],
+    [
+      "tailor_portfolio",
+      2
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      60
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        40
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "sleeveless_duster_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "difficulty": 3,
+  "time": "1 h 30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      2
+    ],
+    [
+      "manual_tailor",
+      2
+    ],
+    [
+      "tailor_portfolio",
+      2
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      50
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        34
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "sleeveless_duster_fur_sasquatch",
+  "type": "recipe",
+  "id_suffix": "from_duster_fur_sasquatch",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "time": "6 m",
+  "autolearn": true,
+  "byproducts": [
+    [
+      "fur_sasquatch",
+      6
+    ]
+  ],
+  "qualities": [
+    {
+      "id": "CUT",
+      "level": 1
+    }
+  ],
+  "flags": [
+    "NO_RESIZE"
+  ],
+  "components": [
+    [
+      [
+        "duster_fur_sasquatch",
+        1
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "trenchcoat_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "difficulty": 4,
+  "time": "1 h 30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      2
+    ],
+    [
+      "manual_tailor",
+      2
+    ],
+    [
+      "tailor_portfolio",
+      2
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      45
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        30
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "sleeveless_trenchcoat_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "difficulty": 4,
+  "time": "1 h 30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      2
+    ],
+    [
+      "manual_tailor",
+      2
+    ],
+    [
+      "tailor_portfolio",
+      2
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      38
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        28
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "sleeveless_trenchcoat_fur_sasquatch",
+  "type": "recipe",
+  "id_suffix": "from_trenchcoat_fur_sasquatch",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "time": "6 m",
+  "autolearn": true,
+  "byproducts": [
+    [
+      "fur_sasquatch",
+      2
+    ]
+  ],
+  "qualities": [
+    {
+      "id": "CUT",
+      "level": 1
+    }
+  ],
+  "flags": [
+    "NO_RESIZE"
+  ],
+  "components": [
+    [
+      [
+        "trenchcoat_fur_sasquatch",
+        1
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "fur_blanket_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "tailor",
+  "difficulty": 1,
+  "skills_required": [
+    "survival",
+    1
+  ],
+  "time": "70 m",
+  "reversible": true,
+  "decomp_learn": 0,
+  "autolearn": true,
+  "using": [
+    [
+      "sewing_standard",
+      24
+    ]
+  ],
+  "components": [
+    [
+      [
+        "rag",
+        30
+      ]
+    ],
+    [
+      [
+        "fur_sasquatch",
+        10
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "loincloth_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_LEGS",
+  "skill_used": "tailor",
+  "time": "3 m",
+  "autolearn": true,
+  "reversible": true,
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        2
+      ],
+      [
+        "cured_sasquatch_pelt",
+        2
+      ]
+    ]
+  ],
+  "flags": [
+    "BLIND_HARD"
+  ]
+},
+
+{
+  "result": "chestwrap_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_TORSO",
+  "skill_used": "tailor",
+  "time": "1 m 30 s",
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        12
+      ],
+      [
+        "cured_sasquatch_pelt",
+        12
+      ]
+    ]
+  ],
+  "flags": [
+    "BLIND_HARD"
+  ]
+},
+
+{
+  "result": "footrags_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_FEET",
+  "skill_used": "tailor",
+  "time": "1 m 30 s",
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        9
+      ],
+      [
+        "cured_sasquatch_pelt",
+        9
+      ]
+    ]
+  ],
+  "flags": [
+    "BLIND_HARD"
+  ]
+},
+
+{
+  "result": "gloves_wraps_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HANDS",
+  "skill_used": "tailor",
+  "time": "1 m 30 s",
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        6
+      ],
+      [
+        "cured_sasquatch_pelt",
+        6
+      ]
+    ]
+  ],
+  "flags": [
+    "BLIND_HARD"
+  ]
+},
+
+{
+  "result": "stockings_snake_tail_fur_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_LEGS",
+  "skill_used": "tailor",
+  "difficulty": 2,
+  "time": "75 m",
+  "autolearn": true,
+  "using": [
+    [
+      "sewing_standard",
+      36
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        45
+      ]
+    ]
+  ]
+},
+
+{
+  "type": "recipe",
+  "result": "leg_warmers_f_sasquatch",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_LEGS",
+  "skill_used": "tailor",
+  "difficulty": 2,
+  "time": "20 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      1
+    ],
+    [
+      "manual_tailor",
+      1
+    ],
+    [
+      "tailor_portfolio",
+      1
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      10
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        6
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "leg_warmers_xlf_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_LEGS",
+  "skill_used": "tailor",
+  "difficulty": 2,
+  "time": "30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_tailor",
+      1
+    ],
+    [
+      "manual_tailor",
+      1
+    ],
+    [
+      "tailor_portfolio",
+      1
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      10
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        10
+      ]
+    ]
+  ]
+},
+
+{
+  "result": "mocassins_sasquatch",
+  "type": "recipe",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_FEET",
+  "skill_used": "tailor",
+  "difficulty": 1,
+  "time": "30 m",
+  "autolearn": true,
+  "book_learn": [
+    [
+      "textbook_survival",
+      0
+    ],
+    [
+      "pocket_survival",
+      0
+    ],
+    [
+      "textbook_tailor",
+      0
+    ],
+    [
+      "manual_tailor",
+      0
+    ],
+    [
+      "tailor_portfolio",
+      0
+    ]
+  ],
+  "using": [
+    [
+      "sewing_standard",
+      5
+    ]
+  ],
+  "components": [
+    [
+      [
+        "fur_sasquatch",
+        2
+      ]
+    ]
+  ]
+}
+
+
+]

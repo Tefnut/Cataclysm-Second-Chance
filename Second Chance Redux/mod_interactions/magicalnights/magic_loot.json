@@ -1,0 +1,9 @@
+[
+   {
+    "id": "spellbook_tier_3",
+    "type": "item_group",
+    "items": [
+      [ "exalted_spellbook", 5 ]
+    ]
+  }
+]

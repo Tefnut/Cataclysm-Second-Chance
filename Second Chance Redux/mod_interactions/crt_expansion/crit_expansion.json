@@ -1,0 +1,32 @@
+[
+   {
+    "id": "crt_explosive_pellet",
+    "copy-from": "crt_pellet",
+    "type": "AMMO",
+    "name": ".117 explosive pellets",
+    "description": "Ever seen a squirrel just explode? Cci size 11 percussion caps fit perfectly on most .117 caliber air rifle pellets. Not only that, but if you use hollow points you can get some bp or smokeless in there and REALLY piss off your neighbors and game commission.",
+    "material": "steel",
+    "symbol": "=",
+    "color": "dark_gray",
+    "loudness": 65,
+    "speed": 350,
+    "relative": { "price": "5 USD", "damage": { "damage_type": "bullet", "amount": 6, "armor_penetration": 2 }, "dispersion": 20 },
+    "effects": [ "NOGIB", "NEVER_MISFIRES", "AMMO_SHOT_HE", ]
+  },
+  
+  {
+    "result": "crt_explosive_pellet",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "crackhead_engineering",
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ], ["fabrication", 4] ],
+    "time": "90 s",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "mag_rifle", 4 ] ],
+    "charges": 1,
+    "components": [ [ [ "lead", 1 ] ], [[ "smpistol_primer", 1 ], ["lgpistol_primer", 1] ], [[ "gunpowder", 1], [ "chem_black_powder", 3 ]] ],
+    "using": [ [ "bullet_forming", 1 ] ]
+  }
+]

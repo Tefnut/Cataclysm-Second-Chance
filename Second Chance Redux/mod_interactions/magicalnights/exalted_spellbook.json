@@ -1,0 +1,28 @@
+[
+   {
+    "id": "exalted_spellbook",
+    "type": "GENERIC",
+    "category": "spellbooks",
+    "name": { "str": "The Porcelain Hymns", "str_pl": "copies of The Porcelain Hymns" },
+    "//": "The spells of the Exalted Machine",
+	"looks_like": "biomancer_spellbook",
+    "description": "A mysterious book of flesh and ceramic... it doesnt feel right. Written in a strange language, it seems to speak to you when you try to understand it.",
+    "weight": "355 g",
+    "volume": "500 ml",
+    "price": "50 USD",
+    "symbol": "?",
+    "color": "red",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "exalted_corrosivegale",
+        "exalted_mutagrowth",
+        "exalted_torturoustrauma",
+        "exalted_surgical_extraction",
+        "exalted_dismember",
+        "exalted_misstep",
+        "exalted_marrowshards"
+      ]
+    }
+  }
+]

@@ -73,7 +73,7 @@
     "name": { "str": "Omoikane Industries Data-Arm", "str_pl": "Omoikane Industries Data-Arms" },
     "category": "clothing",
     "volume": "1250 ml",
-    "description": "The Omoikane Industries Data-Arm was the peak in pre-cataclysm wrist computer technology. Encased in a trendy translucent plastic shell, the Data-Arm has much more robust insides, featuring a heavier battery pack, and deluxe gadgets including a thermometer, camera, and even a dosimeter. These babies are fairly new, and incredibly expensive, top-of-the-line gear, that was intended for serious intellectuals to do serious work. It comes stock with apps for just about everything, from games, to music, to survival guides. Its said that some rare models have a shackled artificial intelligence within them, but this one just has the stock Omoikane digital assistant, a glorified search engine modelled after the Japanese kami of wisdom and intelligence for which the company got its name.",
+    "description": "The Omoikane Industries Data-Arm was the peak in pre-cataclysm wrist computer technology. Encased in a trendy translucent plastic shell, the Data-Arm has much more robust insides, featuring a heavier battery pack, and deluxe gadgets including a thermometer, camera, and even a dosimeter. These babies are fairly new, and incredibly expensive, top-of-the-line gear, that was intended for serious intellectuals to do serious work. It comes stock with apps for just about everything, from games, to music, to survival guides, and both USB and SD card compatability. Its said that some rare models have a shackled artificial intelligence within them, but this one just has the stock Omoikane digital assistant, a glorified search engine modelled after the Japanese kami of wisdom and intelligence for which the company got its name.",
 	"//": "Will eventually have more functionalities added, but for now, is just better in battery life.",
     "weight": "250 g",
     "to_hit": -1,
@@ -107,11 +107,27 @@
         "internal_name": "music_player",
         "menu_text": "Listen to music"
       },
+	   {
+      "//3": "40 xp/hr.  Tier 1, 0-3 skill, higher-tier EXP since requires power.",
+      "type": "train_skill",
+      "training_msg": "You update software and check logs, improving your understanding slightly.",
+      "training_skill": "computer",
+      "training_skill_min_level": 0,
+      "training_skill_xp": 8,
+      "training_skill_max_level": 3,
+      "training_skill_interval": 12,
+      "training_skill_xp_chance": 90
+    },
       "CAMERA",
       "PORTABLE_GAME",
       "EINKTABLETPC",
-      "RADGLOVE"
+      "RADGLOVE",
+      "WEATHER_TOOL",
+      "CAMERA",
+	  "TOGGLE_UPS_CHARGING"
     ],
+	"relic_data": { "passive_effects": [ { "id": "DRONE_CAM" } ] },
+	"item_vars": { "digital_content": "digital_content_reader", "digital_reader_ports": "USB,HARD_DRIVE, SD" },
     "flags": [
       "WATCH",
       "ALARMCLOCK",
@@ -124,7 +140,9 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "THERMOMETER",
-      "FANCY"
+      "FANCY", 
+	  "DIGITAL_STORAGE", 
+	  "DIGITAL_READER"
     ],
     "coverage": 15,
     "symbol": "[",
@@ -132,7 +150,7 @@
   },
   {
     "id": "wrist_comp_deluxe_music",
-    "copy-from": "wrist_comp_budget",
+    "copy-from": "wrist_comp_deluxe",
     "type": "TOOL",
     "name": { "str": "Omoikane Industries Data-Arm - music", "str_pl": "Omoikane Industries Data-Arms - music" },
     "description": "This wrist computer is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
@@ -165,7 +183,9 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "THERMOMETER",
-      "FANCY"
+      "FANCY", 
+	  "DIGITAL_STORAGE", 
+	  "DIGITAL_READER"
     ],
     "magazine_well": "250 ml"
   },
@@ -201,7 +221,9 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "THERMOMETER",
-      "FANCY"
+      "FANCY", 
+	  "DIGITAL_STORAGE", 
+	  "DIGITAL_READER"
     ]
   }
 ]

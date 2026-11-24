@@ -2,7 +2,7 @@
   {
     "type": "speech",
     "speaker": [ "astolfo_bean" ],
-    "sound": "You're gay!",
+    "sound": "\"You're gay!\"",
     "volume": 10
   },
   
@@ -23,58 +23,415 @@
   {
     "type": "speech",
     "speaker": [ "astolfo_bean" ],
-    "sound": "Lemme suck that dick",
+    "sound": "\"Lemme suck that dick\"",
     "volume": 10
   },
   
   {
     "type": "speech",
     "speaker": [ "mon_feral_redsun" ],
-    "sound": "BANZAI!",
+    "sound": "\"BANZAI!\"",
+    "volume": 90
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "\"Give me your liver, gaijin!\"",
+    "volume": 70
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "\"Hai de sore o kanjite iru!\"",
+    "volume": 70
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "\"Itami!\"",
+    "volume": 70
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "\"Hidoi geri o shite imasu!\"",
+    "volume": 70
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "\"Shi-ne!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_redsun" ],
+    "sound": "\"Omae o korosu!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"So hungry...\"",
+    "volume": 60
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat" ],
+    "sound": "\"I'm tired of low carbs. I'm tired of celery! I'M HUNGRY!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"Get away from MY food!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "a stomach growling",
+    "volume": 20
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat" ],
+    "sound": "\"I'm gonna be a one person cheeseburger apocalypse...\"",
+    "volume": 20
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"FEED ME!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat" ],
+    "sound": "\"I NEED DONUTS!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"Someone stole my donuts, and now you're all going to pay!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"I WILL EAT YOU!\"",
+    "volume": 100
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"You look delicious today, Clarise~\"",
     "volume": 30
   },
   
   {
     "type": "speech",
-    "speaker": [ "mon_feral_redsun" ],
-    "sound": "Give me your liver, gaijin!",
-    "volume": 20
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"Let me devour you~\"",
+    "volume": 30
+  },
+  
+  
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"They say my hungers a problem... They tell me to curb my appetite...\"",
+    "volume": 80
   },
   
   {
     "type": "speech",
-    "speaker": [ "mon_feral_redsun" ],
-    "sound": "Hai de sore o kanjite iru",
-    "volume": 20
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"I wanna slit your throat and eat till I get sick!\"",
+    "volume": 80
   },
   
   {
     "type": "speech",
-    "speaker": [ "mon_feral_redsun" ],
-    "sound": "Itami!",
-    "volume": 20
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"The slaughters mine, I'd love to see you come undone!\"",
+    "volume": 80
   },
   
   {
     "type": "speech",
-    "speaker": [ "mon_feral_redsun" ],
-    "sound": "Hidoi geri o shite imasu!",
-    "volume": 20
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"To snap the sinew, I want to get within you!\"",
+    "volume": 80
   },
   
   {
     "type": "speech",
-    "speaker": [ "mon_feral_redsun" ],
-    "sound": "Shi-ne!",
-    "volume": 20
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"I want to scar the tissue, butterfly and rectify you!\"",
+    "volume": 80
   },
   
   {
     "type": "speech",
-    "speaker": [ "mon_feral_redsun" ],
-    "sound": "Omae o korosu!",
-    "volume": 10
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"I need to be your afterlife, eucharist I deify!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_fat", "mon_feral_human_starving" ],
+    "sound": "\"In the high, wǒ cúnzài, tasting xiělínlín de ài\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"There are no winners, only survivors!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"Defense! Defense!\"",
+    "volume": 80
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"C'MON FOOTBALL GUYS!\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"TACKLE 'EM!\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"LETS WIN THIS FOR THE TEAM!\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"GO HARD OR GO HOME!\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"BLITZ!\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "Sports-like grunting",
+    "volume": 30
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_feral_human_athlete" ],
+    "sound": "\"When you come to the playground, expect to get murdered!\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"We are unparalleled.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Perfection is our creed.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"New planes to conquer, New planes to complete.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Corruption is perfection. Join us, you will see.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"This is our gift. This is your salvation.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"This is your salvation.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"This is our gift.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Purified by unity, Perfect through subjugation.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Be not afraid of the holy chorus. Join in rapturous harmony.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"May you rejoice in the magnificence of the Exalted. May your flesh serve Perfection.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"There is a single, glorious truth, etched in the hearts of the faithful. Join in unity, or be washed away.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"May our blessings sever the tongues of the forsaken.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"I am no sleeper agent. I am a liberator. It is you who are asleep.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Skin is the prison of the blessed and the stronghold of the heretic.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Rid them of their unfaithful organs. Bring new hearts to the unbelievers.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Even the unbreakable can be reshaped.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"We need not be swift. We are inexorable.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"There is no hate behind our blades. We kill out of love, and the desire to share Perfection's blessings with all.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Only through sacred infection can a vessel become pure.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Flesh is a betrayal of the self.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Witness the glory of true, unwavering unity.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Your desires must become our discretion.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Fall to your knees and welcome our embrace.\"",
+    "volume": 120
+  },
+  
+  {
+    "type": "speech",
+    "speaker": [ "mon_exalted_convert" ],
+    "sound": "\"Hear only harmony. See only glory. Speak only truth..\"",
+    "volume": 120
   }
-  
-  
 ]

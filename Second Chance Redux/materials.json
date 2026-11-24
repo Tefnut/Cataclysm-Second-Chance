@@ -2,7 +2,7 @@
   {
     "type": "material",
     "id": "plastic_trans",
-    "name": "Translucent Plastic",
+    "name": "translucent plastic",
     "density": 8,
     "specific_heat_liquid": 1.6,
     "specific_heat_solid": 1.6,
@@ -29,7 +29,7 @@
     {
     "type": "material",
     "id": "fur_sasquatch",
-    "name": "Sasquatch Fur",
+    "name": "sasquatch fur",
     "density": 9,
     "specific_heat_liquid": 0.02,
     "specific_heat_solid": 0.02,
@@ -52,5 +52,30 @@
       { "fuel": 1, "smoke": 5, "burn": 2 },
       { "fuel": 1, "smoke": 10, "burn": 4 }
     ]
+  },
+  
+  {
+    "type": "material",
+    "id": "ceramic_exalted",
+    "name": "Otherworldly Ceramic",
+    "density": 6,
+    "specific_heat_liquid": 1,
+    "specific_heat_solid": 1,
+    "latent_heat": 333,
+    "reinforces": true,
+    "bash_resist": 3,
+    "cut_resist": 9,
+    "bullet_resist": 12,
+    "acid_resist": 25,
+    "fire_resist": 15,
+    "elec_resist": 15,
+    "chip_resist": 15,
+	"repaired_with": "ceramic_shard_exalted",
+    "salvaged_into": "ceramic_shard_exalted",
+    "dmg_adj": [ "chipped", "cracked", "split", "broken" ],
+    "bash_dmg_verb": "cracked",
+    "cut_dmg_verb": { "ctxt": "material damage verb", "str": "cut" }
   }
+  
+  
 ]
